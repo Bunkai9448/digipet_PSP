@@ -26,6 +26,8 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - http://aluigi.altervista.org/quickbms.htm (quickBMS program)
 
+- http://aluigi.altervista.org/bms/cpk.bms (PSP's CPK script for quickBMS)
+
 - ToDo
 
 ## List of References (in no particular order)
@@ -41,6 +43,8 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 - https://gbatemp.net/threads/psp-asm-hacking-for-variable-width-font.374967/page-3
 
 - https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md (PSP's CPU module for ghidra)
+
+- https://forum.xentax.com/viewtopic.php?t=6313 (About GIM image format for psp files)
 
 - ToDo
 
