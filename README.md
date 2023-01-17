@@ -12,7 +12,7 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 ## Files & folders
 
-# ASM files for armips 
+- ASM files for armips 
 
 ## Extra Tools required
 
@@ -28,7 +28,7 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - ToDo
 
-# List of References (in no particular order)
+## List of References (in no particular order)
 
 - https://haroohie.club/blog/2022-11-02-chokuretsu-archives/ 
 
