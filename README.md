@@ -50,6 +50,8 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - https://github.com/uofw/upspd (PSP unofficial documentation repo)
 
+- https://www.psdevwiki.com/ps3/GimConv (wiki about GIM adn GIMconv)
+
 - ToDo
 
 ## Author
