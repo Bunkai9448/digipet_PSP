@@ -4,7 +4,7 @@ This repository contains files to reverse engineering (RE from now on) the files
 
 Currently there's not much explanation about the RE process, that's because the project is a work in progress.
 
-Warning: Some files and/or methods of this project might be only as a POC, hence they lead nowhere further on. If you don't know why a file is there, it's probably that.
+Warning: Some files and/or methods of this project might be only as a POC, hence they lead nowhere further on. If you don't know why something is there, it's probably that.
 
 ## Considerations
 
@@ -14,6 +14,10 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - ASM files for armips 
 
+- BAT files to automate GIM to PNG image conversions
+
+- ToDo
+
 ## Extra Tools required
 
 - https://www.ppsspp.org/index.html (PPSSPP emulator & debugger)
@@ -22,11 +26,13 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - https://www.romhacking.net/utilities/818/ (Crystal Tile 2)
 
-- https://github.com/Kingcom/armips (armips program)
-
 - http://aluigi.altervista.org/quickbms.htm (quickBMS program)
 
 - http://aluigi.altervista.org/bms/cpk.bms (PSP's CPK script for quickBMS)
+
+- https://github.com/Kingcom/armips (armips program)
+
+- GimConv (You have to find this tool on your own)
 
 - ToDo
 
@@ -50,7 +56,7 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - https://github.com/uofw/upspd (PSP unofficial documentation repo)
 
-- https://www.psdevwiki.com/ps3/GimConv (wiki about GIM adn GIMconv)
+- https://www.psdevwiki.com/ps3/GimConv (wiki about GIM and GIMconv)
 
 - ToDo
 
