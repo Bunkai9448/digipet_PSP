@@ -30,7 +30,7 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - ToDo
 
-## List of References (in no particular order)
+## List of References and Documentation (in no particular order)
 
 - https://haroohie.club/blog/2022-11-02-chokuretsu-archives/ 
 
@@ -45,6 +45,10 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 - https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md (PSP's CPU module for ghidra)
 
 - https://forum.xentax.com/viewtopic.php?t=6313 (About GIM image format for psp files)
+
+- http://personal.denison.edu/~bressoud/cs281-s10/ (MIPS, PSP uses those with some custom instructions/encodings)
+
+- https://github.com/uofw/upspd (PSP unofficial documentation repo)
 
 - ToDo
 
