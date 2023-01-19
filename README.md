@@ -38,13 +38,11 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 ## List of References and Documentation (in no particular order)
 
-- https://haroohie.club/blog/2022-11-02-chokuretsu-archives/ 
+- https://haroohie.club/blog/2022-11-02-chokuretsu-archives/
 
-- https://datacrystal.romhacking.net/wiki/Blaze_Union:Tutorials
+- https://datacrystal.romhacking.net/wiki/Blaze_Union:Tutorials (mini tuto about the PPSSPP debugger)
 
 - https://gbatemp.net/threads/psp-debugging.452408/
-
-- https://haroohie.club/blog/2022-11-02-chokuretsu-archives/
 
 - https://gbatemp.net/threads/psp-asm-hacking-for-variable-width-font.374967/page-3
 
@@ -57,6 +55,8 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 - https://github.com/uofw/upspd (PSP unofficial documentation repo)
 
 - https://www.psdevwiki.com/ps3/GimConv (wiki about GIM and GIMconv)
+
+- https://www.vg-resource.com/thread-28180.html (tuto for making BMS scripts)
 
 - ToDo
 
