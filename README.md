@@ -12,9 +12,11 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 ## Files & folders
 
-- ASM files for armips 
+- ASM scripts for armips 
 
-- BAT files to automate GIM to PNG image conversions
+- BAT scripts to automate GIM to PNG image conversions
+
+- BMS scripts for quickBMS
 
 - ToDo
 
