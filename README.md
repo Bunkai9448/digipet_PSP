@@ -12,11 +12,13 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 ## Files & folders
 
-- ASM scripts for armips 
+- ASM scripts for armips, for editing text parts of the game
 
-- BAT scripts to automate GIM to PNG image conversions
+- BAT scripts to automate GIM to PNG image conversions, Sample to test if the program works
 
-- BMS scripts for quickBMS
+- BMS scripts for quickBMS, tu unpack and repack files (repack still not done)
+
+- python_scripts, to automate gim2png and png2gim
 
 - ToDo
 
