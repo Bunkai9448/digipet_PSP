@@ -27,8 +27,8 @@ get num_Files long		# 0x1C02 Number of files in the pack
 # Actual unpacking
 
 # get the first file since it's different from the rest
-	get length long				#'Same with length'.
-	get pointer long			# getting eight bytes and storing it as the variable 'pointer' 
+	get length long				# getting eight bytes and storing it as the variable 'pointer' (offset). 
+	get pointer long			# getting eight bytes and storing it as the variable 'length' (filesize).
 
 	log pbi_file pointer length	# takes values from above: an offset of a file, an output name and a length of the file, 
 								# and writes a new file.
@@ -42,8 +42,8 @@ for i = 0 < num_Files		# For the files in the pack (Table of Contents), do:
 	getdstring pbi_file 0x8		# gets a string from a file, and reads a set amount of characters
 								# Each file name is a set length of 0x8 or 8 bytes.
 
-	get length long				#'Same with length'.
-	get pointer long			# getting eight bytes and storing it as the variable 'pointer' 
+	get length long				# getting eight bytes and storing it as the variable 'length' (filesize).
+	get pointer long			# getting eight bytes and storing it as the variable 'pointer' (offset). 
 
 	log pbi_file pointer length	# takes values from above: an offset of a file, an output name and a length of the file, 
 								# and writes a new file.
