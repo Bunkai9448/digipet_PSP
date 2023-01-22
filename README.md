@@ -40,6 +40,8 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - GimConv (You have to find this tool on your own)
 
+- https://www.romhacking.net/utilities/1225/ (DecEboot to decrypt EBOOT.BIN)
+
 - ToDo
 
 ## List of References and Documentation (in no particular order)
@@ -63,6 +65,8 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 - https://www.psdevwiki.com/ps3/GimConv (wiki about GIM and GIMconv)
 
 - https://www.vg-resource.com/thread-28180.html (tuto for making BMS scripts)
+
+- http://gitaroopals.shoutwiki.com/wiki/PSP:Patching_the_executable_(BOOT.BIN)
 
 - ToDo
 
