@@ -1,0 +1,78 @@
+UTF-8 file
+Text from graphics
+------------------
+
+
+コウゲキ Atacar
+シンカ Digievolución > Digi-Evo (reduced size to fit)
+ナカマ Aliado
+ニゲル Huir
+パラメーター Parámetros
+マップ Mapa
+チリョウ Curar
+ツウシン Conectar/link
+
+バトルスタート Iniciar batalla/Start batlle
+ニク Carne
+プロテイン Proteína
+PW-B   Píldora DP+
+P-ドラッグ Píldora HP+
+
+エリアクリアー　Acabado/Cleared
+ノウホスウ ( 総歩数 = Total steps)　Restante/Remaining
+サウンド Sound
+オン On
+オフ Off
+
+アグモン Agumon
+ガブモン Gabumon
+ピヨモン Piyomon
+パルモン Palmon
+テントモン Tentomon
+ゴマモン Gomamon
+パタモン Patamon
+グレイモン Greymon
+ガルルモン Garurumon
+バードラモン Birdramon
+トゲモン Togemon
+カブテリモン Kabuterimon
+イッカクモン Ikkakumon
+エンジェモン Angemon
+メタルグレイモン MetalGreymon
+ワーガルルモン WereGarurumon
+ガルダモン Garudamon
+リリモン Lilimon
+アトラーカブテリモン AtlurKabuterimon
+ズドモン Zudomon
+ホーリーエンジェモン HolyAngemon
+ブイドラモン Veedramon
+プロットモン Plotmon
+テイルモン Tailmon
+エンジェウーモン Angewomon
+ウォーグレイモン WarGreymon
+メタルガルルモン MetalGarurumon
+ホウオウモン Hououmon
+ロゼモン Rosemon
+ヘラクラカブテリモン HeraclesKabuterimon
+ヴァイクモン Vikemon
+セラフィモン Seraphimon
+オファニモン Ophanimon
+オメガモン Omegamon
+クワガーモン Kuwagamon
+デビモン Devimon
+エテモン Etemon
+メタルティラノモン MetalTyranomon
+メタルシードラモン MetalSeadramon
+メガドラモン Megadramon
+ムゲンドラモン Mugendramon
+アポカリモン Apocalymon
+クネモン Kunemon
+ギザモン Gizamon
+ガジモン Gazimon
+バケモン Bakemon
+オーガモン Ogremon
+スカモン Sukamon
+シェルモン Shellmon
+ダークティラノモン DarkTyranomon
+ゲコモン Gekomon
+エアドラモン Airdramon
