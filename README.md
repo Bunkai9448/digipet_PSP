@@ -20,6 +20,8 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - python_scripts, to automate gim2png and png2gim
 
+- Text_from_Images, contains the transcribed text from graphics
+
 - ToDo
 
 ## Extra Tools required
