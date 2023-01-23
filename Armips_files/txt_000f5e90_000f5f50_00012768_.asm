@@ -196,7 +196,43 @@
 	.org 0x0574 ; goes to next offset
 	
     block032_str1:
-    .ascii "" ; 点滅しているエリアが現在攻略中のエリアです
+    .ascii "Estás en el area que parpadea" ; 点滅しているエリアが現在攻略中のエリアです
+    .align 4	
+
+	.org 0x5A0 ; goes to next offset
+	
+    block033_str1:
+    .ascii "Cura a los digimon heridos en batalla" ; バトルで負ったケガを治すことができます
+    .align 4
+
+	.org 0x5C8 ; goes to next offset
+	
+    block034_str1:
+    .ascii "Batalla contra otro jugador" ; 他のプレイヤーと戦うことができます
+    .align 4
+
+	.org 0x5EC ; goes to next offset
+	
+    block035_str1:
+    .ascii "Elige la Digi-Evo para usar" ; 戦う進化段階を選んでください
+    .align 4
+
+	.org 0x60C ; goes to next offset
+	
+    block036_str1:
+    .ascii "Conectando... Espera por favor." ; 通信中・・・しばらくお待ちください 通信バトルはオートバトルになります
+    .align 4
+
+	.org 0x630 ; goes to next offset
+	
+    block037_str1:
+    .ascii "Iniciando modo automatico." ; 通信バトルはオートバトルになります
+    .align 4
+
+	.org 0x654 ; goes to next offset
+	
+    block038_str1:
+    .ascii "Guardar partida" ; セーブすることができます
     .align 4
     
 .close
