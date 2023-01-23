@@ -42,6 +42,8 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - https://www.romhacking.net/utilities/1225/ (DecEboot to decrypt EBOOT.BIN)
 
+- http://aluigi.org/bms/parse_exe.bms (to unpack the decrypted EBOOT.BIN and work with the text part better)
+
 - ToDo
 
 ## List of References and Documentation (in no particular order)
