@@ -3,7 +3,7 @@
 
 endian little 			# The file is for a PSP game, hence little endian  
 
-GoTo 0x0800 
+GoTo 0x0800 # You can reuse this with 0x098 for the PIMG file inside (which contain another pBin)
 
 # Header
 
