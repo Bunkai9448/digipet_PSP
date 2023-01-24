@@ -40,9 +40,10 @@ for i = 0 < num_Files		# For the files in the pack (Table of Contents), do:
 
 	# followin the order explained at the examples
 
-	getdstring pbi_file	0x8 i		# gets a string from a file, and reads a set amount of characters, then adds a filenumber
-								# Each file name is a set length of 0x8 or 8 bytes.
-
+	getdstring pbi_file 0x8		# gets a string from a file, and reads a set amount of characters
+						# Each file name is a set length of 0x8 or 8 bytes.
+	string pbi_file + ".GIM"		# Adds the extension to the file
+	 
 	get length long				# getting eight bytes and storing it as the variable 'length' (filesize).
 	get pointer long			# getting eight bytes and storing it as the variable 'pointer' (offset). 
 
