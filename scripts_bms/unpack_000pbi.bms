@@ -40,7 +40,7 @@ for i = 0 < num_Files		# For the files in the pack (Table of Contents), do:
 
 	# followin the order explained at the examples
 
-	getdstring pbi_file 0x8		# gets a string from a file, and reads a set amount of characters
+	getdstring pbi_file	0x8 i		# gets a string from a file, and reads a set amount of characters, then adds a filenumber
 								# Each file name is a set length of 0x8 or 8 bytes.
 
 	get length long				# getting eight bytes and storing it as the variable 'length' (filesize).
