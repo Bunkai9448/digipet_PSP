@@ -3,6 +3,7 @@
 
 endian little 			# The file is for a PSP game, hence little endian  
 
+# Posible location for files GoTo 0x0800, 0x1800, 0x2000, 0x24F8, 0x24F8, 0x3000, 0x4114, 0x5800, 0x6AA0
 GoTo 0x0800
 
 # Header
