@@ -1,5 +1,6 @@
 # script for QuickBMS http://quickbms_aluigi_org
 # script for unpacking 00000000.pbi file from the CPK in Digive Ver. Portable (PSP)
+# All images from the LCD part of the digivice are in that file
 
 endian little 			# The file is for a PSP game, hence little endian  
 
