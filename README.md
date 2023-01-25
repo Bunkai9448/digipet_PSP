@@ -17,6 +17,7 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 ## ISO structure to know where the located info is
 
+````
 D:.
 |   UMD_DATA.BIN
 |
@@ -36,7 +37,7 @@ D:.
     |           PARAM.SFO
     |
     \---USRDIR
-            FILEDATA.CPK
+            FILEDATA.CPK````
 
 ## Files & folders in the repo.
 
