@@ -75,6 +75,8 @@ D:.
 
 - http://aluigi.org/bms/parse_exe.bms (to unpack the decrypted EBOOT.BIN and work with the text part better)
 
+- https://www.romhacking.net/utilities/598/ (xdelta and xdeltaUI to create the patch easily)
+
 - ToDo
 
 ## List of References and Documentation (in no particular order)
