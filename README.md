@@ -9,11 +9,12 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 ## Considerations
 
 - You must provide your own game files. Do not ask here for them. 
-
+````
 - ISO: Digivice_Ver_Portable_JPN_PSN_PSP-PLAYASiA.iso
        CRC32:  986e0198
        SHA1:   e15cd56748525babbb402868ea3df8b44bb6a5c8
        SHA256: ae16195736eb15ba9b2b93f1af31a55401097bc8dff2edf22f304cf4abc69fbc
+````
 
 ## ISO structure to know where the located info is
 
@@ -37,7 +38,8 @@ D:.
     |           PARAM.SFO
     |
     \---USRDIR
-            FILEDATA.CPK````
+            FILEDATA.CPK
+````
 
 ## Files & folders in the repo.
 
