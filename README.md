@@ -4,7 +4,7 @@ This repository contains files to reverse engineering (RE from now on) the files
 
 Currently there's not much explanation about the RE process, that's because the project is a work in progress.
 
-Warning: Some files and/or methods of this project might be only as a POC, hence they lead nowhere further on. If you don't know why something is there, it's probably that.
+Warning: Some files and/or methods of this project might be only as a proof of concept (POC from now on), hence they lead nowhere further on. If you don't know why something is there, it's probably that.
 
 ## Considerations
 
