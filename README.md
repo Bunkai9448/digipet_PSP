@@ -10,7 +10,35 @@ Warning: Some files and/or methods of this project might be only as a POC, hence
 
 - You must provide your own game files. Do not ask here for them. 
 
-## Files & folders
+- ISO: Digivice_Ver_Portable_JPN_PSN_PSP-PLAYASiA.iso
+       CRC32:  986e0198
+       SHA1:   e15cd56748525babbb402868ea3df8b44bb6a5c8
+       SHA256: ae16195736eb15ba9b2b93f1af31a55401097bc8dff2edf22f304cf4abc69fbc
+
+## ISO structure to know where the located info is
+
+D:.
+|   UMD_DATA.BIN
+|
+\---PSP_GAME
+    |   ICON0.PNG
+    |   PARAM.SFO
+    |   PIC1.PNG
+    |
+    +---SYSDIR
+    |   |   BOOT.BIN
+    |   |   EBOOT.BIN
+    |   |   OPNSSMP.BIN
+    |   |
+    |   \---UPDATE
+    |           DATA.BIN
+    |           EBOOT.BIN
+    |           PARAM.SFO
+    |
+    \---USRDIR
+            FILEDATA.CPK
+
+## Files & folders in the repo.
 
 - ASM scripts for armips, for editing text parts of the game
 
