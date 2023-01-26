@@ -1,0 +1,15 @@
+Digivice Ver. Portable (Japan) PSP ISO. ID: NPJH-00126
+
+As a bonus for the project, this Quality of Life improvement:      Edit the steps required to clean the area
+
+With artmoney  https://www.artmoney.ru/e_download_se.htm  You can find this RAM address 000000959724 
+
+As a way to test it, a cheat code for PPSSPP was created following the guide from:
+https://www.almarsguides.com/retro/walkthroughs/PSP/HowToUsePSPCodes/
+
+_S NPJH-00126
+_G Digivice Ver. Portable (Japan) PSP ISO
+_C0 Edit Steps
+_L 0x000000959724 0x000000FF
+
+Work in progress
