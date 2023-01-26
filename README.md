@@ -9,8 +9,10 @@ Warning: Some files and/or methods of this project might be only as a proof of c
 ## Considerations
 
 - You must provide your own game files. Do not ask here for them. 
+
+- Digivice Ver. Portable (Japan) PSP ISO. ID: NPJH-00126
 ````
-- ISO: Digivice_Ver_Portable_JPN_PSN_PSP-PLAYASiA.iso
+ISO: Digivice_Ver_Portable_JPN_PSN_PSP-PLAYASiA.iso
        CRC32:  986e0198
        SHA1:   e15cd56748525babbb402868ea3df8b44bb6a5c8
        SHA256: ae16195736eb15ba9b2b93f1af31a55401097bc8dff2edf22f304cf4abc69fbc
