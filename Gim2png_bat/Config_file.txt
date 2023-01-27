@@ -1,0 +1,17 @@
+You need to add this code block to the GimConv.cfg file, in order to make this game's PSP GIM files.
+Then you can add -qbb to the cli (command line instruction)
+
+Code from mono21400 also Known as ethanol:
+
+//--------------------------------------------------------
+//  PSP GIM specific options
+//--------------------------------------------------------
+
+option -qbb {
+    image_format = index4
+    format_style = psp
+    format_endian = little
+    output_image = on
+    output_palette = on
+    output_sequence = on
+}
