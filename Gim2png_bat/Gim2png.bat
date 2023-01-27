@@ -10,7 +10,7 @@ pause
 :: 	Work with PNG in 32bit PNG
 ::  Save it in 8bit+Alpha PNG
 
-:: 5. Use GimConv to convert s_ui_mp_01(32bit)-nq8.png into a GIM
+:: 5. Use GimConv to convert GIM_000000bd.PNG into a GIM
 
 gimconv "GIM_000000bd.PNG" -o "GIM_000000bd1.GIM" --index 4 -qbb
 pause
