@@ -34,7 +34,7 @@ get num_Files long		# 0x1C02 Number of files in the pack
 	log pbi_file pointer length	# takes values from above: an offset of a file, an output name and a length of the file, 
 								# and writes a new file.
 
-
+Math num_Files - 0x01
 							# After the header, 
 for i = 0 < num_Files		# For the files in the pack (Table of Contents), do:
 
@@ -50,3 +50,12 @@ for i = 0 < num_Files		# For the files in the pack (Table of Contents), do:
 	log pbi_file pointer length	# takes values from above: an offset of a file, an output name and a length of the file, 
 								# and writes a new file.
 next i
+
+# After this comes a null filled control file
+
+getdstring pbi_file 0x8		# gets a string from a file, and reads a set amount of characters
+							# Each file name is a set length of 0x8 or 8 bytes.	
+
+log END_file pointer 0	# takes values from above: an offset of a file, an output name and a length of the file, 
+							# and writes a new file.
+
