@@ -4,7 +4,7 @@ Then you can add -qbb to the cli (command line instruction)
 Code from mono21400 also Known as ethanol:
 
 //--------------------------------------------------------
-//  PSP GIM specific options
+//  PSP digivice GIM specific options
 //--------------------------------------------------------
 
 option -digi {
