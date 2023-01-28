@@ -1,7 +1,7 @@
 :: Author Mugi
 
 @echo off
-for %%a in (*.png) do gimconv %%a -o %%a.gim -qbb
+for %%a in (*.png) do gimconv %%a -o %%a.gim -digi 
 mkdir gim
 copy "*.gim" ".\gim\*.gim"
 del *.gim
