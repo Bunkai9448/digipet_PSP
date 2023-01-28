@@ -7,11 +7,12 @@ Code from mono21400 also Known as ethanol:
 //  PSP GIM specific options
 //--------------------------------------------------------
 
-option -qbb {
+option -digi {
     image_format = index4
     format_style = psp
     format_endian = little
     output_image = on
     output_palette = on
     output_sequence = on
+    check_limit = off
 }
