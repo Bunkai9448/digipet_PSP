@@ -1,6 +1,6 @@
 # digipet_PSP
 
-This repository contains files to reverse engineering (RE from now on) the files from the "digivice ver. portable psp" ("The game" from now on), and use that to to create a patch for translating the game.
+This repository contains files to reverse engineering (RE from now on) the files from the "digivice ver. portable psp" ("The game" from now on), and use that to create a patch for translating the game.
 
 If you only want the patch go to: releases
 Otherwise go on with the readme. In addition, you have a step by step in RE_Guide.md
@@ -116,7 +116,15 @@ D:.
 
 ## Special thanks
 
-Include small contributors, like chats with people and communities
+Includes small contributors, like chats with people and communities
+
+- Fothsid (first guidance about the headers)
+
+- Mugi (guidance about file structure and some scripts)
+
+- Mono21400/Ethanol (guidance about GIM, Gimconv config snippet and help fixing extract/insert mistakes)
+
+- All the authors of the tools and documents used in this project.
 
 - ToDo
 
