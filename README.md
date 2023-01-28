@@ -116,8 +116,6 @@ D:.
 
 ## Special thanks
 
-Includes small contributors, like chats with people and communities
-
 - Fothsid (first guidance about the headers)
 
 - Mugi (guidance about file structure and some scripts)
