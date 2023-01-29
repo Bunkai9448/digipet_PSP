@@ -32,7 +32,4 @@ gimconv A_input.gim -o A_outputGIM.gis -digi
 pause
 ::Now with those differences is time to make an edit to A_outputGIM.gis
 :: to be equal to A_outputGIM.gis
-
-:: To do, if it's worth it,
-:: Script to automatize the edit for several images:
-
+:: I did the comparison with https://winmerge.org/downloads/
