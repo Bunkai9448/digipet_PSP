@@ -102,7 +102,7 @@ D:.
 
 - https://github.com/uofw/upspd (PSP unofficial documentation repo)
 
-- https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM) (wiki about GIM
+- https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM) (wiki about GIM)
 
 - https://www.psdevwiki.com/ps3/GimConv (wiki about GIMconv)
 
