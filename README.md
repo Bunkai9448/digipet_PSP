@@ -110,7 +110,7 @@ D:.
 
 - http://gitaroopals.shoutwiki.com/wiki/PSP:Patching_the_executable_(BOOT.BIN)
 
-- ToDo
+- https://wiki.vg-resource.com/GMO (GMO files, 3d models)
 
 ## Author
 
