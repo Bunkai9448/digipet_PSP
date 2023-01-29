@@ -33,3 +33,12 @@ pause
 ::Now with those differences is time to make an edit to A_outputGIM.gis
 :: to be equal to A_outputGIM.gis
 :: I did the comparison with https://winmerge.org/downloads/
+::Now with those differences is time to make an edit to A_outputGIM.gis
+:: to be equal to A_outputGIM.gis
+:: gimconv A_outputGIM.png -o A2_outputPNG.gis -digi -png2gis_digi
+:: pause
+
+:: Changes added to the Gimconv.cnf file with the option option -png2gis_digi
+:: Writen in Config_file.txt
+:: To end, it's time to make a sanity check with the last Gis converted to Gim
+gimconv A2_outputPNG.gis -o A2_outputPNG.gim -digi -png2gis_digi
