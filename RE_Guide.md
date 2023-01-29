@@ -27,3 +27,11 @@ to have everything here in a nice display
 |_
 |
 | (EBOOT.bin) | all remainig text, commands, and prompts |
+
+
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
