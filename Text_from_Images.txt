@@ -1,7 +1,7 @@
-UTF-8 file
-Text from graphics
-------------------
+TEXT FROM GRAPHICS
+-------------------
 
+/// FILE 0.bin inside FILEDATA.CPK | LCD part of the digivice ///
 
 コウゲキ Atacar
 シンカ Digievolución > Digi-Evo (reduced size to fit)
@@ -11,13 +11,11 @@ Text from graphics
 マップ Mapa
 チリョウ Curar
 ツウシン Conectar/link
-
 バトルスタート Iniciar batalla/Start batlle
 ニク Carne
 プロテイン Proteína
 PW-B   Píldora DP+
 P-ドラッグ Píldora HP+
-
 エリアクリアー　Acabado/Cleared
 ノウホスウ ( 総歩数 = Total steps)　Restante/Remaining
 サウンド Sound
@@ -76,3 +74,22 @@ P-ドラッグ Píldora HP+
 ダークティラノモン DarkTyranomon
 ゲコモン Gekomon
 エアドラモン Airdramon
+
+/// FILE 16.bin inside FILEDATA.CPK | title_screen ///
+
+
+/// FILE 18.bin inside FILEDATA.CPK | game_intro "animation" ///
+
+ご注意
+ゲームソフトを権利者の許諾なく、
+インターネットを通じで配信、配布する行為、また、違法インターネット配信と知りながらダウンロードする行為は法律で固く禁じられております。
+みなさまのご理解とご協力を
+お願いたします。
+
+English (official text in other games with the same warning)
+
+WARNING
+Duplication and distribution without permission from the copyright holder,
+transmission and distribution through the internet, 
+and downloading of this game software is prohibited by law. 
+We ask for your understanding and cooperation.
