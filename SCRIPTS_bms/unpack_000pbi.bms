@@ -1,0 +1,46 @@
+# script for QuickBMS http://quickbms_aluigi_org
+# script for unpacking 00000000.pbi file from the CPK in Digive Ver. Portable (PSP)
+# All images from the LCD part of the digivice are in that file
+
+endian little 			# The file is for a PSP game, hence little endian  
+
+
+# Header
+
+idstring "pBin"			# File format
+
+get unknown long		# 0x01	 
+get unknown long		# 0x01	 
+get null long
+get unknown long 		# 0x04	 
+get num_Files long		# 0x1C02 Number of files in the pack
+
+# Table Of Contents
+
+# First file explained as example
+# 1: 0xE020 (filesize) and 0xD821 (start address), 0x47494D (header of the first actual file)
+	# get fileSize long			# 0xE020 
+	# get offset long			# 0xD821 
+	# getdstring pbi_file 0x8	# 0x47494D
+
+
+# Actual unpacking
+
+								# After the header, 
+for i = 0 < num_Files			# For the files in the pack (Table of Contents), do:
+
+	# following the order explained at the examples
+
+	get length long				# getting eight bytes and storing it as the variable 'length' (filesize).
+	get pointer long			# getting eight bytes and storing it as the variable 'pointer' (offset). 
+
+
+	getdstring pbi_file 0x8		# gets a string from a file, and reads a set amount of characters
+								# Each file name is a set length of 0x8 or 8 bytes.	
+
+	string pbi_file + ".GIM"	# adds extension to the string for the file name
+
+
+	log pbi_file pointer length	# takes values from above: an offset of a file, an output name and a length of the file, 
+								# and writes a new file.
+next i
