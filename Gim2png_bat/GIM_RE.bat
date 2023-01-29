@@ -28,7 +28,7 @@
 :: PNG to GIS output
 gimconv A_outputGIM.png -o A_outputGIM.gis -digi
 :: and the original GIM to GIS ouput
-gimconv A_input.gim -o A_outputGIM.gis -digi
+gimconv A_input.gim -o A_outputPNG.gis -digi
 pause
 ::Now with those differences is time to make an edit to A_outputGIM.gis
 :: to be equal to A_outputGIM.gis
