@@ -122,7 +122,7 @@ D:.
 
 - Mugi (guidance about file structure and some scripts)
 
-- Mono21400/Ethanol (guidance about Font, GIM, Gimconv config snippet and help fixing extract/insert mistakes)
+- Ethanol (guidance about Font, GIM, Gimconv config snippet and help fixing extract/insert mistakes)
 
 - All the authors of the tools and documents used in this project.
 
