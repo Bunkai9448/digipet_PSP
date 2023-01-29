@@ -16,7 +16,8 @@ to have everything here in a nice display
 | 27.bin (cpk) | background_png |
 | 29.bin (cpk) | font_file |
 | 34.bin (cpk) |  starting menus & a few extra prompts txt |
-
-| (EBOOT.bin) | all remainig text, commands, and prompts |
 |---|---|---|
+| (EBOOT.bin) | all remainig text, commands, and prompts |
+
+
 
