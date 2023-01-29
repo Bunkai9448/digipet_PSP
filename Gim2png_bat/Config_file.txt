@@ -16,3 +16,8 @@ option -digi {
     output_sequence = on
     check_limit = off
 }
+
+option -png2gis_digi {
+    image_format = index4
+	palette_format = rgba4444
+}
