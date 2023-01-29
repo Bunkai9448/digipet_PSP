@@ -112,6 +112,8 @@ D:.
 
 - https://wiki.vg-resource.com/GMO (GMO files, 3d models)
 
+- https://winmerge.org/downloads/ (Helped comparing files to get proper gim format in reinsertion)
+
 ## Author
 
  - Bunkai
