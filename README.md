@@ -66,6 +66,8 @@ D:.
 
 - https://www.romhacking.net/utilities/818/ (Crystal Tile 2)
 
+- CriPackTools & Cripack maker / crifilesystem (some versions don't work and not all can be shared)
+
 - http://aluigi.altervista.org/quickbms.htm (quickBMS program)
 
 - http://aluigi.altervista.org/bms/cpk.bms (PSP's CPK script for quickBMS)
