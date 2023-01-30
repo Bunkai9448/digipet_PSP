@@ -38,6 +38,7 @@ for i = 0 < num_Files			# For the files in the pack (Table of Contents), do:
 	getdstring pbi_file 0x8		# gets a string from a file, and reads a set amount of characters
 								# Each file name is a set length of 0x8 or 8 bytes.	
 
+	string pbi_file + i		# adds an id to the string for the file name
 	string pbi_file + ".GIM"	# adds extension to the string for the file name
 
 
