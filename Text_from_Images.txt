@@ -77,6 +77,9 @@ P-ドラッグ Píldora HP+
 
 /// FILE 16.bin inside FILEDATA.CPK | title_screen ///
 
+デジヴァイス
+
+©本郷あきよし•東映アニメーション•テレビ朝日•電通© 2013 NBG > ©Hongo Akiyoshi • Toei Ani. • Asahi TV • Dentsu ©2013 NBHI
 
 /// FILE 18.bin inside FILEDATA.CPK | game_intro "animation" ///
 
