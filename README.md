@@ -114,6 +114,8 @@ D:.
 
 - https://winmerge.org/downloads/ (Helped comparing files to get proper gim format in reinsertion)
 
+- https://www.romhacking.net/documents/765/ (Font table)
+
 ## Author
 
  - Bunkai
