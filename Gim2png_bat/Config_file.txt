@@ -1,5 +1,6 @@
 You need to add this code block to the GimConv.cfg file, in order to make this game's PSP GIM files.
 Then you can add -qbb to the cli (command line instruction)
+Also, don't forget to save the PNG in INDEX format before the GIS and GIM conversion, or it won't work
 
 Code from mono21400 also Known as ethanol:
 
@@ -9,15 +10,11 @@ Code from mono21400 also Known as ethanol:
 
 option -digi {
     image_format = index4
+    palette_format = rgba4444
     format_style = psp
     format_endian = little
     output_image = on
     output_palette = on
     output_sequence = on
     check_limit = off
-}
-
-option -png2gis_digi {
-    image_format = index4
-	palette_format = rgba4444
 }
