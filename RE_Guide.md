@@ -33,8 +33,8 @@ That part will be explained later in the guide*
 
 - In the previous section you were leaded to the FILEDATA.CPK, now it's time to get your hands dirty on it.
 *This guide will use Crystal Tile 2 for the hex part, but you can use any other editor if you feel more confortable.*
-If you open the FILEDATA.CPK with your text editor, you will see it has more than just the text. That is because the
-file is a package of files, and you want to unpackage those files now.
+When you open the FILEDATA.CPK with your text editor, you notice it has more than just the text. That is because the
+file is a package of files, and you want to unpackage those files next.
 
 - Use CriPackedFileMaker to get the files inside your CPK.
 ![CriPackedFileMaker](https://imgur.com/GcipI9C.png)
