@@ -8,9 +8,9 @@ https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 - [First Steps](#First-Steps)
 - [Working with the CPK file](#Working-with-the-CPK-file)
 - [Text File](#Text-File)
-- [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK) - ToDo
+- [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK)
 - [Images and GIM files](#Images-and-GIM-files) - ToDo
-- [Remaining text in the Eboot.bin](#Remaining-text-in-the-Eboot.bin) - ToDo
+- [Remaining text in the Eboot.bin](#Remaining-text-in-the-Eboot.bin)
 - [The Font](#The-Font) - ToDo
 - [Repackaging the CPK](#Repackaging-the-CPK) - ToDo
 - [Making the patch](#Making-the-patch) - ToDo
@@ -65,20 +65,48 @@ header work and then put that knowledge into a code for the packaging/unpackagin
 ![ID00000](https://imgur.com/xLBbtRo.png)
 
 - From the header of this file, you can learn:  
-The file starts with the 24 bit header (File format / several bits that for some reason are the same in most or all
-games -0x01000 0x01000 0x01000 0x04000- / Number of files in package).  
-Followed by a table of contents with all the GIM files in it listed, all elements have the same structure here 
+````
+The file starts with the 24 bit header  
+(File format / several bits that for some reason are the same in most or all games -0x01000 0x01000 0x01000 0x04000- / Number of files in package).  
+Followed by a table of contents with all the GIM files in it listed, all elements have the same structure here  
 ( filesize -0xE020- / start address -0xD821- / header of the actual file -0x47494D- )  
-After the table of contents come the packaged files, GIM images in this cases.  
+After the table of contents come the packaged files, GIM images in this cases. 
+```` 
 
 - If you want to use the scripts from this guide, go to SCRIPTS_bms.  
 *With this method the same script works for packaging and unpackaging*
 
-## Images and GIM files
+## Images and GIM files            - TO DO
+
+- Open Gim with crystal file, look at header / use a default gimconv command to generate gim to gim and check differences.
+
+- open in photoshop or whatever you use, surf the menus until you find "color mode: Index" then look for 
+"reduce color count" or "reduce bit depth" and put it at 16.
+
+- convert the file to GIM and repackage
+
+- To Do
 
 ## Remaining text in the Eboot.bin
 
+- There is still text missing and, from previous steps, apparently nothing useful for that in FILEDATA.CPK, BOOT.BIN, or OPNSSMP.BIN. The last chance of something easy is to find it in the unencrypted version of EBOOT.BIN. Hence you
+want to decrypt it and see its content, luckyly DecEboot can deal with the compression part. When you do that...  
+¡Jackpot! You found the remaining text:
+![Deceboot](https://imgur.com/S3CZJmz.png)
+
+- In some cases the EBOOT needs to be re-encrypted for the game to work, you got lucky again because for this game 
+the EBOOT can be reimported unencrypted. Now you can go back to [Text File](#Text-File) and do the same thing for the 
+remaining part of the section.  
+*In this guide we only worked with the text block, leaving most of the file untouched to avoid any crashing.
+In that sense, we don't have to work with the header or any different address block here.*
+
+
 ## The Font
+![Font](https://imgur.com/MT729WV.png)
+![Font Changes](https://imgur.com/QXbW2ig.png)
+![Table Changes](https://imgur.com/CjXA0uX.png)
+
+
 
 ##Repackaging the CPK
 
