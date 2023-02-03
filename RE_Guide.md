@@ -1,15 +1,20 @@
 # RE_Guide
 
-This will be basically a clean up version of this https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
-to have everything here in a nice display. 
+This file will be basically a cleaned-up version of this https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
+to have everything here in a nice display. If you want more details about why or how something was discovered, go there.
 
 ## INDEX 
 - [First Steps](#First-Steps)
 - [Working with the CPK file](#Working-with-the-CPK-file)
 - [Text File](#Text-File)
 - [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK)
+- [Images and GIM files](#Text-File) - ToDo
+- [Remaining text in the Eboot.bin](#Text-File)
+- [The Font](#Text-File) - ToDo
+- [Repackaging the CPK](#Text-File) - ToDo
+- [Making the patch](#Text-File) - ToDo
 - [Data Location summary](#Data-Location-summary)
-- ToDo
+
 
 ## First Steps
 
@@ -69,7 +74,7 @@ the use of a new font table*
 | 27.bin (cpk) | background_png |
 | 29.bin (cpk) | font_file |
 | 34.bin (cpk) |  starting menus & a few extra prompts txt |
-|---|---|---|
+|;---;|;---;|;---;|
 | (EBOOT.bin) | all remainig text, commands, and prompts |
 
 
