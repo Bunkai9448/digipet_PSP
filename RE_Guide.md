@@ -3,6 +3,21 @@
 This will be basically a clean up version of this https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 to have everything here in a nice display
 
+## First Steps
+
+- Open your ISO and extract your files with umdgen.
+![UMDGen V.4](https://imgur.com/bZgTET9.png)
+
+- Now with astrogrep https://astrogrep.sourceforge.net/ look for a word used in the game, はじめから
+![Astrogrep](https://imgur.com/RCyQVqe.png)
+As you see, it will throw results in the FILEDATA.CPK, tinkering with that file will be our next step.
+*Mind you, there are a lot of text in the EBOOt file which is encrypted, those words won't appear here. 
+That part will be explained later in the guide*
+
+## Working with CPK files
+
+
+
 ## Data Location summary
 
 | File (route) | Data in File | handling (read this guide's section)
