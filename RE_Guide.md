@@ -3,6 +3,10 @@
 This will be basically a clean up version of this https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 to have everything here in a nice display. 
 
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)
+
 ## First Steps
 
 - Open your ISO and extract your files with umdgen.
@@ -31,6 +35,15 @@ to edit. In any case, you'll end up in file ID00033.
 
 
 ## Text File
+
+- There are several ways to approach this section, and this guide uses one which relies one brute force. 
+If you want to go and find any other guide for dumping and reinserting the text, feel free.
+
+- Basically you need to understand how the file and header work, then create a code with armips that replicates 
+the file. Go to the Armips_files folder in this repo to use this guide's scripts. 
+*You'll see 2 options for this: one can create a 1:1 file; the other has edits for the translation, including 
+the use of a new font table*
+
 
 ## More unpackaging inside the CPK
 
