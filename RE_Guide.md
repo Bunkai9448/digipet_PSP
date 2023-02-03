@@ -9,11 +9,11 @@ https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 - [Working with the CPK file](#Working-with-the-CPK-file)
 - [Text File](#Text-File)
 - [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK) - ToDo
-- [Images and GIM files](#Text-File) - ToDo
-- [Remaining text in the Eboot.bin](#Text-File) - ToDo
-- [The Font](#Text-File) - ToDo
-- [Repackaging the CPK](#Text-File) - ToDo
-- [Making the patch](#Text-File) - ToDo
+- [Images and GIM files](#Images-and-GIM-files) - ToDo
+- [Remaining text in the Eboot.bin](#Remaining-text-in-the-Eboot.bin) - ToDo
+- [The Font](#The-Font) - ToDo
+- [Repackaging the CPK](#Repackaging-the-CPK) - ToDo
+- [Making the patch](#Making-the-patch) - ToDo
 - [Data Location summary](#Data-Location-summary)
 
 
@@ -49,18 +49,40 @@ to edit. In any case, you'll end up in file ID00033.
 - There are several ways to approach this section, and this guide uses one which relies one brute force. 
 If you want to go and find any other guide for dumping and reinserting the text, feel free.
 
-- Basically you need to understand how the file and header work, then create a code with armips that replicates 
-the file. Go to the Armips_files folder in this repo to use this guide's scripts. 
+- Basically you need to understand how the file and header work using the hex editor, then create a code with 
+armips that replicates the file. Go to the Armips_files folder in this repo to use this guide's scripts. 
 *You'll see 2 options for this: one can create a 1:1 file; the other has edits for the translation, including 
 the use of a new font table*
 
 
 ## More unpackaging inside the CPK
 
--
+- It's time to look for the images and sprites in the game. To do that, you want to search in the other files of 
+the ISO. In this guide the ID00000 file will be used as example, but the idea is the same for all of them.
+
+- The current approach is the same you used for the text script, you use the hex editor to understand how the file and
+header work and then put that knowledge into a code for the packaging/unpackaging tool.
 ![ID00000](https://imgur.com/xLBbtRo.png)
 
+- From the header of this file, you can learn:  
+The file starts with the 24 bit header (File format / several bits that for some reason are the same in most or all
+games -0x01000 0x01000 0x01000 0x04000- / Number of files in package).  
+Followed by a table of contents with all the GIM files in it listed, all elements have the same structure here 
+( filesize -0xE020- / start address -0xD821- / header of the actual file -0x47494D- )  
+After the table of contents come the packaged files, GIM images in this cases.  
 
+- If you want to use the scripts from this guide, go to SCRIPTS_bms.  
+*With this method the same script works for packaging and unpackaging*
+
+## Images and GIM files
+
+## Remaining text in the Eboot.bin
+
+## The Font
+
+##Repackaging the CPK
+
+## Making the patch
 
 ## Data Location summary
 
