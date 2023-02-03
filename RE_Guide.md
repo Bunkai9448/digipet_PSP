@@ -1,7 +1,8 @@
 # RE_Guide
 
-This file will be basically a cleaned-up version of this https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
-to have everything here in a nice display. If you want more details about why or how something was discovered, go there.
+This file is basically a cleaned-up version of:
+https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
+*If you want more details about how or why something was done, go there.*
 
 ## INDEX 
 - [First Steps](#First-Steps)
