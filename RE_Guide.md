@@ -7,9 +7,9 @@ to have everything here in a nice display. If you want more details about why or
 - [First Steps](#First-Steps)
 - [Working with the CPK file](#Working-with-the-CPK-file)
 - [Text File](#Text-File)
-- [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK)
+- [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK) - ToDo
 - [Images and GIM files](#Text-File) - ToDo
-- [Remaining text in the Eboot.bin](#Text-File)
+- [Remaining text in the Eboot.bin](#Text-File) - ToDo
 - [The Font](#Text-File) - ToDo
 - [Repackaging the CPK](#Text-File) - ToDo
 - [Making the patch](#Text-File) - ToDo
@@ -74,7 +74,7 @@ the use of a new font table*
 | 27.bin (cpk) | background_png |
 | 29.bin (cpk) | font_file |
 | 34.bin (cpk) |  starting menus & a few extra prompts txt |
-|;---;|;---;|;---;|
+|---|---|---|
 | (EBOOT.bin) | all remainig text, commands, and prompts |
 
 
