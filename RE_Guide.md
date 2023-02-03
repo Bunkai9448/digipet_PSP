@@ -4,10 +4,11 @@ This will be basically a clean up version of this https://www.romhacking.net/for
 to have everything here in a nice display. 
 
 ## INDEX 
-[First Steps](#First-Steps)  
-[Working with the CPK file](#Working-with-the-CPK-file)
-[Text File](#Text-File) 
-[More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK)
+- [First Steps](#First-Steps)
+- [Working with the CPK file](#Working-with-the-CPK-file)
+- [Text File](#Text-File)
+- [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK)
+- [Data Location summary](#Data-Location-summary)
 - ToDo
 
 ## First Steps
@@ -49,6 +50,9 @@ the use of a new font table*
 
 
 ## More unpackaging inside the CPK
+
+-
+![ID00000](https://imgur.com/xLBbtRo.png)
 
 
 
