@@ -90,8 +90,7 @@ After the table of contents come the packaged files, GIM images in this cases.
 ## Remaining text in the Eboot.bin
 
 - There is still text missing and, from previous steps, apparently nothing useful for that in FILEDATA.CPK, BOOT.BIN, or OPNSSMP.BIN. The last chance of something easy is to find it in the unencrypted version of EBOOT.BIN. Hence you
-want to decrypt it and see its content, luckyly DecEboot can deal with the compression part. When you do that and open it with your hex editor ...  
-¡Jackpot! You found the remaining text:
+want to decrypt it and see its content, luckyly DecEboot can deal with the compression part. When you do that and open it with your hex editor ...  ¡Jackpot! You found the remaining text:
 ![Deceboot](https://imgur.com/S3CZJmz.png)
 
 - In some cases the EBOOT needs to be re-encrypted for the game to work, you got lucky again because for this game 
