@@ -10,7 +10,7 @@ https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 - [Text File](#Text-File)
 - [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK)
 - [Images and GIM files](#Images-and-GIM-files) - ToDo
-- [Remaining text in the Eboot.bin](#Remaining-text-in-the-Eboot.bin)
+- [Remaining text in the Eboot](#Remaining-text-in-the-Eboot)
 - [The Font](#The-Font) - ToDo
 - [Repackaging the CPK](#Repackaging-the-CPK) - ToDo
 - [Making the patch](#Making-the-patch) - ToDo
@@ -87,7 +87,7 @@ After the table of contents come the packaged files, GIM images in this cases.
 
 - To Do
 
-## Remaining text in the Eboot.bin
+## Remaining text in the Eboot
 
 - There is still text missing and, from previous steps, apparently nothing useful for that in FILEDATA.CPK, BOOT.BIN, or OPNSSMP.BIN. The last chance of something easy is to find it in the unencrypted version of EBOOT.BIN. Hence you
 want to decrypt it and see its content, luckyly DecEboot can deal with the compression part. When you do that and open it with your hex editor ...  ¡Jackpot! You found the remaining text:
