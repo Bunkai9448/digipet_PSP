@@ -3,9 +3,12 @@
 This will be basically a clean up version of this https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 to have everything here in a nice display. 
 
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)
+## INDEX 
+[First Steps](#First Steps)  
+[Working with the CPK file](#Working with the CPK file)
+[Text File](#Text File) 
+[More unpackaging inside the CPK](#More unpackaging inside the CPK)
+- ToDo
 
 ## First Steps
 
