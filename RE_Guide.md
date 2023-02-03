@@ -101,29 +101,33 @@ In that sense, we don't have to work with the header or any different address bl
 
 
 ## The Font
+
+The font  (file 29, open with CrystalTile2 to see: BGA 4bpp "tiled" with 16x16 tiles, thanks to Ethanol for that one,
+I overlooked it completely)
+
 ![Font](https://imgur.com/MT729WV.png)
 ![Font Changes](https://imgur.com/QXbW2ig.png)
 ![Table Changes](https://imgur.com/CjXA0uX.png)
 
 
 
-##Repackaging the CPK
+## Repackaging the CPK
 
 ## Making the patch
 
 ## Data Location summary
 
 | File (route) | Data in File | handling (read this guide's section)
-|---|---|---|
-| 1.bin (cpk)  | digi_lcd gim_images |
-| 14.bin (cpk) | loading_icon gim_image |
-| 16.bin (cpk) | title_screen gim_images | 
-| 18.bin (cpk) | game_intro gim_images |
-| 25.bin (cpk) | saved_data icon_png |
-| 26.bin (cpk) | new_save icon_png |
-| 27.bin (cpk) | background_png |
-| 29.bin (cpk) | font_file |
-| 34.bin (cpk) |  starting menus & a few extra prompts txt |
+|:---:|:---:|:---:|
+| ID00000 (cpk)  | digi_lcd gim_images |
+| ID00014 (cpk) | loading_icon gim_image |
+| ID00016 (cpk) | title_screen gim_images | 
+| ID00018 (cpk) | game_intro gim_images |
+| ID00025 (cpk) | saved_data icon_png |
+| ID00026 (cpk) | new_save icon_png |
+| ID00027 (cpk) | background_png |
+| ID00029 (cpk) | font_file |
+| ID00033 (cpk) |  starting menus & a few extra prompts txt |
 |---|---|---|
 | (EBOOT.bin) | all remainig text, commands, and prompts |
 
