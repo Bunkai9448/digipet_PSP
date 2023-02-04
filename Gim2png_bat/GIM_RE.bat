@@ -30,15 +30,14 @@ gimconv A_outputGIM.png -o A_outputPNG.gis -digi
 :: and the original GIM to GIS ouput
 gimconv A_input.gim -o A_outputGIM.gis -digi
 pause
-::Now with those differences is time to make an edit to A_outputGIM.gis
+:: Now with those differences is time to make an edit to A_outputGIM.gis
 :: to be equal to A_outputGIM.gis
 :: I did the comparison with https://winmerge.org/downloads/
-::Now with those differences is time to make an edit to A_outputGIM.gis
+:: Now with those differences is time to make an edit to A_outputGIM.gis
 :: to be equal to A_outputGIM.gis
-:: gimconv A_outputGIM.png -o A2_outputPNG.gis -digi -png2gis_digi
-:: pause
-
-:: Changes added to the Gimconv.cnf file with the option option -png2gis_digi
-:: Writen in Config_file.txt
-:: To end, it's time to make a sanity check with the last Gis converted to Gim
-gimconv A2_outputPNG.gis -o A2_outputPNG.gim -digi -png2gis_digi
+:: I did the comparison with https://winmerge.org/downloads/
+:: Now with those differences we now what needs to be done:
+:: Save your png in INDEX format and run it through https://tinypng.com/
+:: then finally
+gimconv A_outputGIM.png -o A2_outputPNG.gim -digi
+pause
