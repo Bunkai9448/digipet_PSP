@@ -9,7 +9,7 @@ https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 - [Working with the CPK file](#Working-with-the-CPK-file)
 - [Text File](#Text-File)
 - [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK)
-- [Images and GIM files](#Images-and-GIM-files) - ToDo
+- [Images and GIM files](#Images-and-GIM-files)
 - [Remaining text in the Eboot](#Remaining-text-in-the-Eboot)
 - [The Font](#The-Font) - ToDo
 - [Repackaging the CPK](#Repackaging-the-CPK) - ToDo
@@ -76,16 +76,49 @@ After the table of contents come the packaged files, GIM images in this cases.
 - If you want to use the scripts from this guide, go to SCRIPTS_bms.  
 *With this method the same script works for packaging and unpackaging*
 
-## Images and GIM files            - TO DO
 
-- Open Gim with crystal file, look at header / use a default gimconv command to generate gim to gim and check differences.
+## Images and GIM files
 
-- open in photoshop or whatever you use, surf the menus until you find "color mode: Index" then look for 
-"reduce color count" or "reduce bit depth" and put it at 16.
+- After unpackaging the files from the previous section, you have a lot of GIM files. Those are image files in PSP
+propietary format. It's time to work with them.
 
-- convert the file to GIM and repackage
+- You could have been lucky if Gimconv made the full conversion from GIM to PNG and back to GIM with default config.
+ and commands. However for this game that's not how it went, so the next step is again opening your hex editor and 
+ looking at the header to see your image properties. In addition, you want to make a sanity check and get an 
+ "output.GIM" equal to "input.GIM". As a result, you will have edited your Gimconv configuration and executed the 
+ command with a new created option:
+````
+option -digi {
+    image_format = index4
+    palette_format = rgba4444
+    format_style = psp
+    format_endian = little
+    output_image = on
+    output_palette = on
+    output_sequence = on
+    check_limit = off
+}
+  
+gimconv "input.GIM" -o "output.GIM" -digi 
+````
 
-- To Do
+- Once you have the loseless GIM to GIM conversion you can start working with a PNG transformation in the middle.
+*The remaining part of the section is also copied down 'as is' into GIM_RE.bat for easy trial.*
+
+- Based on the post by akadewboy on Fri Apr 01, 2011 9:11 pm  
+in https://forum.xentax.com/viewtopic.php?t=6313  
+With snipped code to add -digi option in GimConv.cfg file, by "mono21400" also known as "ethanol"
+
+- 1. Convert it to PNG using GimConv  
+gimconv "GIM_000000bd.GIM" -o "GIM_000000bd.PNG" -digi
+
+- 2. Edit GIM_000000bd.PNG with whatever graphic program you want.  
+option A/ Work with PNG in 32bit PNG and save it in 8bit+Alpha  
+option B/ Work with PNG in 32bit PNG, save it as Indexed and run it through https://tinypng.com/
+
+- 3. Use GimConv to convert GIM_000000bd.PNG into a GIM  
+gimconv "GIM_000000bd.PNG" -o "Edited_GIM_000000bd.GIM" -digi
+
 
 ## Remaining text in the Eboot
 
