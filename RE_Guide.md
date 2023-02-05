@@ -110,11 +110,11 @@ in https://forum.xentax.com/viewtopic.php?t=6313
 With snipped code to add -digi option in GimConv.cfg file, by "mono21400" also known as "ethanol"
 
 - 1. Convert it to PNG using GimConv  
-gimconv "GIM_000000bd.GIM" -o "GIM_000000bd.PNG" -digi
+gimconv "GIM_000000bd.GIM" -o "GIM_000000bd.PNG" -digi  
 
 - 2. Edit GIM_000000bd.PNG with whatever graphic program you want.  
 option A/ Work with PNG in 32bit PNG and save it in 8bit+Alpha  
-option B/ Work with PNG in 32bit PNG, save it as Indexed and run it through https://tinypng.com/
+option B/ Work with PNG in 32bit PNG, save it as Indexed and run it through https://tinypng.com/  
 
 - 3. Use GimConv to convert GIM_000000bd.PNG into a GIM  
 gimconv "GIM_000000bd.PNG" -o "Edited_GIM_000000bd.GIM" -digi
