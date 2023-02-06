@@ -11,7 +11,7 @@ https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 - [More unpackaging inside the CPK](#More-unpackaging-inside-the-CPK)
 - [Images and GIM files](#Images-and-GIM-files)
 - [Remaining text in the Eboot](#Remaining-text-in-the-Eboot)
-- [The Font](#The-Font) - ToDo
+- [The Font](#The-Font)
 - [Repackaging the CPK](#Repackaging-the-CPK) - ToDo
 - [Making the patch](#Making-the-patch) - ToDo
 - [Data Location summary](#Data-Location-summary)
@@ -134,13 +134,26 @@ In that sense, we don't have to work with the header or any different address bl
 
 ## The Font
 
-The font  (file 29, open with CrystalTile2 to see: BGA 4bpp "tiled" with 16x16 tiles, thanks to Ethanol for that one,
-I overlooked it completely)
+- You eventually have most files analysed, leaving GMO files (PSP 3d model format) and code aside. 
+The font must be in the remaining. Time to open it with your text editor and find out.  
 
+- PSP usually puts fonts in 4BPP format, you'll want to try that before scrolling. Once you have found the characters, 
+if they are uncompressed (like in the digivice game) the only thing to do is discovering the actual size of the tiles. 
+
+- This font parameters are:
+````
+BGA 4bpp "tiled" with 16x16 tiles
+````
+
+- And the font looks like:
 ![Font](https://imgur.com/MT729WV.png)
-![Font Changes](https://imgur.com/QXbW2ig.png)
-![Table Changes](https://imgur.com/CjXA0uX.png)
 
+- Now it's time to edit the file to add the characters you want. Example:
+![Font Changes](https://imgur.com/IxWZh74.png)
+
+- To end this task, do not forget to modify your table file accordingly.  
+* You won't be able of use the new characters properly otherwise*
+![Table Changes](https://imgur.com/CjXA0uX.png)
 
 
 ## Repackaging the CPK
