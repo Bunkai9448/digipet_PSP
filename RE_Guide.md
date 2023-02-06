@@ -13,8 +13,9 @@ https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 - [Remaining text in the Eboot](#Remaining-text-in-the-Eboot)
 - [The Font](#The-Font)
 - [Repackaging the CPK](#Repackaging-the-CPK) - ToDo
-- [Making the patch](#Making-the-patch) - ToDo
-- [Data Location summary](#Data-Location-summary)
+- [Last Steps](#Last-Steps) - toDo
+- [Extra: Making the patch](#Extra:-Making-the-patch) - ToDo
+- [Appendix: Data Location summary](#Appendix:-Data-Location-summary) - ToDo
 
 
 ## First Steps
@@ -135,7 +136,7 @@ In that sense, we don't have to work with the header or any different address bl
 ## The Font
 
 - You eventually have most files analysed, leaving GMO files (PSP 3d model format) and code aside. 
-The font must be in the remaining. Time to open it with your text editor and find out.  
+The font must be in the remaining ID00029 file. Time to open it with your text editor and find out.  
 
 - PSP usually puts fonts in 4BPP format, you'll want to try that before scrolling. Once you have found the characters, 
 if they are uncompressed (like in the digivice game) the only thing to do is discovering the actual size of the tiles. 
@@ -158,9 +159,32 @@ BGA 4bpp "tiled" with 16x16 tiles
 
 ## Repackaging the CPK
 
-## Making the patch
+- Remember the first step of this guide? You used CriPackedFileMaker to get the files inside your CPK. 
+Well, this is the following up step. Same tool, different task. Time to rebuild the FILEDATA.CPK
 
-## Data Location summary
+- First, it was required to get the CPK original info, so we use that to reinsert.
+Data alignment: 2048 ; File Mode: ID ; any other box unmarked. 
+![Get file info](https://imgur.com/g3bJOqD.png)
+
+
+After that, we can extract and start the repackaging without edits as a sanity check (if it hadn't worked, we would've known it was some config on the tool):
+![Use that file info](https://imgur.com/gSPAfqK.png)
+
+- Finally, we have our "complete" prompt. 
+
+## Last Steps
+
+*This section is for completionist sake.*
+- As you might guessed, you need to redo your ISO file to play. Use UMDGen and swap your files with the old ones.
+Enjoy your modified game!
+
+## Extra: Making the patch
+
+- If you want to share your modification with the world without sharing the full ISO, you better create a patch.
+This is section is to teach you how to do so. *Don't be afraid, this is one of the easiest parts*
+
+
+## Appendix: Data Location summary
 
 | File (route) | Data in File | handling (read this guide's section)
 |:---:|:---:|:---:|
