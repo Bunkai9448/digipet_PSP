@@ -206,17 +206,15 @@ You have successfully created your patch!
 
 | File (route) | Data in File | handling (read this guide's section)
 |:---:|:---:|:---:|
-| ID00000 (cpk)  | digi_lcd gim_images |
-| ID00014 (cpk) | loading_icon gim_image |
-| ID00016 (cpk) | title_screen gim_images | 
-| ID00018 (cpk) | game_intro gim_images |
-| ID00025 (cpk) | saved_data icon_png |
-| ID00026 (cpk) | new_save icon_png |
-| ID00027 (cpk) | background_png |
-| ID00029 (cpk) | font_file |
-| ID00033 (cpk) |  starting menus & a few extra prompts txt |
+| ID00000 (cpk)  | digi_lcd gim_images | [Images and GIM files](#Images-and-GIM-files)
+| ID00014 (cpk) | loading_icon gim_image | [Images and GIM files](#Images-and-GIM-files)
+| ID00016 (cpk) | title_screen gim_images | [Images and GIM files](#Images-and-GIM-files)
+| ID00018 (cpk) | game_intro gim_images | [Images and GIM files](#Images-and-GIM-files)
+| ID00025 (cpk) | saved_data icon_png | No section, just adds the extension ".png"
+| ID00026 (cpk) | new_save icon_png | No section, just adds the extension ".png"
+| ID00027 (cpk) | background_png | No section, just adds the extension ".png"
+| ID00029 (cpk) | font_file | [The Font](#The-Font)
+| ID00033 (cpk) |  starting menus & a few extra prompts txt | [Text File](#Text-File)
 |---|---|---|
-| (EBOOT.bin) | all remainig text, commands, and prompts |
-
-
+| (EBOOT.bin) | all remainig text, commands, and prompts | [Remaining text in the Eboot](#Remaining-text-in-the-Eboot)
 
