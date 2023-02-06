@@ -14,8 +14,8 @@ https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 - [The Font](#The-Font)
 - [Repackaging the CPK](#Repackaging-the-CPK) - ToDo
 - [Last Steps](#Last-Steps) - toDo
-- [Extra: Making the patch](#Extra:-Making-the-patch) - ToDo
-- [Appendix: Data Location summary](#Appendix:-Data-Location-summary) - ToDo
+- [Extra: Making the patch](#Extra:Making-the-patch) - ToDo
+- [Appendix: Data Location summary](#Appendix:Data-Location-summary) - ToDo
 
 
 ## First Steps
