@@ -12,10 +12,10 @@ https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 - [Images and GIM files](#Images-and-GIM-files)
 - [Remaining text in the Eboot](#Remaining-text-in-the-Eboot)
 - [The Font](#The-Font)
-- [Repackaging the CPK](#Repackaging-the-CPK) - ToDo
-- [Last Steps](#Last-Steps) - toDo
-- [Extra: Making the patch](#Extra:Making-the-patch) - ToDo
-- [Appendix: Data Location summary](#Appendix:Data-Location-summary) - ToDo
+- [Repackaging the CPK](#Repackaging-the-CPK)
+- [Last Steps](#Last-Steps)
+- [Extra: Making the patch](#Making-the-patch)
+- [Appendix: Data Location Summary](#Data-Location-Summary)
 
 
 ## First Steps
@@ -162,15 +162,16 @@ BGA 4bpp "tiled" with 16x16 tiles
 - Remember the first step of this guide? You used CriPackedFileMaker to get the files inside your CPK. 
 Well, this is the following up step. Same tool, different task. Time to rebuild the FILEDATA.CPK
 
-- First, it was required to get the CPK original info, so we use that to reinsert.
-Data alignment: 2048 ; File Mode: ID ; any other box unmarked. 
+- Before rebuilding, it's required to get the CPK original info. *To create one with the same parameters later*
 ![Get file info](https://imgur.com/g3bJOqD.png)
 
-
-After that, we can extract and start the repackaging without edits as a sanity check (if it hadn't worked, we would've known it was some config on the tool):
+- Then, you can do a repackaging without edits as a sanity check. 
+````
+Data alignment: 2048 ; File Mode: ID ; any other box unmarked. 
+````
 ![Use that file info](https://imgur.com/gSPAfqK.png)
 
-- Finally, we have our "complete" prompt. 
+- If you did everything right, you'll have your "complete" prompt. 
 
 ## Last Steps
 
@@ -178,13 +179,13 @@ After that, we can extract and start the repackaging without edits as a sanity c
 - As you might guessed, you need to redo your ISO file to play. Use UMDGen and swap your files with the old ones.
 Enjoy your modified game!
 
-## Extra: Making the patch
+## Making the patch
 
-- If you want to share your modification with the world without sharing the full ISO, you better create a patch.
+- When you want to share your modification with the world without sharing the full ISO, you better create a patch.
 This is section is to teach you how to do so. *Don't be afraid, this is one of the easiest parts*
 
 
-## Appendix: Data Location summary
+## Data Location Summary
 
 | File (route) | Data in File | handling (read this guide's section)
 |:---:|:---:|:---:|
