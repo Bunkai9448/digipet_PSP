@@ -6,8 +6,8 @@ This will also give you the font I use without having to patch the whole game.
 
 # how to use
 
-If you just want the new font, take the font file from the game ( id000029) and patch it with:
-font_esp.xdelta (To Do)
+If you just want the new font, take the font file from the game ( ID000029) and patch it with:
+EditFont.xdelta
 
 After that, you'll need to load "Font_Esp.tbl" in your armips script. 
 **Save both files (armips and table) with utf8 encoding**
