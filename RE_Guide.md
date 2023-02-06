@@ -152,7 +152,7 @@ BGA 4bpp "tiled" with 16x16 tiles
 ![Font Changes](https://imgur.com/IxWZh74.png)
 
 - To end this task, do not forget to modify your table file accordingly.  
-* You won't be able of use the new characters properly otherwise*
+* You won't be able of use the new characters properly otherwise *  
 ![Table Changes](https://imgur.com/CjXA0uX.png)
 
 
