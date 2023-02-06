@@ -208,7 +208,7 @@ You have successfully created your patch!
 |:---:|:---:|:---:|
 | ID00000 (cpk)  | digi_lcd gim_images | [Images and GIM files](#Images-and-GIM-files)
 | ID00014 (cpk) | loading_icon gim_image | [Images and GIM files](#Images-and-GIM-files)
-| ID00016 (cpk) | title_screen gim_images | [Images and GIM files](#Images-and-GIM-files)
+| ID00015 (cpk) | title_screen gim_images | [Images and GIM files](#Images-and-GIM-files)
 | ID00018 (cpk) | game_intro gim_images | [Images and GIM files](#Images-and-GIM-files)
 | ID00025 (cpk) | saved_data icon_png | No section, just add the extension ".png"
 | ID00026 (cpk) | new_save icon_png | No section, just add the extension ".png"
