@@ -3,14 +3,14 @@ TEXT FROM GRAPHICS
 
 /// FILE 0.bin inside FILEDATA.CPK | LCD part of the digivice ///
 
-コウゲキ Atacar
+コウゲキ Atacar > luchar (to avoid repetition with "attack")
 シンカ Digievolución > Digi-Evo (reduced size to fit)
 ナカマ Aliado
 ニゲル Huir
 パラメーター Parámetros
 マップ Mapa
-チリョウ Curar
-ツウシン Conectar/link
+チリョウ Botiquín
+ツウシン Conectar/link > Versus (The others are too long or sound very odd)
 バトルスタート Iniciar batalla/Start batlle
 ニク Carne
 プロテイン Proteína
