@@ -16,8 +16,9 @@ TEXT FROM GRAPHICS
 プロテイン Proteína
 PW-B   Píldora DP+
 P-ドラッグ Píldora HP+
-エリアクリアー　Area completa y Area terminada/Cleared
-ノウホスウ ( 総歩数 = Total steps)　Restante/Remaining
+エリアクリアー　Area completada o Area terminada/Cleared
+エリアクリア A completar
+ノウホスウ ( 総歩数 = Total steps)　Total andado / Podómetro
 サウンド Sound
 オン On
 オフ Off
