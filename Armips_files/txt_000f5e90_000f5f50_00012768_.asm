@@ -9,67 +9,67 @@
 ; string data
 
     block001_str1:
-    .ascii "Comandos" ; ƒRƒ}ƒ“ƒh
+    .ascii "Comandos" ; ã‚³ãƒãƒ³ãƒ‰
     .align 4
 
 	.org 0x024C ; goes to next offset
 
     block002_str1:
-    .ascii "Caminados" ; •à”•\¦
+    .ascii "Caminados" ; æ­©æ•°è¡¨ç¤º
     .align 4
 
 	.org 0x0258 ; goes to next offset
 
     block003_str1:
-    .ascii "Andar" ; •à‚­
+    .ascii "Andar" ; æ­©ã
     .align 4
 
 	.org 0x0260 ; goes to next offset
 
     block004_str1:
-    .ascii "Menu" ; ƒƒjƒ…[
+    .ascii "Menu" ; ãƒ¡ãƒ‹ãƒ¥ãƒ¼
     .align 4
 
 	.org 0x026C ; goes to next offset
 
     block005_str1:
-    .ascii "Confirmar" ; ‚¯‚Á‚Ä‚¢
+    .ascii "Confirmar" ; ã‘ã£ã¦ã„
     .align 4
 
 	.org 0x0278 ; goes to next offset
 	
     block006_str1:
-    .ascii "Volver" ; ‚à‚Ç‚é
+    .ascii "Volver" ; ã‚‚ã©ã‚‹
     .align 4	
 
 	.org 0x0280 ; goes to next offset
 	
     block007_str1:
-    .ascii "Elegir" ; ‚¦‚ç‚Ô
+    .ascii "Elegir" ; ãˆã‚‰ã¶
     .align 4	
 
 	.org 0x0288 ; goes to next offset
 	
     block008_str1:
-    .ascii "Repetir" ; ‚È‚¨‚·
+    .ascii "Repetir" ; ãªãŠã™
     .align 4
 	
 	.org 0x0290 ; goes to next offset
 	
     block009_str1:
-    .ascii "Cancelar" ; ƒLƒƒƒ“ƒZƒ‹ ‚½‚½‚©‚¤ ‚¨‚¤‚¦‚ñ OK
+    .ascii "Cancelar" ; ã‚­ãƒ£ãƒ³ã‚»ãƒ« ãŸãŸã‹ã† ãŠã†ãˆã‚“ OK
     .align 4
 
 	.org 0x029C ; goes to next offset
 	
     block010_str1:
-    .ascii "Luchar" ; ‚½‚½‚©‚¤ ‚¨‚¤‚¦‚ñ OK
+    .ascii "Luchar" ; ãŸãŸã‹ã† ãŠã†ãˆã‚“ OK
     .align 4
 	
 	.org 0x02A8 ; goes to next offset
 	
     block011_str1:
-    .ascii "Animar" ; ‚¨‚¤‚¦‚ñ
+    .ascii "Animar" ; ãŠã†ãˆã‚“
     .align 4
 	
 	.org 0x02B4 ; goes to next offset
@@ -81,625 +81,625 @@
 	.org 0x02B8 ; goes to next offset
 	
     block013_str1:
-    .ascii "Buscar" ; ‚³‚ª‚·
+    .ascii "Buscar" ; ã•ãŒã™
     .align 4
 
 	.org 0x02C0 ; goes to next offset
 	
     block014_str1:
-    .ascii "CATCH!" ; ‚b‚`‚s‚b‚gI 
+    .ascii "CATCH!" ; ï¼£ï¼¡ï¼´ï¼£ï¼¨ï¼ 
     .align 4
 	
 	.org 0x02D0 ; goes to next offset
 	
     block015_str1:
-    .ascii "Anda para investigar el area." ; •à‚­‚±‚Æ‚ÅƒGƒŠƒA‚ğ’Tõ‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚· 
+    .ascii "Anda para investigar el area." ; æ­©ãã“ã¨ã§ã‚¨ãƒªã‚¢ã‚’æ¢ç´¢ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ 
     .align 4	
 
 	.org 0x02FC ; goes to next offset
 	
     block016_str1:
-    .ascii "Elige la ed. del digivice." ; –{‘Ì‚ÌF‚ğ‘I‚ñ‚Å‚­‚¾‚³‚¢
+    .ascii "Elige la ed. del digivice." ; æœ¬ä½“ã®è‰²ã‚’é¸ã‚“ã§ãã ã•ã„
     .align 4	
 
 	.org 0x0318 ; goes to next offset
 	
     block017_str1:
-    .ascii "Elige tu primer digimon." ; Å‰‚Ìƒp[ƒgƒi[ƒfƒWƒ‚ƒ“‚ğ‘I‚ñ‚Å‚­‚¾‚³‚¢
+    .ascii "Elige tu primer digimon." ; æœ€åˆã®ãƒ‘ãƒ¼ãƒˆãƒŠãƒ¼ãƒ‡ã‚¸ãƒ¢ãƒ³ã‚’é¸ã‚“ã§ãã ã•ã„
     .align 4
 
 	.org 0x0344 ; goes to next offset
 	
     block018_str1:
-    .ascii "Introduce la hora al digivice." ; ƒfƒWƒ”ƒ@ƒCƒX‚ÌŠÔ‚ğƒZƒbƒg‚µ‚Ä‚­‚¾‚³‚¢
+    .ascii "Introduce la hora al digivice." ; ãƒ‡ã‚¸ãƒ´ã‚¡ã‚¤ã‚¹ã®æ™‚é–“ã‚’ã‚»ãƒƒãƒˆã—ã¦ãã ã•ã„
     .align 4
 	
 	.org 0x036C ; goes to next offset
 	
     block019_str1:
-    .ascii "Hora en el digivice." ; ƒfƒWƒ”ƒ@ƒCƒX‚ÌŠÔ‚Å‚·
+    .ascii "Hora en el digivice." ; ãƒ‡ã‚¸ãƒ´ã‚¡ã‚¤ã‚¹ã®æ™‚é–“ã§ã™
     .align 4
 
 	.org 0x0384 ; goes to next offset
 	
     block020_str1:
-    .ascii "Cambia los ajustes de sonido" ; SE‚Ìİ’è‚ğØ‚è‘Ö‚¦‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Cambia los ajustes de sonido" ; SEã®è¨­å®šã‚’åˆ‡ã‚Šæ›¿ãˆã‚‹ã“ã¨ãŒã§ãã¾ã™
     .align 4
 
 	.org 0x03A8 ; goes to next offset
 	
     block021_str1:
-    .ascii "Comprueba el estado de tus digimon" ; ƒp[ƒgƒi[ƒfƒWƒ‚ƒ“‚Ìó‘Ô‚ğŒ©‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Comprueba el estado de tus digimon" ; ãƒ‘ãƒ¼ãƒˆãƒŠãƒ¼ãƒ‡ã‚¸ãƒ¢ãƒ³ã®çŠ¶æ…‹ã‚’è¦‹ã‚‹ã“ã¨ãŒã§ãã¾ã™
     .align 4
 	
 	.org 0x03D8 ; goes to next offset
 	
     block022_str1:
-    .ascii "Elige el digimon" ; ƒfƒWƒ‚ƒ“‚ğ‘I‚ñ‚Å‚­‚¾‚³‚¢
+    .ascii "Elige el digimon" ; ãƒ‡ã‚¸ãƒ¢ãƒ³ã‚’é¸ã‚“ã§ãã ã•ã„
     .align 4	
 	
 	.org 0x03F4 ; goes to next offset
 	
     block023_str1:
-    .ascii "Comprueba el DP (Digi-Power)" ; DPiƒfƒWƒ‚ƒ“ƒpƒ[j‚ğŠm”F‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Comprueba el DP (Digi-Power)" ; DPï¼ˆãƒ‡ã‚¸ãƒ¢ãƒ³ãƒ‘ãƒ¯ãƒ¼ï¼‰ã‚’ç¢ºèªã™ã‚‹ã“ã¨ãŒã§ãã¾ã™
     .align 4	
 
 	.org 0x0424 ; goes to next offset
 	
     block024_str1:
-    .ascii "El DP es necesario para la Digi-Evo" ; DP‚Íi‰»‚·‚é‚Æ‚«‚É•K—v‚ÈƒGƒlƒ‹ƒM[‚Å‚· 
+    .ascii "El DP es necesario para la Digi-Evo" ; DPã¯é€²åŒ–ã™ã‚‹ã¨ãã«å¿…è¦ãªã‚¨ãƒãƒ«ã‚®ãƒ¼ã§ã™ 
     .align 4
 
 	.org 0x044C ; goes to next offset
 	
     block025_str1:
-    .ascii "Numero de victorias del digimon" ; ƒfƒWƒ‚ƒ“‚ÌŸ—˜”‚ğŒ©‚é‚±‚Æ‚ª‚Å‚«‚Ü‚· 
+    .ascii "Numero de victorias del digimon" ; ãƒ‡ã‚¸ãƒ¢ãƒ³ã®å‹åˆ©æ•°ã‚’è¦‹ã‚‹ã“ã¨ãŒã§ãã¾ã™ 
     .align 4
 
 	.org 0x0474 ; goes to next offset
 	
     block026_str1:
-    .ascii "El medidor aumenta el nivel de Digi-Evo" ; ƒ[ƒ^[‚ª—­‚Ü‚é‚Æi‰»’iŠK‚ªƒAƒbƒv‚µ‚Ü‚·
+    .ascii "El medidor aumenta el nivel de Digi-Evo" ; ãƒ¡ãƒ¼ã‚¿ãƒ¼ãŒæºœã¾ã‚‹ã¨é€²åŒ–æ®µéšãŒã‚¢ãƒƒãƒ—ã—ã¾ã™
     .align 4
 
 	.org 0x04A0 ; goes to next offset
 	
     block027_str1:
-    .ascii "HP" ; HPi‘Ì—Íj‚ğŠm”F‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "HP" ; HPï¼ˆä½“åŠ›ï¼‰ã‚’ç¢ºèªã™ã‚‹ã“ã¨ãŒã§ãã¾ã™
     .align 4
 
 	.org 0x04C4 ; goes to next offset
 	
     block028_str1:
-    .ascii "La victoria se decide por puntos de vida." ; ƒfƒWƒ‚ƒ“‚Ì¶–½—Í‚Åƒoƒgƒ‹‚ÌŸ”s‚ğŒˆ‚ß‚é—v‘f‚É‚È‚è‚Ü‚·
+    .ascii "La victoria se decide por puntos de vida." ; ãƒ‡ã‚¸ãƒ¢ãƒ³ã®ç”Ÿå‘½åŠ›ã§ãƒãƒˆãƒ«ã®å‹æ•—ã‚’æ±ºã‚ã‚‹è¦ç´ ã«ãªã‚Šã¾ã™
     .align 4
 
 	.org 0x04FC ; goes to next offset
 	
     block029_str1:
-    .ascii "Comprueba el ataque del digimon" ; ATTACKiUŒ‚—Íj‚ğŠm”F‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Comprueba el ataque del digimon" ; ATTACKï¼ˆæ”»æ’ƒåŠ›ï¼‰ã‚’ç¢ºèªã™ã‚‹ã“ã¨ãŒã§ãã¾ã™
     .align 4
 
 	.org 0x0528 ; goes to next offset
 	
     block30_str1:
-    .ascii "Puntos por ataque efectivo" ; UŒ‚¬Œ÷‚É—^‚¦‚ç‚ê‚éƒ|ƒCƒ“ƒg‚Å‚· 
+    .ascii "Puntos por ataque efectivo" ; æ”»æ’ƒæˆåŠŸæ™‚ã«ä¸ãˆã‚‰ã‚Œã‚‹ãƒã‚¤ãƒ³ãƒˆã§ã™ 
     .align 4
 
 	.org 0x054C ; goes to next offset
 	
     block031_str1:
-    .ascii "Comprueba el area de busqueda" ; ’Tõ’†‚ÌƒGƒŠƒA‚ğŠm”F‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Comprueba el area de busqueda" ; æ¢ç´¢ä¸­ã®ã‚¨ãƒªã‚¢ã‚’ç¢ºèªã™ã‚‹ã“ã¨ãŒã§ãã¾ã™
     .align 4	
 	
 	.org 0x0574 ; goes to next offset
 	
     block032_str1:
-    .ascii "Estas en el area que parpadea" ; “_–Å‚µ‚Ä‚¢‚éƒGƒŠƒA‚ªŒ»İU—ª’†‚ÌƒGƒŠƒA‚Å‚·
+    .ascii "Estas en el area que parpadea" ; ç‚¹æ»…ã—ã¦ã„ã‚‹ã‚¨ãƒªã‚¢ãŒç¾åœ¨æ”»ç•¥ä¸­ã®ã‚¨ãƒªã‚¢ã§ã™
     .align 4	
 
 	.org 0x5A0 ; goes to next offset
 	
     block033_str1:
-    .ascii "Cura a los digimon heridos en batalla" ; ƒoƒgƒ‹‚Å•‰‚Á‚½ƒPƒK‚ğ¡‚·‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Cura a los digimon heridos en batalla" ; ãƒãƒˆãƒ«ã§è² ã£ãŸã‚±ã‚¬ã‚’æ²»ã™ã“ã¨ãŒã§ãã¾ã™
     .align 4
 
 	.org 0x5C8 ; goes to next offset
 	
     block034_str1:
-    .ascii "Batalla contra otro jugador" ; ‘¼‚ÌƒvƒŒƒCƒ„[‚Æí‚¤‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Batalla contra otro jugador" ; ä»–ã®ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã¨æˆ¦ã†ã“ã¨ãŒã§ãã¾ã™
     .align 4
 
 	.org 0x5EC ; goes to next offset
 	
     block035_str1:
-    .ascii "Elige la Digi-Evo para usar" ; í‚¤i‰»’iŠK‚ğ‘I‚ñ‚Å‚­‚¾‚³‚¢
+    .ascii "Elige la Digi-Evo para usar" ; æˆ¦ã†é€²åŒ–æ®µéšã‚’é¸ã‚“ã§ãã ã•ã„
     .align 4
 
 	.org 0x60C ; goes to next offset
 	
     block036_str1:
-    .ascii "Conectando... Espera por favor." ; ’ÊM’†EEE‚µ‚Î‚ç‚­‚¨‘Ò‚¿‚­‚¾‚³‚¢ ’ÊMƒoƒgƒ‹‚ÍƒI[ƒgƒoƒgƒ‹‚É‚È‚è‚Ü‚·
+    .ascii "Conectando... Espera por favor." ; é€šä¿¡ä¸­ãƒ»ãƒ»ãƒ»ã—ã°ã‚‰ããŠå¾…ã¡ãã ã•ã„ é€šä¿¡ãƒãƒˆãƒ«ã¯ã‚ªãƒ¼ãƒˆãƒãƒˆãƒ«ã«ãªã‚Šã¾ã™
     .align 4
 
 	.org 0x630 ; goes to next offset
 	
     block037_str1:
-    .ascii "Iniciando modo automatico." ; ’ÊMƒoƒgƒ‹‚ÍƒI[ƒgƒoƒgƒ‹‚É‚È‚è‚Ü‚·
+    .ascii "Iniciando modo automatico." ; é€šä¿¡ãƒãƒˆãƒ«ã¯ã‚ªãƒ¼ãƒˆãƒãƒˆãƒ«ã«ãªã‚Šã¾ã™
     .align 4
 
 	.org 0x654 ; goes to next offset
 	
     block038_str1:
-    .ascii "Guardar partida" ; ƒZ[ƒu‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·  
+    .ascii "Guardar partida" ; ã‚»ãƒ¼ãƒ–ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™  
     .align 4
 
 	.org 0x670 ; goes to next offset
 	
     block039_str1:
-    .ascii "Cambiar ed. del digivice" ; –{‘Ì‚ÌF‚ğ•Ï‚¦‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Cambiar ed. del digivice" ; æœ¬ä½“ã®è‰²ã‚’å¤‰ãˆã‚‹ã“ã¨ãŒã§ãã¾ã™
     .align 4
 	
 	.org 0x690 ; goes to next offset
 	
     block040_str1:
-    .ascii "Cambiar ajustes para la conexion" ; ’ÊMƒoƒgƒ‹‚Ìİ’è‚ğØ‚è‘Ö‚¦‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Cambiar ajustes para la conexion" ; é€šä¿¡ãƒãƒˆãƒ«ã®è¨­å®šã‚’åˆ‡ã‚Šæ›¿ãˆã‚‹ã“ã¨ãŒã§ãã¾ã™
     .align 4
 
 	.org 0x6BC ; goes to next offset
 	
     block041_str1:
-    .ascii "Battle Start!" ; ƒoƒgƒ‹ƒXƒ^[ƒgI  
+    .ascii "Battle Start!" ; ãƒãƒˆãƒ«ã‚¹ã‚¿ãƒ¼ãƒˆï¼  
     .align 4	
 
 	.org 0x6D0 ; goes to next offset
 	
     block042_str1:
-    .ascii "Atacar enemigo" ; “G‚ğUŒ‚‚µ‚Ü‚·
+    .ascii "Atacar enemigo" ; æ•µã‚’æ”»æ’ƒã—ã¾ã™
     .align 4
 
 	.org 0x6E0 ; goes to next offset
 	
     block043_str1:
-    .ascii "Digi-Evo y atacar (coste DP: 3)" ; ‚P’iŠKi‰»‚µ‚ÄUŒ‚‚µ‚Ü‚·iDP‚RÁ”ïj
+    .ascii "Digi-Evo y atacar (coste DP: 3)" ; ï¼‘æ®µéšé€²åŒ–ã—ã¦æ”»æ’ƒã—ã¾ã™ï¼ˆDPï¼“æ¶ˆè²»ï¼‰
     .align 4
 
 	.org 0x708 ; goes to next offset
 	
     block044_str1:
-    .ascii "Cambiar de digimon y atacar" ; ‘I‘ğ‚µ‚½’‡ŠÔƒfƒWƒ‚ƒ“‚ÉØ‚è‘Ö‚í‚Á‚ÄUŒ‚‚µ‚Ü‚·
+    .ascii "Cambiar de digimon y atacar" ; é¸æŠã—ãŸä»²é–“ãƒ‡ã‚¸ãƒ¢ãƒ³ã«åˆ‡ã‚Šæ›¿ã‚ã£ã¦æ”»æ’ƒã—ã¾ã™
     .align 4
 
 	.org 0x738 ; goes to next offset
 	
     block045_str1:
-    .ascii "Evitar batalla y huir" ; ƒoƒgƒ‹‚¹‚¸‚É“¦‚°‚Ü‚·
+    .ascii "Evitar batalla y huir" ; ãƒãƒˆãƒ«ã›ãšã«é€ƒã’ã¾ã™
     .align 4
 
 	.org 0x750 ; goes to next offset
 	
     block046_str1:
-    .ascii "!Pulsa › y anima a tu digimon!" ; ›ƒ{ƒ^ƒ“˜A‘Å‚µ‚ÄƒfƒWƒ‚ƒ“‚ğ‰‰‡I   
+    .ascii "!Pulsa â—‹ y anima a tu digimon!" ; â—‹ãƒœã‚¿ãƒ³é€£æ‰“ã—ã¦ãƒ‡ã‚¸ãƒ¢ãƒ³ã‚’å¿œæ´ï¼   
     .align 4
 
 	.org 0x774 ; goes to next offset
 	
     block047_str1:
-    .ascii "!Exito!" ; UŒ‚¬Œ÷I
+    .ascii "!Exito!" ; æ”»æ’ƒæˆåŠŸï¼
     .align 4
 
 	.org 0x780 ; goes to next offset
 	
     block048_str1:
-    .ascii "!Fracaso!" ; UŒ‚¸”sI
+    .ascii "!Fracaso!" ; æ”»æ’ƒå¤±æ•—ï¼
     .align 4
 
 	.org 0x78C ; goes to next offset
 	
     block049_str1:
-    .ascii "Win!" ; Ÿ—˜I
+    .ascii "Win!" ; å‹åˆ©ï¼
     .align 4
 
 	.org 0x794 ; goes to next offset
 	
     block050_str1:
-    .ascii "Lose..." ; ”s–k‚µ‚Ä‚µ‚Ü‚Á‚½EEE
+    .ascii "Lose..." ; æ•—åŒ—ã—ã¦ã—ã¾ã£ãŸãƒ»ãƒ»ãƒ»
     .align 4
 	
 	.org 0x7AC ; goes to next offset
 	
     block051_str1:
-    .ascii "Recibiste carne, +2 DP" ; “÷‚ğè‚É“ü‚ê‚½IDP{‚Q  
+    .ascii "Recibiste carne, +2 DP" ; è‚‰ã‚’æ‰‹ã«å…¥ã‚ŒãŸï¼DPï¼‹ï¼’  
     .align 4	
 
 	.org 0x7C4 ; goes to next offset
 	
     block052_str1:
-    .ascii "Recibiste proteina, +1 HP" ; ƒvƒƒeƒCƒ“‚ğè‚É“ü‚ê‚½IHP{‚P
+    .ascii "Recibiste proteina, +1 HP" ; ãƒ—ãƒ­ãƒ†ã‚¤ãƒ³ã‚’æ‰‹ã«å…¥ã‚ŒãŸï¼HPï¼‹ï¼‘
     .align 4
 
 	.org 0x7E4 ; goes to next offset
 	
     block053_str1:
-    .ascii "Recibiste p-drug, proxima batalla es victoria segura" ; ‚o|ƒhƒ‰ƒbƒO‚ğè‚É“ü‚ê‚½IŸ‚Ìƒoƒgƒ‹‚Å“G‚ğŠmÀ‚É“|‚¹‚Ü‚·
+    .ascii "Recibiste Victoria segura, proxima batalla es victoria segura" ; ï¼°ï¼ãƒ‰ãƒ©ãƒƒã‚°ã‚’æ‰‹ã«å…¥ã‚ŒãŸï¼æ¬¡ã®ãƒãƒˆãƒ«ã§æ•µã‚’ç¢ºå®Ÿã«å€’ã›ã¾ã™
     .align 4
 
 	.org 0x820 ; goes to next offset
 	
     block054_str1:
-    .ascii "Sirve para tratar heridas" ; uƒ`ƒŠƒ‡ƒEv‚ÅƒPƒK‚ğ¡‚·‚±‚Æ‚ª‚Å‚«‚Ü‚·
+    .ascii "Sirve para tratar heridas" ; ã€Œãƒãƒªãƒ§ã‚¦ã€ã§ã‚±ã‚¬ã‚’æ²»ã™ã“ã¨ãŒã§ãã¾ã™
     .align 4
 
 	.org 0x848 ; goes to next offset
 	
     block055_str1:
-    .ascii "No se puede explorar en horas de sueno. Horas de sueno: 9PM ~ 8AM" ; ‡–°’†‚Í’Tõ‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñ¦‡–°ŠÔ‚o‚l‚XF‚O‚O`‚`‚l‚WF‚O‚O 
+    .ascii "No se puede explorar en horas de sueno. Horas de sueno: 9PM ~ 8AM" ; ç¡çœ ä¸­ã¯æ¢ç´¢ã™ã‚‹ã“ã¨ãŒã§ãã¾ã›ã‚“â€»ç¡çœ æ™‚é–“ï¼°ï¼­ï¼™ï¼šï¼ï¼ï½ï¼¡ï¼­ï¼˜ï¼šï¼ï¼ 
     .align 4
 
 	.org 0x890 ; goes to next offset
 	
     block056_str1:
-    .ascii "Usa la cruceta y pulsa › cuando veas 'CATCH!'" ; •ûŒüƒL[‚Å“d”g‚ª‹­‚­‚È‚éêŠ‚ğ’T‚µ‚Ä‚b‚`‚sCHI‚ªo‚½‚ç›‚ğ‰Ÿ‚»‚¤I
+    .ascii "Usa la cruceta y pulsa â—‹ cuando veas 'CATCH!'" ; æ–¹å‘ã‚­ãƒ¼ã§é›»æ³¢ãŒå¼·ããªã‚‹å ´æ‰€ã‚’æ¢ã—ã¦ï¼£ï¼¡ï¼´CHï¼ãŒå‡ºãŸã‚‰â—‹ã‚’æŠ¼ãã†ï¼
     .align 4
 
 	.org 0x8D4 ; goes to next offset
 	
     block057_str1:
-    .ascii "Conseguiste a: Agumon" ; ƒAƒOƒ‚ƒ“‚ª’‡ŠÔ‚É‚È‚Á‚½
+    .ascii "Conseguiste a: Agumon" ; ã‚¢ã‚°ãƒ¢ãƒ³ãŒä»²é–“ã«ãªã£ãŸ
     .align 4
 
 	.org 0x8EC ; goes to next offset
 	
     block058_str1:
-    .ascii "Conseguiste a: Piyomon" ; ƒsƒˆƒ‚ƒ“‚ª’‡ŠÔ‚É‚È‚Á‚½
+    .ascii "Conseguiste a: Piyomon" ; ãƒ”ãƒ¨ãƒ¢ãƒ³ãŒä»²é–“ã«ãªã£ãŸ
     .align 4
 
 	.org 0x904 ; goes to next offset
 
     block059_str1:
-    .ascii "Conseguiste a: Gabumon" ; ƒKƒuƒ‚ƒ“‚ª’‡ŠÔ‚É‚È‚Á‚½ 
+    .ascii "Conseguiste a: Gabumon" ; ã‚¬ãƒ–ãƒ¢ãƒ³ãŒä»²é–“ã«ãªã£ãŸ 
     .align 4
 
 	.org 0x91C ; goes to next offset
 	
     block060_str1:
-    .ascii "Conseguiste a: Tentomon" ; ƒeƒ“ƒgƒ‚ƒ“‚ª’‡ŠÔ‚É‚È‚Á‚½
+    .ascii "Conseguiste a: Tentomon" ; ãƒ†ãƒ³ãƒˆãƒ¢ãƒ³ãŒä»²é–“ã«ãªã£ãŸ
     .align 4
 
 	.org 0x938 ; goes to next offset
 	
     block061_str1:
-    .ascii "Conseguiste a: Gomamon" ; ƒSƒ}ƒ‚ƒ“‚ª’‡ŠÔ‚É‚È‚Á‚½
+    .ascii "Conseguiste a: Gomamon" ; ã‚´ãƒãƒ¢ãƒ³ãŒä»²é–“ã«ãªã£ãŸ
     .align 4
 
 	.org 0x950 ; goes to next offset
 	
     block062_str1:
-    .ascii "Conseguiste a: Palmon" ; ƒpƒ‹ƒ‚ƒ“‚ª’‡ŠÔ‚É‚È‚Á‚½
+    .ascii "Conseguiste a: Palmon" ; ãƒ‘ãƒ«ãƒ¢ãƒ³ãŒä»²é–“ã«ãªã£ãŸ
     .align 4
 
 	.org 0x968 ; goes to next offset
 	
     block063_str1:
-    .ascii "Conseguiste a: Patamon" ; ƒpƒ^ƒ‚ƒ“‚ª’‡ŠÔ‚É‚È‚Á‚½ 
+    .ascii "Conseguiste a: Patamon" ; ãƒ‘ã‚¿ãƒ¢ãƒ³ãŒä»²é–“ã«ãªã£ãŸ 
 	.align 4
 
 	.org 0x980 ; goes to next offset
 	
     block064_str1:
-    .ascii "Conseguiste a: Protmon" ; ƒvƒƒbƒgƒ‚ƒ“‚ª’‡ŠÔ‚É‚È‚Á‚½
+    .ascii "Conseguiste a: Protmon" ; ãƒ—ãƒ­ãƒƒãƒˆãƒ¢ãƒ³ãŒä»²é–“ã«ãªã£ãŸ
     .align 4
 
 	.org 0x99C ; goes to next offset
 	
     block065_str1:
-    .ascii "Conseguiste a: Veedramon" ; ƒuƒCƒhƒ‰ƒ‚ƒ“‚ª’‡ŠÔ‚É‚È‚Á‚½
+    .ascii "Conseguiste a: Veedramon" ; ãƒ–ã‚¤ãƒ‰ãƒ©ãƒ¢ãƒ³ãŒä»²é–“ã«ãªã£ãŸ
     .align 4
 
 	.org 0x9B8 ; goes to next offset
 	
     block066_str1:
-    .ascii "Ataque doble exitoso, Agumon" ; ƒhƒbƒyƒ‹ƒQƒ“ƒK\Œ‚”j¬Œ÷IƒAƒOƒ‚ƒ“‚Ì‚g‚o‚Æ‚`‚s‚s‚b‚j{‚P
+    .ascii "Ataque doble exitoso, Agumon" ; ãƒ‰ãƒƒãƒšãƒ«ã‚²ãƒ³ã‚¬â€•æ’ƒç ´æˆåŠŸï¼ã‚¢ã‚°ãƒ¢ãƒ³ã®ï¼¨ï¼°ã¨ï¼¡ï¼´ï¼´ï¼£ï¼«ï¼‹ï¼‘
     .align 4
 
 	.org 0x9F4 ; goes to next offset
 	
     block067_str1:
-    .ascii "Ataque doble exitoso, Piyomon" ; ƒhƒbƒyƒ‹ƒQƒ“ƒK\Œ‚”j¬Œ÷Iƒsƒˆƒ‚ƒ“‚Ì‚g‚o‚Æ‚`‚s‚s‚b‚j{‚P
+    .ascii "Ataque doble exitoso, Piyomon" ; ãƒ‰ãƒƒãƒšãƒ«ã‚²ãƒ³ã‚¬â€•æ’ƒç ´æˆåŠŸï¼ãƒ”ãƒ¨ãƒ¢ãƒ³ã®ï¼¨ï¼°ã¨ï¼¡ï¼´ï¼´ï¼£ï¼«ï¼‹ï¼‘
     .align 4
 
 	.org 0xA30 ; goes to next offset
 	
     block068_str1:
-    .ascii "Ataque doble exitoso, Gabumon" ; ƒhƒbƒyƒ‹ƒQƒ“ƒK\Œ‚”j¬Œ÷IƒKƒuƒ‚ƒ“‚Ì‚g‚o‚Æ‚`‚s‚s‚b‚j{‚P
+    .ascii "Ataque doble exitoso, Gabumon" ; ãƒ‰ãƒƒãƒšãƒ«ã‚²ãƒ³ã‚¬â€•æ’ƒç ´æˆåŠŸï¼ã‚¬ãƒ–ãƒ¢ãƒ³ã®ï¼¨ï¼°ã¨ï¼¡ï¼´ï¼´ï¼£ï¼«ï¼‹ï¼‘
     .align 4
 
 	.org 0xA6C ; goes to next offset
 	
     block069_str1:
-    .ascii "Ataque doble exitoso, Tentomon" ; ƒhƒbƒyƒ‹ƒQƒ“ƒK\Œ‚”j¬Œ÷Iƒeƒ“ƒgƒ‚ƒ“‚Ì‚g‚o‚Æ‚`‚s‚s‚b‚j{‚P
+    .ascii "Ataque doble exitoso, Tentomon" ; ãƒ‰ãƒƒãƒšãƒ«ã‚²ãƒ³ã‚¬â€•æ’ƒç ´æˆåŠŸï¼ãƒ†ãƒ³ãƒˆãƒ¢ãƒ³ã®ï¼¨ï¼°ã¨ï¼¡ï¼´ï¼´ï¼£ï¼«ï¼‹ï¼‘
     .align 4
 
 	.org 0xAA8 ; goes to next offset
 	
     block070_str1:
-    .ascii "Ataque doble exitoso, Gomamon" ; ƒhƒbƒyƒ‹ƒQƒ“ƒK\Œ‚”j¬Œ÷IƒSƒ}ƒ‚ƒ“‚Ì‚g‚o‚Æ‚`‚s‚s‚b‚j{‚P
+    .ascii "Ataque doble exitoso, Gomamon" ; ãƒ‰ãƒƒãƒšãƒ«ã‚²ãƒ³ã‚¬â€•æ’ƒç ´æˆåŠŸï¼ã‚´ãƒãƒ¢ãƒ³ã®ï¼¨ï¼°ã¨ï¼¡ï¼´ï¼´ï¼£ï¼«ï¼‹ï¼‘
     .align 4
 
 	.org 0xAE4 ; goes to next offset
 	
     block071_str1:
-    .ascii "Ataque doble exitoso, Palmon" ; ƒhƒbƒyƒ‹ƒQƒ“ƒK\Œ‚”j¬Œ÷Iƒpƒ‹ƒ‚ƒ“‚Ì‚g‚o‚Æ‚`‚s‚s‚b‚j{‚P  
+    .ascii "Ataque doble exitoso, Palmon" ; ãƒ‰ãƒƒãƒšãƒ«ã‚²ãƒ³ã‚¬â€•æ’ƒç ´æˆåŠŸï¼ãƒ‘ãƒ«ãƒ¢ãƒ³ã®ï¼¨ï¼°ã¨ï¼¡ï¼´ï¼´ï¼£ï¼«ï¼‹ï¼‘  
     .align 4
 
 	.org 0xB20 ; goes to next offset
 	
     block072_str1:
-    .ascii "Ataque doble exitoso, Patamon" ; ƒhƒbƒyƒ‹ƒQƒ“ƒK\Œ‚”j¬Œ÷Iƒpƒ^ƒ‚ƒ“‚Ì‚g‚o‚Æ‚`‚s‚s‚b‚j{‚P
+    .ascii "Ataque doble exitoso, Patamon" ; ãƒ‰ãƒƒãƒšãƒ«ã‚²ãƒ³ã‚¬â€•æ’ƒç ´æˆåŠŸï¼ãƒ‘ã‚¿ãƒ¢ãƒ³ã®ï¼¨ï¼°ã¨ï¼¡ï¼´ï¼´ï¼£ï¼«ï¼‹ï¼‘
     .align 4
 
 	.org 0xB5C ; goes to next offset
 	
     block073_str1:
-    .ascii "Ataque doble exitoso, Protmon" ; ƒhƒbƒyƒ‹ƒQƒ“ƒK\Œ‚”j¬Œ÷Iƒvƒƒbƒgƒ‚ƒ“‚Ì‚g‚o‚Æ‚`‚s‚s‚b‚j{‚P
+    .ascii "Ataque doble exitoso, Protmon" ; ãƒ‰ãƒƒãƒšãƒ«ã‚²ãƒ³ã‚¬â€•æ’ƒç ´æˆåŠŸï¼ãƒ—ãƒ­ãƒƒãƒˆãƒ¢ãƒ³ã®ï¼¨ï¼°ã¨ï¼¡ï¼´ï¼´ï¼£ï¼«ï¼‹ï¼‘
     .align 4
 
 	.org 0xB9C ; goes to next offset
 	
     block074_str1:
-    .ascii "Nivel Digi-Evo +1" ; i‰»’iŠK‚ªƒAƒbƒv‚µ‚½I   
+    .ascii "Nivel Digi-Evo +1" ; é€²åŒ–æ®µéšãŒã‚¢ãƒƒãƒ—ã—ãŸï¼   
     .align 4
 
 	.org 0xBB4 ; goes to next offset
 	
     block075_str1:
-    .ascii "Area Clear" ; ƒGƒŠƒAƒNƒŠƒAI
+    .ascii "Area Clear" ; ã‚¨ãƒªã‚¢ã‚¯ãƒªã‚¢ï¼
     .align 4
 
 	.org 0xBC4 ; goes to next offset
 	
     block076_str1:
-    .ascii "Game Clear" ; ƒQ[ƒ€ƒNƒŠƒAI
+    .ascii "Game Clear" ; ã‚²ãƒ¼ãƒ ã‚¯ãƒªã‚¢ï¼
     .align 4
 
 	.org 0xBD4 ; goes to next offset
 	
     block077_str1:
-    .ascii "Escapaste" ; “¦‘–¬Œ÷I
+    .ascii "Escapaste" ; é€ƒèµ°æˆåŠŸï¼
     .align 4
 
 	.org 0xBE0 ; goes to next offset
 	
     block078_str1:
-    .ascii "No Escapas" ; “¦‘–¸”sI
+    .ascii "No Escapas" ; é€ƒèµ°å¤±æ•—ï¼
     .align 4
 
 	.org 0xBEC ; goes to next offset
 	
     block079_str1:
-    .ascii "No se encuentra oponente" ; ‘Îí‘Šè‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½      
+    .ascii "No se encuentra oponente" ; å¯¾æˆ¦ç›¸æ‰‹ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸ      
     .align 4
 
 	.org 0xC0C ; goes to next offset
 	
     block080_str1:
-    .ascii "Pulsa ›" ; ›ƒ{ƒ^ƒ“‚ğ‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢
+    .ascii "Pulsa â—‹" ; â—‹ãƒœã‚¿ãƒ³ã‚’æŠ¼ã—ã¦ãã ã•ã„
     .align 4
 
 	.org 0xC28 ; goes to next offset
 	
     block081_str1:
-    .ascii "Koromon Digi-Evo Agumon" ; ƒRƒƒ‚ƒ“i‰»\\\IƒAƒOƒ‚ƒ“II
+    .ascii "Koromon Digi-Evo Agumon" ; ã‚³ãƒ­ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚¢ã‚°ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xC4C ; goes to next offset
 	
     block082_str1:
-    .ascii "Pyokomon Digi-Evo Piyomon" ; ƒsƒ‡ƒRƒ‚ƒ“i‰»\\\Iƒsƒˆƒ‚ƒ“II
+    .ascii "Pyokomon Digi-Evo Piyomon" ; ãƒ”ãƒ§ã‚³ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ”ãƒ¨ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xC70 ; goes to next offset
 	
     block083_str1:
-    .ascii "Tsunomon Digi-Evo Gabumon" ; ƒcƒmƒ‚ƒ“i‰»\\\IƒKƒuƒ‚ƒ“II
+    .ascii "Tsunomon Digi-Evo Gabumon" ; ãƒ„ãƒãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚¬ãƒ–ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xC94 ; goes to next offset
 	
     block084_str1:
-    .ascii "Motimon Digi-Evo Tentomon" ; ƒ‚ƒ`ƒ‚ƒ“i‰»\\\Iƒeƒ“ƒgƒ‚ƒ“II 
+    .ascii "Motimon Digi-Evo Tentomon" ; ãƒ¢ãƒãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ†ãƒ³ãƒˆãƒ¢ãƒ³ï¼ï¼ 
     .align 4
 
 	.org 0xCB8 ; goes to next offset
 	
     block085_str1:
-    .ascii "Pukamon Digi-Evo Gomamon" ; ƒvƒJƒ‚ƒ“i‰»\\\IƒSƒ}ƒ‚ƒ“II
+    .ascii "Pukamon Digi-Evo Gomamon" ; ãƒ—ã‚«ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚´ãƒãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xCDC ; goes to next offset
 	
     block086_str1:
-    .ascii "Tanemon Digi-Evo Palmon" ; ƒ^ƒlƒ‚ƒ“i‰»\\\Iƒpƒ‹ƒ‚ƒ“II
+    .ascii "Tanemon Digi-Evo Palmon" ; ã‚¿ãƒãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ‘ãƒ«ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xD00 ; goes to next offset
 	
     block087_str1:
-    .ascii "Tokomon Digi-Evo Patamon" ; ƒgƒRƒ‚ƒ“i‰»\\\Iƒpƒ^ƒ‚ƒ“II
+    .ascii "Tokomon Digi-Evo Patamon" ; ãƒˆã‚³ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ‘ã‚¿ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xD24 ; goes to next offset
 	
     block088_str1:
-    .ascii "Nyaromon Digi-Evo Protmon" ; ƒjƒƒƒƒ‚ƒ“i‰»\\\Iƒvƒƒbƒgƒ‚ƒ“II
+    .ascii "Nyaromon Digi-Evo Protmon" ; ãƒ‹ãƒ£ãƒ­ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ—ãƒ­ãƒƒãƒˆãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xD4C ; goes to next offset
 	
     block089_str1:
-    .ascii "Agumon Digi-Evo Greymon" ; ƒAƒOƒ‚ƒ“i‰»\\\IƒOƒŒƒCƒ‚ƒ“II 
+    .ascii "Agumon Digi-Evo Greymon" ; ã‚¢ã‚°ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³ï¼ï¼ 
     .align 4
 
 	.org 0xD70 ; goes to next offset
 	
     block090_str1:
-    .ascii "Greymon Digi-Evo MetalGreymon" ; ƒOƒŒƒCƒ‚ƒ“i‰»\\\Iƒƒ^ƒ‹ƒOƒŒƒCƒ‚ƒ“II
+    .ascii "Greymon Digi-Evo MetalGreymon" ; ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ¡ã‚¿ãƒ«ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xD9C ; goes to next offset
 	
     block091_str1:
-    .ascii "MetalGreymon Digi-Evo WarGreymon" ; ƒƒ^ƒ‹ƒOƒŒƒCƒ‚ƒ“i‰»\\\IƒEƒH[ƒOƒŒƒCƒ‚ƒ“II
+    .ascii "MetalGreymon Digi-Evo WarGreymon" ; ãƒ¡ã‚¿ãƒ«ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚¦ã‚©ãƒ¼ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xDD0 ; goes to next offset
 	
     block092_str1:
-    .ascii "WarGreymon & MetalGarurumon Digi-Evo Omegamon" ; ƒEƒH[ƒOƒŒƒCƒ‚ƒ“‚Æƒƒ^ƒ‹ƒKƒ‹ƒ‹ƒ‚ƒ“‡‘Ìi‰»\\\IƒIƒƒKƒ‚ƒ“II
+    .ascii "WarGreymon & MetalGarurumon Digi-Evo Omegamon" ; ã‚¦ã‚©ãƒ¼ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³ã¨ãƒ¡ã‚¿ãƒ«ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³åˆä½“é€²åŒ–â€•â€•â€•ï¼ã‚ªãƒ¡ã‚¬ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xE14 ; goes to next offset
 	
     block093_str1:
-    .ascii "Gabumon Digi-Evo Garurumon" ; ƒKƒuƒ‚ƒ“i‰»\\\IƒKƒ‹ƒ‹ƒ‚ƒ“II
+    .ascii "Gabumon Digi-Evo Garurumon" ; ã‚¬ãƒ–ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xE38 ; goes to next offset
 	
     block094_str1:
-    .ascii "Garurumon Digi-Evo " ; ƒKƒ‹ƒ‹ƒ‚ƒ“i‰»\\\Iƒ[ƒKƒ‹ƒ‹ƒ‚ƒ“II     
+    .ascii "Garurumon Digi-Evo " ; ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ¯ãƒ¼ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³ï¼ï¼     
     .align 4
 
 	.org 0xE64 ; goes to next offset
 	
     block095_str1:
-    .ascii "WereGarurumon Digi-Evo MetalGarurumon" ; ƒ[ƒKƒ‹ƒ‹ƒ‚ƒ“i‰»\\\Iƒƒ^ƒ‹ƒKƒ‹ƒ‹ƒ‚ƒ“II
+    .ascii "WereGarurumon Digi-Evo MetalGarurumon" ; ãƒ¯ãƒ¼ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ¡ã‚¿ãƒ«ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xE94 ; goes to next offset
 	
     block096_str1:
-    .ascii "MetalGarurumon & WarGreymon Digi-Evo Omegamon" ; ƒƒ^ƒ‹ƒKƒ‹ƒ‹ƒ‚ƒ“‚ÆƒEƒH[ƒOƒŒƒCƒ‚ƒ“‡‘Ìi‰»\\\IƒIƒƒKƒ‚ƒ“II
+    .ascii "MetalGarurumon & WarGreymon Digi-Evo Omegamon" ; ãƒ¡ã‚¿ãƒ«ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³ã¨ã‚¦ã‚©ãƒ¼ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³åˆä½“é€²åŒ–â€•â€•â€•ï¼ã‚ªãƒ¡ã‚¬ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xED8 ; goes to next offset
 	
     block097_str1:
-    .ascii "Piyomon Digi-Evo Birdramon" ; ƒsƒˆƒ‚ƒ“i‰»\\\Iƒo[ƒhƒ‰ƒ‚ƒ“II
+    .ascii "Piyomon Digi-Evo Birdramon" ; ãƒ”ãƒ¨ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒãƒ¼ãƒ‰ãƒ©ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xF00 ; goes to next offset
 	
     block098_str1:
-    .ascii "Birdramon Digi-Evo Garudamon" ; ƒo[ƒhƒ‰ƒ‚ƒ“i‰»\\\IƒKƒ‹ƒ_ƒ‚ƒ“II
+    .ascii "Birdramon Digi-Evo Garudamon" ; ãƒãƒ¼ãƒ‰ãƒ©ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚¬ãƒ«ãƒ€ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xF28 ; goes to next offset
 	
     block099_str1:
-    .ascii "Garudamon Digi-Evo Hououmon" ; ƒKƒ‹ƒ_ƒ‚ƒ“i‰»\\\IƒzƒEƒIƒEƒ‚ƒ“II  
+    .ascii "Garudamon Digi-Evo Hououmon" ; ã‚¬ãƒ«ãƒ€ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ›ã‚¦ã‚ªã‚¦ãƒ¢ãƒ³ï¼ï¼  
     .align 4
 
 	.org 0xF50 ; goes to next offset
 	
     block100_str1:
-    .ascii "Tentomon Digi-Evo Kabuterimon" ; ƒeƒ“ƒgƒ‚ƒ“i‰»\\\IƒJƒuƒeƒŠƒ‚ƒ“II
+    .ascii "Tentomon Digi-Evo Kabuterimon" ; ãƒ†ãƒ³ãƒˆãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚«ãƒ–ãƒ†ãƒªãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xF78 ; goes to next offset
 	
     block101_str1:
-    .ascii "Kabuterimon Digi-Evo AtlurKabuterimon" ; ƒJƒuƒeƒŠƒ‚ƒ“i‰»\\\IƒAƒgƒ‰[ƒJƒuƒeƒŠƒ‚ƒ“II
+    .ascii "Kabuterimon Digi-Evo AtlurKabuterimon" ; ã‚«ãƒ–ãƒ†ãƒªãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚¢ãƒˆãƒ©ãƒ¼ã‚«ãƒ–ãƒ†ãƒªãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xFAC ; goes to next offset
 	
     block102_str1:
-    .ascii "AtlurKabuterimon Digi-Evo HeraclesKabuterimon" ; ƒAƒgƒ‰[ƒJƒuƒeƒŠƒ‚ƒ“i‰»\\\Iƒwƒ‰ƒNƒ‹ƒJƒuƒeƒŠƒ‚ƒ“II
+    .ascii "AtlurKabuterimon Digi-Evo HeraclesKabuterimon" ; ã‚¢ãƒˆãƒ©ãƒ¼ã‚«ãƒ–ãƒ†ãƒªãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ˜ãƒ©ã‚¯ãƒ«ã‚«ãƒ–ãƒ†ãƒªãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0xFE8 ; goes to next offset
 	
     block103_str1:
-    .ascii "Gomamon Digi-Evo Ikkakumon" ; ƒSƒ}ƒ‚ƒ“i‰»\\\IƒCƒbƒJƒNƒ‚ƒ“II
+    .ascii "Gomamon Digi-Evo Ikkakumon" ; ã‚´ãƒãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚¤ãƒƒã‚«ã‚¯ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x1010 ; goes to next offset
 	
     block104_str1:
-    .ascii "Ikkakumon Digi-Evo Zudomon" ; ƒCƒbƒJƒNƒ‚ƒ“i‰»\\\IƒYƒhƒ‚ƒ“II
+    .ascii "Ikkakumon Digi-Evo Zudomon" ; ã‚¤ãƒƒã‚«ã‚¯ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚ºãƒ‰ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x1038 ; goes to next offset
 	
     block105_str1:
-    .ascii "Zudomon Digi-Evo Vikemon" ; ƒYƒhƒ‚ƒ“i‰»\\\Iƒ”ƒ@ƒCƒNƒ‚ƒ“II
+    .ascii "Zudomon Digi-Evo Vikemon" ; ã‚ºãƒ‰ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ´ã‚¡ã‚¤ã‚¯ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x1060 ; goes to next offset
 	
     block106_str1:
-    .ascii "Palmon Digi-Evo Togemon" ; ƒpƒ‹ƒ‚ƒ“i‰»\\\IƒgƒQƒ‚ƒ“II
+    .ascii "Palmon Digi-Evo Togemon" ; ãƒ‘ãƒ«ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒˆã‚²ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x1084 ; goes to next offset
 	
     block107_str1:
-    .ascii "Togemon Digi-Evo Lilimon" ; ƒgƒQƒ‚ƒ“i‰»\\\IƒŠƒŠƒ‚ƒ“II
+    .ascii "Togemon Digi-Evo Lilimon" ; ãƒˆã‚²ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒªãƒªãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x10A8 ; goes to next offset
 	
     block108_str1:
-    .ascii "Lilimon Digi-Evo Rosemon" ; ƒŠƒŠƒ‚ƒ“i‰»\\\Iƒƒ[ƒ‚ƒ“II
+    .ascii "Lilimon Digi-Evo Rosemon" ; ãƒªãƒªãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ­ã‚¼ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x10CC ; goes to next offset
 	
     block109_str1:
-    .ascii "Patamon Digi-Evo Angemon" ; ƒpƒ^ƒ‚ƒ“i‰»\\\IƒGƒ“ƒWƒFƒ‚ƒ“II
+    .ascii "Patamon Digi-Evo Angemon" ; ãƒ‘ã‚¿ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚¨ãƒ³ã‚¸ã‚§ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x10F4 ; goes to next offset
 	
     block110_str1:
-    .ascii "Angemon Digi-Evo HolyAngemon" ; ƒGƒ“ƒWƒFƒ‚ƒ“i‰»\\\Iƒz[ƒŠ[ƒGƒ“ƒWƒFƒ‚ƒ“II
+    .ascii "Angemon Digi-Evo HolyAngemon" ; ã‚¨ãƒ³ã‚¸ã‚§ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ›ãƒ¼ãƒªãƒ¼ã‚¨ãƒ³ã‚¸ã‚§ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x1128 ; goes to next offset
 	
     block111_str1:
-    .ascii "HolyAngemon Digi-Evo Seraphimon" ; ƒz[ƒŠ[ƒGƒ“ƒWƒFƒ‚ƒ“i‰»\\\IƒZƒ‰ƒtƒBƒ‚ƒ“II
+    .ascii "HolyAngemon Digi-Evo Seraphimon" ; ãƒ›ãƒ¼ãƒªãƒ¼ã‚¨ãƒ³ã‚¸ã‚§ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚»ãƒ©ãƒ•ã‚£ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x115C ; goes to next offset
 	
     block112_str1:
-    .ascii "Plotmon Digi-Evo Tailmon" ; ƒvƒƒbƒgƒ‚ƒ“i‰»\\\IƒeƒCƒ‹ƒ‚ƒ“II    
+    .ascii "Plotmon Digi-Evo Tailmon" ; ãƒ—ãƒ­ãƒƒãƒˆãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ãƒ†ã‚¤ãƒ«ãƒ¢ãƒ³ï¼ï¼    
     .align 4
 
 	.org 0x1184 ; goes to next offset
 	
     block113_str1:
-    .ascii "Tailmon Digi-Evo Angewomon" ; ƒeƒCƒ‹ƒ‚ƒ“i‰»\\\IƒGƒ“ƒWƒFƒE[ƒ‚ƒ“II
+    .ascii "Tailmon Digi-Evo Angewomon" ; ãƒ†ã‚¤ãƒ«ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚¨ãƒ³ã‚¸ã‚§ã‚¦ãƒ¼ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x11B0 ; goes to next offset
 	
     block114_str1:
-    .ascii "Angewomon Digi-Evo Ophanimon" ; ƒGƒ“ƒWƒFƒE[ƒ‚ƒ“i‰»\\\IƒIƒtƒ@ƒjƒ‚ƒ“II
+    .ascii "Angewomon Digi-Evo Ophanimon" ; ã‚¨ãƒ³ã‚¸ã‚§ã‚¦ãƒ¼ãƒ¢ãƒ³é€²åŒ–â€•â€•â€•ï¼ã‚ªãƒ•ã‚¡ãƒ‹ãƒ¢ãƒ³ï¼ï¼
     .align 4
 
 	.org 0x11E0 ; goes to next offset	
 
     block115_str1:
-    .ascii "De 9PM a 8AM no se puede buscar, solo recuperar DP" ; ‚o‚l‚XF‚O‚O`‚`‚l‚WF‚O‚O‚ÌŠÔ‚Í’Tõ‚Å‚«‚¸‚c‚o‚Ì‰ñ•œ‚Ì‚İ‰Â”\‚Å‚·
+    .ascii "De 9PM a 8AM no se puede buscar, solo recuperar DP" ; ï¼°ï¼­ï¼™ï¼šï¼ï¼ï½ï¼¡ï¼­ï¼˜ï¼šï¼ï¼ã®é–“ã¯æ¢ç´¢ã§ããšï¼¤ï¼°ã®å›å¾©ã®ã¿å¯èƒ½ã§ã™
     .align 4
 
 	.org 0x1224 ; goes to next offset	
 
     block116_str1:
-    .ascii "Elige el digimon a sacar" ; Ø‚è‘Ö‚¦‚é’‡ŠÔƒfƒWƒ‚ƒ“‚ğ‘I‚ñ‚Å‚­‚¾‚³‚¢
+    .ascii "Elige el digimon a sacar" ; åˆ‡ã‚Šæ›¿ãˆã‚‹ä»²é–“ãƒ‡ã‚¸ãƒ¢ãƒ³ã‚’é¸ã‚“ã§ãã ã•ã„
     .align 4
 
 	; In a different text block, SAVE dialogue
@@ -707,36 +707,36 @@
 	.org 0x1388 ; goes to next offset
 	
     block117_str1:
-    .ascii "Datos nuevos" ; V‹Kì¬ƒf[ƒ^
+    .ascii "Datos nuevos" ; æ–°è¦ä½œæˆãƒ‡ãƒ¼ã‚¿
     .align 4
 
 	.org 0x1398 ; goes to next offset
 
     block118_str1:
-    .ascii "?Continuar con datos nuevos?" ; V‹K‚Éì¬‚µ‚Ü‚·B‚æ‚ë‚µ‚¢‚Å‚·‚©H    
+    .ascii "?Continuar con datos nuevos?" ; æ–°è¦ã«ä½œæˆã—ã¾ã™ã€‚ã‚ˆã‚ã—ã„ã§ã™ã‹ï¼Ÿ    
 
 	.org 0x13BC ; goes to next offset
 	
     block119_str1:
-    .ascii "?Sobrescribir los anteriores?" ; ƒf[ƒ^‚ğã‘‚«‚µ‚Ü‚·B‚æ‚ë‚µ‚¢‚Å‚·‚©H
+    .ascii "?Sobrescribir los anteriores?" ; ãƒ‡ãƒ¼ã‚¿ã‚’ä¸Šæ›¸ãã—ã¾ã™ã€‚ã‚ˆã‚ã—ã„ã§ã™ã‹ï¼Ÿ
     .align 4
 
 	.org 0x13EC ; goes to next offset
 	
     block120_str1:
-    .ascii "No hay suficiente espacio en memoria, se necesitan %s mas" ; ‹ó‚«—e—Ê‚ª•s‘«‚µ‚Ä‚¢‚Ü‚·BƒZ[ƒu‚·‚é‚É‚Í‹ó‚«—e—Ê‚ª‚ ‚Æ %sˆÈã•K—v‚Å‚·B
+    .ascii "No hay suficiente espacio en memoria, se necesitan %s mas" ; ç©ºãå®¹é‡ãŒä¸è¶³ã—ã¦ã„ã¾ã™ã€‚ã‚»ãƒ¼ãƒ–ã™ã‚‹ã«ã¯ç©ºãå®¹é‡ãŒã‚ã¨ %sä»¥ä¸Šå¿…è¦ã§ã™ã€‚
     .align 4
 
 	.org 0x1438 ; goes to next offset
 	
     block121_str1:
-    .ascii "Guardado completado" ; ƒZ[ƒu‚ªŠ®—¹‚µ‚Ü‚µ‚½B
+    .ascii "Guardado completado" ; ã‚»ãƒ¼ãƒ–ãŒå®Œäº†ã—ã¾ã—ãŸã€‚
     .align 4
 
 	.org 0x1450 ; goes to next offset
 	
     block122_str1:
-    .ascii "Proceso interrumpido" ; ˆ—‚ª’†’f‚³‚ê‚Ü‚µ‚½B
+    .ascii "Proceso interrumpido" ; å‡¦ç†ãŒä¸­æ–­ã•ã‚Œã¾ã—ãŸã€‚
     .align 4
 
 	; In a different text block
@@ -768,367 +768,367 @@
 	.org 0x15B0 ; goes to next offset
 	
     block127_str1:
-    .ascii "Agumon" ; ƒAƒOƒ‚ƒ“
+    .ascii "Agumon" ; ã‚¢ã‚°ãƒ¢ãƒ³
     .align 4
 
 	.org 0x15BC ; goes to next offset
 	
     block128_str1:
-    .ascii "Piyomon" ; ƒsƒˆƒ‚ƒ“  
+    .ascii "Piyomon" ; ãƒ”ãƒ¨ãƒ¢ãƒ³  
     .align 4
 
 	.org 0x15C8 ; goes to next offset
 	
     block129_str1:
-    .ascii "Gabumon" ; ƒKƒuƒ‚ƒ“
+    .ascii "Gabumon" ; ã‚¬ãƒ–ãƒ¢ãƒ³
     .align 4
 
 	.org 0x15D4 ; goes to next offset
 	
     block130_str1:
-    .ascii "Tentomon" ; ƒeƒ“ƒgƒ‚ƒ“
+    .ascii "Tentomon" ; ãƒ†ãƒ³ãƒˆãƒ¢ãƒ³
     .align 4
 
 	.org 0x15E0 ; goes to next offset
 	
     block131_str1:
-    .ascii "Gomamon" ; ƒSƒ}ƒ‚ƒ“
+    .ascii "Gomamon" ; ã‚´ãƒãƒ¢ãƒ³
     .align 4
 
 	.org 0x15EC ; goes to next offset
 	
     block132_str1:
-    .ascii "Palmon" ; ƒpƒ‹ƒ‚ƒ“
+    .ascii "Palmon" ; ãƒ‘ãƒ«ãƒ¢ãƒ³
     .align 4
 
 	.org 0x15F8 ; goes to next offset
 	
     block133_str1:
-    .ascii "Patamon" ; ƒpƒ^ƒ‚ƒ“
+    .ascii "Patamon" ; ãƒ‘ã‚¿ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1604 ; goes to next offset
 	
     block134_str1:
-    .ascii "Plotmon" ; ƒvƒƒbƒgƒ‚ƒ“
+    .ascii "Plotmon" ; ãƒ—ãƒ­ãƒƒãƒˆãƒ¢ãƒ³
     .align 4
 
 	.org 0x1614 ; goes to next offset
 	
     block135_str1:
-    .ascii "Greymon" ; ƒOƒŒƒCƒ‚ƒ“
+    .ascii "Greymon" ; ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1620 ; goes to next offset
 	
     block136_str1:
-    .ascii "Garurumon" ; ƒKƒ‹ƒ‹ƒ‚ƒ“
+    .ascii "Garurumon" ; ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³
     .align 4
 
 	.org 0x162C ; goes to next offset
 	
     block137_str1:
-    .ascii "Birdramon" ; ƒo[ƒhƒ‰ƒ‚ƒ“
+    .ascii "Birdramon" ; ãƒãƒ¼ãƒ‰ãƒ©ãƒ¢ãƒ³
     .align 4
 
 	.org 0x163C ; goes to next offset
 	
     block138_str1:
-    .ascii "Togemon" ; ƒgƒQƒ‚ƒ“
+    .ascii "Togemon" ; ãƒˆã‚²ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1648 ; goes to next offset
 	
     block139_str1:
-    .ascii "Kabuterimon" ; ƒJƒuƒeƒŠƒ‚ƒ“
+    .ascii "Kabuterimon" ; ã‚«ãƒ–ãƒ†ãƒªãƒ¢ãƒ³
     .align 4
 
 	.org 0x1658 ; goes to next offset
 	
     block140_str1:
-    .ascii "Ikkakumon" ; ƒCƒbƒJƒNƒ‚ƒ“
+    .ascii "Ikkakumon" ; ã‚¤ãƒƒã‚«ã‚¯ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1668 ; goes to next offset
 	
     block141_str1:
-    .ascii "Angemon" ; ƒGƒ“ƒWƒFƒ‚ƒ“
+    .ascii "Angemon" ; ã‚¨ãƒ³ã‚¸ã‚§ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1678 ; goes to next offset
 	
     block142_str1:
-    .ascii "Tailmon" ; ƒeƒCƒ‹ƒ‚ƒ“
+    .ascii "Tailmon" ; ãƒ†ã‚¤ãƒ«ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1684 ; goes to next offset
 	
     block143_str1:
-    .ascii "MetalGreymon" ; ƒƒ^ƒ‹ƒOƒŒƒCƒ‚ƒ“
+    .ascii "MetalGreymon" ; ãƒ¡ã‚¿ãƒ«ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1698 ; goes to next offset
 	
     block144_str1:
-    .ascii "WereGarurumon" ; ƒ[ƒKƒ‹ƒ‹ƒ‚ƒ“
+    .ascii "WereGarurumon" ; ãƒ¯ãƒ¼ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³
     .align 4
 
 	.org 0x16A8 ; goes to next offset
 	
     block145_str1:
-    .ascii "Parrotmon" ; ƒpƒƒbƒgƒ‚ƒ“
+    .ascii "Parrotmon" ; ãƒ‘ãƒ­ãƒƒãƒˆãƒ¢ãƒ³
     .align 4
 
 	.org 0x16B8 ; goes to next offset
 	
     block146_str1:
-    .ascii "Hada floral" ; ‰Ô‚Ì—d¸
+    .ascii "Hada floral" ; èŠ±ã®å¦–ç²¾
     .align 4
 
 	.org 0x16C4 ; goes to next offset
 	
     block147_str1:
-    .ascii "AtlurKabuterimon" ; ƒAƒgƒ‰[ƒJƒuƒeƒŠƒ‚ƒ“
+    .ascii "AtlurKabuterimon" ; ã‚¢ãƒˆãƒ©ãƒ¼ã‚«ãƒ–ãƒ†ãƒªãƒ¢ãƒ³
     .align 4
 
 	.org 0x16DC ; goes to next offset
 	
     block148_str1:
-    .ascii "Zudomon" ; ƒYƒhƒ‚ƒ“
+    .ascii "Zudomon" ; ã‚ºãƒ‰ãƒ¢ãƒ³
     .align 4
 
 	.org 0x16E8 ; goes to next offset
 	
     block149_str1:
-    .ascii "HolyAngemon" ; ƒz[ƒŠ[ƒGƒ“ƒWƒFƒ‚ƒ“
+    .ascii "HolyAngemon" ; ãƒ›ãƒ¼ãƒªãƒ¼ã‚¨ãƒ³ã‚¸ã‚§ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1700 ; goes to next offset
 	
     block150_str1:
-    .ascii "Angewomon" ; ƒGƒ“ƒWƒFƒE[ƒ‚ƒ“
+    .ascii "Angewomon" ; ã‚¨ãƒ³ã‚¸ã‚§ã‚¦ãƒ¼ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1714 ; goes to next offset
 	
     block151_str1:
-    .ascii "WarGreymon" ; ƒEƒH[ƒOƒŒƒCƒ‚ƒ“
+    .ascii "WarGreymon" ; ã‚¦ã‚©ãƒ¼ã‚°ãƒ¬ã‚¤ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1728 ; goes to next offset
 	
     block152_str1:
-    .ascii "MetalGarurumon" ; ƒƒ^ƒ‹ƒKƒ‹ƒ‹ƒ‚ƒ“
+    .ascii "MetalGarurumon" ; ãƒ¡ã‚¿ãƒ«ã‚¬ãƒ«ãƒ«ãƒ¢ãƒ³
     .align 4
 
 	.org 0x173C ; goes to next offset
 	
     block153_str1:
-    .ascii "Hououmon" ; ƒzƒEƒIƒEƒ‚ƒ“
+    .ascii "Hououmon" ; ãƒ›ã‚¦ã‚ªã‚¦ãƒ¢ãƒ³
     .align 4
 
 	.org 0x174C ; goes to next offset
 	
     block154_str1:
-    .ascii "Rosemon" ; ƒƒ[ƒ‚ƒ“
+    .ascii "Rosemon" ; ãƒ­ã‚¼ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1758 ; goes to next offset
 	
     block155_str1:
-    .ascii "HeraclesKabuterimon" ; ƒwƒ‰ƒNƒ‹ƒJƒuƒeƒŠƒ‚ƒ“
+    .ascii "HeraclesKabuterimon" ; ãƒ˜ãƒ©ã‚¯ãƒ«ã‚«ãƒ–ãƒ†ãƒªãƒ¢ãƒ³
     .align 4
 
 	.org 0x1770 ; goes to next offset
 	
     block156_str1:
-    .ascii "Vikemon" ; ƒ”ƒ@ƒCƒNƒ‚ƒ“
+    .ascii "Vikemon" ; ãƒ´ã‚¡ã‚¤ã‚¯ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1780 ; goes to next offset
 	
     block157_str1:
-    .ascii "Seraphimon" ; ƒZƒ‰ƒtƒBƒ‚ƒ“
+    .ascii "Seraphimon" ; ã‚»ãƒ©ãƒ•ã‚£ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1790 ; goes to next offset
 	
     block158_str1:
-    .ascii "Ophanimon" ; ƒIƒtƒ@ƒjƒ‚ƒ“
+    .ascii "Ophanimon" ; ã‚ªãƒ•ã‚¡ãƒ‹ãƒ¢ãƒ³
     .align 4
 
 	.org 0x17A0 ; goes to next offset
 	
     block159_str1:
-    .ascii "Omegamon(Agumon)" ; ƒIƒƒKƒ‚ƒ“iƒAƒOƒ‚ƒ“j
+    .ascii "Omegamon(Agumon)" ; ã‚ªãƒ¡ã‚¬ãƒ¢ãƒ³ï¼ˆã‚¢ã‚°ãƒ¢ãƒ³ï¼‰
     .align 4
 
 	.org 0x17B8 ; goes to next offset
 	
     block160_str1:
-    .ascii "Omegamon(Gabumon)" ; ƒIƒƒKƒ‚ƒ“(ƒKƒuƒ‚ƒ“j
+    .ascii "Omegamon(Gabumon)" ; ã‚ªãƒ¡ã‚¬ãƒ¢ãƒ³(ã‚¬ãƒ–ãƒ¢ãƒ³ï¼‰
     .align 4
 
 	.org 0x17D0 ; goes to next offset
 	
     block161_str1:
-    .ascii "Veedramon" ; ƒuƒCƒhƒ‰ƒ‚ƒ“
+    .ascii "Veedramon" ; ãƒ–ã‚¤ãƒ‰ãƒ©ãƒ¢ãƒ³
     .align 4
 
 	.org 0x17E0 ; goes to next offset
 	
     block162_str1:
-    .ascii "Kuwagamon" ; ƒNƒƒK[ƒ‚ƒ“   
+    .ascii "Kuwagamon" ; ã‚¯ãƒ¯ã‚¬ãƒ¼ãƒ¢ãƒ³   
     .align 4
 
 	.org 0x17F0 ; goes to next offset
 	
     block163_str1:
-    .ascii "Devimon" ; ƒfƒrƒ‚ƒ“
+    .ascii "Devimon" ; ãƒ‡ãƒ“ãƒ¢ãƒ³
     .align 4
 
 	.org 0x17FC ; goes to next offset
 	
     block164_str1:
-    .ascii "Etemon" ; ƒGƒeƒ‚ƒ“
+    .ascii "Etemon" ; ã‚¨ãƒ†ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1808 ; goes to next offset
 	
     block165_str1:
-    .ascii "MetalTyranomon" ; ƒƒ^ƒ‹ƒeƒBƒ‰ƒmƒ‚ƒ“
+    .ascii "MetalTyranomon" ; ãƒ¡ã‚¿ãƒ«ãƒ†ã‚£ãƒ©ãƒãƒ¢ãƒ³
     .align 4
 
 	.org 0x181C ; goes to next offset
 	
     block166_str1:
-    .ascii "MetalSeadramon" ; ƒƒ^ƒ‹ƒV[ƒhƒ‰ƒ‚ƒ“
+    .ascii "MetalSeadramon" ; ãƒ¡ã‚¿ãƒ«ã‚·ãƒ¼ãƒ‰ãƒ©ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1830 ; goes to next offset
 	
     block167_str1:
-    .ascii "Megadramon" ; ƒƒKƒhƒ‰ƒ‚ƒ“
+    .ascii "Megadramon" ; ãƒ¡ã‚¬ãƒ‰ãƒ©ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1840 ; goes to next offset
 	
     block168_str1:
-    .ascii "Mugendramon" ; ƒ€ƒQƒ“ƒhƒ‰ƒ‚ƒ“
+    .ascii "Mugendramon" ; ãƒ ã‚²ãƒ³ãƒ‰ãƒ©ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1850 ; goes to next offset
 	
     block169_str1:
-    .ascii "Apocalymon" ; ƒAƒ|ƒJƒŠƒ‚ƒ“
+    .ascii "Apocalymon" ; ã‚¢ãƒã‚«ãƒªãƒ¢ãƒ³
     .align 4
 
 	.org 0x1860 ; goes to next offset
 	
     block170_str1:
-    .ascii "Kunemon" ; ƒNƒlƒ‚ƒ“
+    .ascii "Kunemon" ; ã‚¯ãƒãƒ¢ãƒ³
     .align 4
 
 	.org 0x186C ; goes to next offset
 	
     block171_str1:
-    .ascii "Gizamon" ; ƒMƒUƒ‚ƒ“
+    .ascii "Gizamon" ; ã‚®ã‚¶ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1878 ; goes to next offset
 	
     block172_str1:
-    .ascii "Gazimon" ; ƒKƒWƒ‚ƒ“
+    .ascii "Gazimon" ; ã‚¬ã‚¸ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1884 ; goes to next offset
 	
     block173_str1:
-    .ascii "Bakemon" ; ƒoƒPƒ‚ƒ“
+    .ascii "Bakemon" ; ãƒã‚±ãƒ¢ãƒ³
     .align 4
 
 	.org 0x1890 ; goes to next offset
 	
     block174_str1:
-    .ascii "Ogremon" ; ƒI[ƒKƒ‚ƒ“ 
+    .ascii "Ogremon" ; ã‚ªãƒ¼ã‚¬ãƒ¢ãƒ³ 
     .align 4
 
 	.org 0x189C ; goes to next offset
 	
     block175_str1:
-    .ascii "Sukamon" ; ƒXƒJƒ‚ƒ“
+    .ascii "Sukamon" ; ã‚¹ã‚«ãƒ¢ãƒ³
     .align 4
 
 	.org 0x18A8 ; goes to next offset
 	
     block176_str1:
-    .ascii "Shellmon" ; ƒVƒFƒ‹ƒ‚ƒ“
+    .ascii "Shellmon" ; ã‚·ã‚§ãƒ«ãƒ¢ãƒ³
     .align 4
 
 	.org 0x18B4 ; goes to next offset
 	
     block177_str1:
-    .ascii "DarkTyranomon" ; ƒ_[ƒNƒeƒBƒ‰ƒmƒ‚ƒ“
+    .ascii "DarkTyranomon" ; ãƒ€ãƒ¼ã‚¯ãƒ†ã‚£ãƒ©ãƒãƒ¢ãƒ³
     .align 4
 
 	.org 0x18C8 ; goes to next offset
 	
     block178_str1:
-    .ascii "Gekomon" ; ƒQƒRƒ‚ƒ“
+    .ascii "Gekomon" ; ã‚²ã‚³ãƒ¢ãƒ³
     .align 4
 
 	.org 0x18D4 ; goes to next offset
 	
     block179_str1:
-    .ascii "Airdramon" ; ƒGƒAƒhƒ‰ƒ‚ƒ“
+    .ascii "Airdramon" ; ã‚¨ã‚¢ãƒ‰ãƒ©ãƒ¢ãƒ³
     .align 4
 
 	.org 0x18E4 ; goes to next offset
 	
     block180_str1:
-    .ascii "Agumon (Tag)" ; ƒAƒOƒ‚ƒ“iƒhƒbƒyƒ‹j
+    .ascii "Agumon (Tag)" ; ã‚¢ã‚°ãƒ¢ãƒ³ï¼ˆãƒ‰ãƒƒãƒšãƒ«ï¼‰
     .align 4
 
 	.org 0x18FC ; goes to next offset
 	
     block181_str1:
-    .ascii "Piyomon (Tag)" ; ƒsƒˆƒ‚ƒ“iƒhƒbƒyƒ‹j
+    .ascii "Piyomon (Tag)" ; ãƒ”ãƒ¨ãƒ¢ãƒ³ï¼ˆãƒ‰ãƒƒãƒšãƒ«ï¼‰
     .align 4
 
 	.org 0x1914 ; goes to next offset
 	
     block182_str1:
-    .ascii "Gabumon (Tag)" ; ƒKƒuƒ‚ƒ“iƒhƒbƒyƒ‹j
+    .ascii "Gabumon (Tag)" ; ã‚¬ãƒ–ãƒ¢ãƒ³ï¼ˆãƒ‰ãƒƒãƒšãƒ«ï¼‰
     .align 4
 
 	.org 0x192C ; goes to next offset
 	
     block183_str1:
-    .ascii "Tentomon (Tag)" ; ƒeƒ“ƒgƒ‚ƒ“iƒhƒbƒyƒ‹j
+    .ascii "Tentomon (Tag)" ; ãƒ†ãƒ³ãƒˆãƒ¢ãƒ³ï¼ˆãƒ‰ãƒƒãƒšãƒ«ï¼‰
     .align 4
 
 	.org 0x1944 ; goes to next offset
 	
     block184_str1:
-    .ascii "Gomamon (Tag)" ; ƒSƒ}ƒ‚ƒ“iƒhƒbƒyƒ‹j
+    .ascii "Gomamon (Tag)" ; ã‚´ãƒãƒ¢ãƒ³ï¼ˆãƒ‰ãƒƒãƒšãƒ«ï¼‰
     .align 4
 
 	.org 0x195C ; goes to next offset
 	
     block185_str1:
-    .ascii "Palmon (Tag)" ; ƒpƒ‹ƒ‚ƒ“iƒhƒbƒyƒ‹j
+    .ascii "Palmon (Tag)" ; ãƒ‘ãƒ«ãƒ¢ãƒ³ï¼ˆãƒ‰ãƒƒãƒšãƒ«ï¼‰
     .align 4
 
 	.org 0x1974 ; goes to next offset
 	
     block186_str1:
-    .ascii "Patamon (Tag)" ; ƒpƒ^ƒ‚ƒ“iƒhƒbƒyƒ‹j
+    .ascii "Patamon (Tag)" ; ãƒ‘ã‚¿ãƒ¢ãƒ³ï¼ˆãƒ‰ãƒƒãƒšãƒ«ï¼‰
     .align 4
 
 	.org 0x198C ; goes to next offset
 	
     block187_str1:
-    .ascii "Plotmon (Tag)" ; ƒvƒƒbƒgƒ‚ƒ“iƒhƒbƒyƒ‹j
+    .ascii "Plotmon (Tag)" ; ãƒ—ãƒ­ãƒƒãƒˆãƒ¢ãƒ³ï¼ˆãƒ‰ãƒƒãƒšãƒ«ï¼‰
     .align 4
 
 	; In a different text block, more Commands
@@ -1136,55 +1136,55 @@
 	.org 0x1D9C ; goes to next offset
 	
     block188_str1:
-    .ascii "Wait" ; ‘Ò‹@
+    .ascii "Wait" ; å¾…æ©Ÿ
     .align 4
 
 	.org 0x1DA4 ; goes to next offset
 	
     block189_str1:
-    .ascii "Stop" ; ’â~
+    .ascii "Stop" ; åœæ­¢
     .align 4
 
 	.org 0x1DAC ; goes to next offset
 	
     block190_str1:
-    .ascii "Walk" ; •à‚«
+    .ascii "Walk" ; æ­©ã
     .align 4
 
 	.org 0x1DB4 ; goes to next offset
 	
     block191_str1:
-    .ascii "Joy" ; Šì‚Ñ
+    .ascii "Joy" ; å–œã³
     .align 4
 
 	.org 0x1DBC ; goes to next offset
 	
     block192_str1:
-    .ascii "Attack" ; UŒ‚
+    .ascii "Attack" ; æ”»æ’ƒ
     .align 4
 	
 	.org 0x1DC4 ; goes to next offset
 	
     block193_str1:
-    .ascii "Damage" ; ƒ_ƒ[ƒW
+    .ascii "Damage" ; ãƒ€ãƒ¡ãƒ¼ã‚¸
     .align 4	
 	
 	.org 0x1DD0 ; goes to next offset
 	
     block194_str1:
-    .ascii "Derrotas" ; ƒoƒgƒ‹”s‘Ş
+    .ascii "Derrotas" ; ãƒãƒˆãƒ«æ•—é€€
     .align 4	
 
 	.org 0x1DDC ; goes to next offset
 	
     block195_str1:
-    .ascii "heridas" ; ‰ö‰ä
+    .ascii "heridas" ; æ€ªæˆ‘
     .align 4
 	
 	.org 0x1DE4 ; goes to next offset
 	
     block196_str1:
-    .ascii "Evo" ; i‰»
+    .ascii "Evo" ; é€²åŒ–
     .align 4	
 
 	.org 0x1DEC ; goes to next offset
@@ -1196,49 +1196,49 @@
 	.org 0x1DF4 ; goes to next offset
 	
     block198_str1:
-    .ascii "Link-Battle" ; ’ÊMUŒ‚
+    .ascii "Link-Battle" ; é€šä¿¡æ”»æ’ƒ
     .align 4
 	
 	.org 0x1E00 ; goes to next offset
 	
     block199_str1:
-    .ascii "Link-Wins" ; ’ÊMŸ—˜
+    .ascii "Link-Wins" ; é€šä¿¡å‹åˆ©
     .align 4	
 
 	.org 0x1E0C ; goes to next offset
 	
     block200_str1:
-    .ascii "Wait4opponent" ; “Gƒoƒgƒ‹‘Ò‹@
+    .ascii "Wait4opponent" ; æ•µãƒãƒˆãƒ«å¾…æ©Ÿ
     .align 4	
 
 	.org 0x1E1C ; goes to next offset
 	
     block201_str1:
-    .ascii "Digi-Evo (egg>baby)" ; i‰»i—c”NŠú¨¬’·Šúj
+    .ascii "Digi-Evo (egg>baby)" ; é€²åŒ–ï¼ˆå¹¼å¹´æœŸâ†’æˆé•·æœŸï¼‰
     .align 4	
 
 	.org 0x1E34 ; goes to next offset
 	
     block202_str1:
-    .ascii "Retro (Evo>baby)" ; ‘Ş‰»ii‰»¨¬’·Šúj
+    .ascii "Retro (Evo>baby)" ; é€€åŒ–ï¼ˆé€²åŒ–â†’æˆé•·æœŸï¼‰
     .align 4
 
 	.org 0x1E4C ; goes to next offset
 	
     block203_str1:
-    .ascii "Dormir" ; ‡–°
+    .ascii "Dormir" ; ç¡çœ 
     .align 4
 
 	.org 0x1E54 ; goes to next offset
 	
     block204_str1:
-    .ascii "Comer carne" ; “÷‚½‚×‚é
+    .ascii "Comer carne" ; è‚‰ãŸã¹ã‚‹
     .align 4
 
 	.org 0x1E60 ; goes to next offset
 	
     block205_str1:
-    .ascii "Extra" ; ‚¨‚Ü‚¯
+    .ascii "Extra" ; ãŠã¾ã‘
     .align 4	
 
 .close
