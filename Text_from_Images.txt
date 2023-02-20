@@ -12,10 +12,10 @@ TEXT FROM GRAPHICS
 チリョウ Botiquín
 ツウシン Conectar/link > Versus (The others are too long or sound very odd)
 バトルスタート Iniciando batalla/Start batlle
-ニク Carne
-プロテイン Proteína
+ニク Carne  ; 肉を手に入れた！DP＋２
+プロテイン Proteína  ; プロテインを手に入れた！HP＋１
 PW-B   Píldora DP+
-P-ドラッグ Píldora HP+
+P-ドラッグ GanaSeguro ; Ｐ－ドラッグを手に入れた！次のバトルで敵を確実に倒せます
 エリアクリアー　Area completada o Area terminada/Cleared
 エリアクリア A completar
 ノウホスウ ( 総歩数 = Total steps)　Total andado / Podómetro
