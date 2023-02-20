@@ -15,7 +15,7 @@ TEXT FROM GRAPHICS
 ニク Carne  ; 肉を手に入れた！DP＋２
 プロテイン Proteína  ; プロテインを手に入れた！HP＋１
 PW-B   Píldora DP+
-P-ドラッグ GanaSeguro ; Ｐ－ドラッグを手に入れた！次のバトルで敵を確実に倒せます
+P-ドラッグ Victoria segura ; Ｐ－ドラッグを手に入れた！次のバトルで敵を確実に倒せます
 エリアクリアー　Area completada o Area terminada/Cleared
 エリアクリア A completar
 ノウホスウ ( 総歩数 = Total steps)　Total andado / Podómetro
