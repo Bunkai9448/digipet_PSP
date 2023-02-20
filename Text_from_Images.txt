@@ -11,7 +11,7 @@ TEXT FROM GRAPHICS
 マップ Mapa
 チリョウ Botiquín
 ツウシン Conectar/link > Versus (The others are too long or sound very odd)
-バトルスタート Iniciar batalla/Start batlle
+バトルスタート Iniciando batalla/Start batlle
 ニク Carne
 プロテイン Proteína
 PW-B   Píldora DP+
