@@ -5,7 +5,7 @@ TEXT FROM GRAPHICS
 
 コウゲキ Atacar > luchar (to avoid repetition with "attack")
 シンカ Digievolución > Digi-Evo (reduced size to fit)
-ナカマ Aliado
+ナカマ Aliado / Compañero (partner for show consistency)
 ニゲル Huir
 パラメーター Parámetros
 マップ Mapa
