@@ -22,6 +22,15 @@ P-ドラッグ Victoria segura ; Ｐ－ドラッグを手に入れた！次の�
 サウンド Sound
 オン On
 オフ Off
+HELP
+BATTLE
+ERROR
+HP
+DP
+ATTACK
+WIN
+CATCH!
+READY
 
 アグモン Agumon
 ガブモン Gabumon
