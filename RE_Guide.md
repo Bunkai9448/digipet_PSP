@@ -127,9 +127,13 @@ gimconv "GIM_000000bd.PNG" -o "Edited_GIM_000000bd.GIM" -digi
 want to decrypt it and see its content, luckyly DecEboot can deal with the compression part. When you do that and open it with your hex editor ...  ¡Jackpot! You found the remaining text:
 ![Deceboot](https://imgur.com/S3CZJmz.png)
 
+- To make the edits easier, you can unpack the eboot with the script parse_exe.bms for quickbms and have the text part 
+separated. That was done in this guide, the file with the text is: 000f5e90_000f5f50_00012768_
+
 - In some cases the EBOOT needs to be re-encrypted for the game to work, you got lucky again because for this game 
-the EBOOT can be reimported unencrypted. Now you can go back to [Text File](#Text-File) and do the same thing for the 
-remaining part of the section.  
+the EBOOT can be reimported unencrypted. 
+
+- Now you can go back to [Text File](#Text-File) and do the same thing for the remaining part of the section.  
 *In this guide we only worked with the text block, leaving most of the file untouched to avoid any crashing.
 In that sense, we don't have to work with the header or any different address block here.*
 
