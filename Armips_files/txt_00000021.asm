@@ -9,11 +9,11 @@
     .word 0x00    ; unknown, PADDING?
 
 	; String blocks offsets
-    .word 0x84, 0x0109, 0x017C, 0x01A9, 0x01E2, 0x022F    
+    .word 0x0084, 0x0109, 0x017C, 0x01A9, 0x01E2, 0x022F    
     .word 0x0244, 0x026B, 0x0270, 0x027B, 0x0286, 0x0291
-    .word 0x02B0, 0x02C3, 0x02FC, 0x030D, 0x031E, 0x032B   
-    .word 0x033C, 0x0348, 0x0352, 0x0361, 0x0376, 0x0388
-    .word 0x0396, 0x03A1, 0x03CF, 0x0404, 0x041A
+    .word 0x02B6, 0x02C3, 0x02FC, 0x030D, 0x031E, 0x032B   
+    .word 0x033C, 0x034A, 0x0352, 0x0361, 0x0376, 0x0389
+	.word 0x0396, 0x03A0, 0x03CE, 0x0405, 0x041B
 	
 ; string data
 	.loadtable "Font_Esp.tbl"
@@ -71,7 +71,7 @@
     .string "¿Quieres borrar datos no deseados?" ;  記録メディアから不要なデータを削除しますか？
     .align 4	
 	
-	.org 0x022F ; goes to next offset
+	.org 0x022F ; goes to next offset    
 	
     block006_str1:
     .string "Guardando." ; セーブに移行します。
@@ -113,10 +113,10 @@
     .string "Digivice Ver. Portable." ; デジヴァイスVer.Portable
     .align 4
 
-	.org 0x02B0 ; goes to next offset
+	.org 0x02B6 ; goes to next offset
 
     block013_str1:
-    .string "Datos guardados." ; セーブデータ
+    .string "Datos prev." ; セーブデータ
     .align 4
 
 	.org 0x02C3 ; goes to next offset
@@ -126,7 +126,7 @@
     .align 4
 
 	.org 0x02FC ; goes to next offset
-	
+
     block015_str1:
     .string "Ed. Greymon" ; グレイモンカラー 
     .align 4	
@@ -134,7 +134,7 @@
 	.org 0x030D ; goes to next offset
 
     block016_str1:
-    .string "  Ed. Garurumon" ; ガルルモンカラー
+    .string "Ed. Garurumon" ; ガルルモンカラー
     .align 4
 
 	.org 0x031E ; goes to next offset
@@ -155,7 +155,7 @@
     .string "Ed. Normal" ; ノーマルカラー 
     .align 4				
 
-	.org 0x0348 ; goes to next offset
+	.org 0x034A ; goes to next offset
 
     block020_str1:
     .string "Guardar" ; セーブ 
@@ -170,67 +170,76 @@
 	.org 0x0361 ; goes to next offset
 	
     block022_str1:
-    .string "Batalla wifi: ON" ; 通信バトル設定：有効
+    .string "Wifi:  ON" ; 通信バトル設定：有効
     .align 4
 
-	.org 0x0376 ; goes to next offset
+	.byte 0x0A ; Control code for separating different strings
 
-    block023_str1:
+	.org 0x0377 ; goes to next offset
+
+    block022_str2:
     .string "¿Guardar?" ; セーブしますか？
     .align 4
 
-	.org 0x0388 ; goes to next offset
-
-    block024_str1:
+	.byte 0x0A ; Control code for separating different strings
+	.org 0x0389 ; goes to next offset
+	
+    block022_str3:
     .string "¡Guardando!" ; セーブ中！
     .align 4
 
 	.org 0x0396 ; goes to next offset
 	
-    block025_str1:
+    block023_str1:
     .string "Guardado." ; セーブ完了 
     .align 4	
 
-	.org 0x03A1 ; goes to next offset
+	.org 0x03A0 ; goes to next offset
 
-    block026_str1:
+    block024_str1:
     .string "Se ha cancelado el guardado." ; セーブが中断されました。
-    .align 4
+    .align 2
 
 	.byte 0x0A ; Control code for separating different strings
-
-    block026_str2:
+	
+    block024_str2:
     .string "¿Reintentar?" ; リトライしますか？
     .align 4
 
-	.org 0x03CF ; goes to next offset
+	.byte 0x0A ; Control code for separating different strings
+	
+	.org 0x03CE ; goes to next offset
 
-    block027_str1:
+    block024_str3:
     .string "¿Desactivar batalla vs PNJ?" ; ＮＰＣ対戦設定：無効
     .align 4
 
 	.byte 0x0A ; Control code for separating different strings
 
-    block027_str2:
-    .string "¿Desactivar batalla vs PNJ?" ; ＮＰＣ対戦を有効にしますか？
+    block024_str4:
+    .string "ＮＰＣ対戦を有効にしますか？" ; ＮＰＣ対戦を有効にしますか？
     .align 4
-
-	.org 0x0404 ; goes to next offset
+ 
+	.byte 0x0A ; Control code for separating different strings
 	
-    block028_str1:
-    .string "Batalla wifi: OFF" ; 通信バトル設定：無効 
-    .align 4	
+	.org 0x0405 ; goes to next offset	
+	
+    block024_str5:
+    .string "Wifi: OFF" ; 通信バトル設定：無効 
+    .align 2	
 
 	.byte 0x0A ; Control code for separating different strings
 
-    block028_str2:
-    .string "Batalla vs PNJ: OFF" ; ＮＰＣ対戦設定：有効
+	.org 0x041B ; goes to next offset
+
+    block024_str6:
+    .string "¿Activar batalla vs PNJ?" ; ＮＰＣ対戦設定：有効
     .align 4
 
-	.org 0x041A ; goes to next offset
+	.byte 0x0A ; Control code for separating different strings
 
-    block029_str1:
-    .string "¿Activar batalla vs PNJ?" ; ＮＰＣ対戦を無効にしますか？
+    block024_str7:
+    .string "ＮＰＣ対戦を無効にしますか？" ; ＮＰＣ対戦を無効にしますか？
     .align 4
 	
 .close
