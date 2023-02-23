@@ -28,7 +28,7 @@
 	.org 0x0260 ; goes to next offset
 
     block004_str1:
-    .string "Menu" ; メニュー
+    .string "Menú" ; メニュー
     .align 4
 
 	.org 0x026C ; goes to next offset
