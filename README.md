@@ -82,7 +82,6 @@ D:.
 
 - https://www.romhacking.net/utilities/598/ (xdelta and xdeltaUI to create the patch easily)
 
-- ToDo
 
 ## List of References and Documentation (in no particular order)
 
@@ -115,6 +114,7 @@ D:.
 - https://winmerge.org/downloads/ (Helped comparing files to get proper gim format in reinsertion)
 
 - https://www.romhacking.net/documents/765/ (Font table)
+
 
 ## Author
 
