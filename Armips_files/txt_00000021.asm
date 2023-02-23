@@ -170,7 +170,7 @@
 	.org 0x0361 ; goes to next offset
 	
     block022_str1:
-    .string "Batalla por wifi: ON" ; 通信バトル設定：有効
+    .string "Batalla wifi: ON" ; 通信バトル設定：有効
     .align 4
 
 	.org 0x0376 ; goes to next offset
@@ -206,31 +206,31 @@
 	.org 0x03CF ; goes to next offset
 
     block027_str1:
-    .string "Batalla vs PNJ: OFF" ; ＮＰＣ対戦設定：無効
+    .string "¿Desactivar batalla vs PNJ?" ; ＮＰＣ対戦設定：無効
     .align 4
 
 	.byte 0x0A ; Control code for separating different strings
 
     block027_str2:
-    .string "¿Activar batalla vs PNJ?" ; ＮＰＣ対戦を有効にしますか？
+    .string "¿Desactivar batalla vs PNJ?" ; ＮＰＣ対戦を有効にしますか？
     .align 4
 
 	.org 0x0404 ; goes to next offset
 	
     block028_str1:
-    .string "Batalla por wifi: OFF" ; 通信バトル設定：無効 
+    .string "Batalla wifi: OFF" ; 通信バトル設定：無効 
     .align 4	
 
 	.byte 0x0A ; Control code for separating different strings
 
     block028_str2:
-    .string "Batalla vs PNJ: ON" ; ＮＰＣ対戦設定：有効
+    .string "Batalla vs PNJ: OFF" ; ＮＰＣ対戦設定：有効
     .align 4
 
 	.org 0x041A ; goes to next offset
 
     block029_str1:
-    .string "¿Desactivar batalla vs PNJ?" ; ＮＰＣ対戦を無効にしますか？
+    .string "¿Activar batalla vs PNJ?" ; ＮＰＣ対戦を無効にしますか？
     .align 4
 	
 .close
