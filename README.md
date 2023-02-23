@@ -48,15 +48,24 @@ D:.
 
 - ASM scripts for armips, for editing text parts of the game
 
-- BAT scripts to automate GIM to PNG image conversions, Sample to test if the program works
+- Font_Esp, patch and table for the spanish font (can be used standalone)
 
-- BMS scripts for quickBMS, tu unpack and repack files
+- BAT scripts to automate GIM to PNG image conversions, Sample + PSD to test if the program works 
 
-- python_scripts, to automate gim2png and png2gim
+- BMS scripts for quickBMS, tu unpack and repack files. Commented with explanations
+
+- python_scripts, to automate gim2png and png2gim (Only as Proof of Concept)
+
+- Cheat4steps.txt (Only as Proof of Concept)
+
+- LICENSE (self-explanatory)
+
+- README.md (self-explanatory)
+
+- RE_Guide.md (self-explanatory)
 
 - Text_from_Images, contains the transcribed text from graphics
 
-- ToDo
 
 ## Extra Tools required
 
