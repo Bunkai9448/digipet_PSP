@@ -124,6 +124,8 @@ D:.
 
 - https://www.romhacking.net/documents/765/ (Font table)
 
+- https://www.romhacking.net/forum/index.php?topic=36412.0 (About System Messages. eg "Do you want to quit?")
+
 
 ## Author
 
