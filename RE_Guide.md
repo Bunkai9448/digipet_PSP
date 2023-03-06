@@ -13,6 +13,7 @@ https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896
 - [Remaining text in the Eboot](#Remaining-text-in-the-Eboot)
 - [The Font](#The-Font)
 - [Repackaging the CPK](#Repackaging-the-CPK)
+- [System Messages](#System-Messages) 
 - [Last Steps](#Last-Steps)
 - [Extra: Making the patch](#Making-the-patch)
 - [Appendix: Data Location Summary](#Data-Location-Summary)
@@ -177,6 +178,11 @@ Data alignment: 2048 ; File Mode: ID ; any other box unmarked.
 ![Use that file info](https://imgur.com/gSPAfqK.png)
 
 - If you did everything right, you'll have your "complete" prompt. 
+
+
+## System Messages 
+
+![System Messages example](https://imgur.com/7jnmTTi.png)
 
 ## Last Steps
 
