@@ -89,6 +89,8 @@ D:.
 
 - http://aluigi.org/bms/parse_exe.bms (to unpack the decrypted EBOOT.BIN and work with the text part better)
 
+- To-Do for system Messages / still unsure about the tool 
+
 - https://www.romhacking.net/utilities/598/ (xdelta and xdeltaUI to create the patch easily)
 
 
@@ -124,7 +126,9 @@ D:.
 
 - https://www.romhacking.net/documents/765/ (Font table)
 
-- https://www.romhacking.net/forum/index.php?topic=36412.0 (About System Messages. eg "Do you want to quit?")
+- https://www.romhacking.net/forum/index.php?topic=36412.0 (basics for System Messages. eg "Do you want to quit?")
+
+- http://psp.jim.sh/pspsdk-doc/psputility__savedata_8h.html#a6c22ee23f729bea1e491365ab5a0df67 (About System Messages)
 
 
 ## Author
@@ -135,13 +139,15 @@ D:.
 
 - Fothsid (first guidance about the headers)
 
-- Mugi (guidance about file structure and some scripts)
+- Mugi (guidance about file structure and some scripts; Info, Data and guidance for System Messages)
 
 - Ethanol (guidance about Font, GIM, Gimconv config snippet and help fixing extract/insert mistakes)
 
-- All the authors of the tools and documents used in this project.
-
 - ToDo
+
+(Betatesting)
+
+- All the authors of the tools and documents used in this project.
 
 ## License
 
