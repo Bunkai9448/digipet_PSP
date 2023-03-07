@@ -30,6 +30,9 @@ The number of wins to unlock each one is as follows: 10 > 15 > 20
 You need to win the battle for them to join, and there are certain moments when the help doesn't return a partner 
 (this is due to the original programing, not related to the patch). 
 
+- To change your walking digimon, open the menu and check its parameters, your last digimon checked will be the one 
+walking.
+
 - The Game has 7 Areas, below you can see the minimum steps/clicks required to finish each one.  
 Steps required: 1st - 10 000 > 2nd - 12 000 > 3rd - 14 000 > 4th - 16 000 
 *There is an incomplete cheat for that in this repo, called Cheat4steps.txt. It was done during the first area, then 
