@@ -15,7 +15,7 @@ that would double the windows prompted. Again, this is from the original japanes
 - Versus battles are all automated, you can only choose your digimon and phase at the begining of each battle.
 *This battles can be done at any hour of the day, no sleep time is inforced.*
 
-- Cheer your digimon as soon as select to attack to win the battle, during the "ready" phase. 
+- Cheer your digimon as soon as you choose to attack to win the battle, during the "ready" phase. 
 The result is decided during that phase.
 
 - If you press X at the starting of a battle (before the menu appears), you will be prompted with the lose animation, 
