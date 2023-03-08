@@ -23,7 +23,7 @@ and your digimon will be exhausted. That's a game feature, not related to the pa
 *When you lose a battle, a line will appear in the bottom, you need to open the menu with O and do as asked.*
 
 - You can obtain only the original 8 digion partners, and all of them have the same number of digi-evo phases. 
-The number of wins to unlock each one is as follows:<summary> 10 > 15 > 20 </summary> 
+The number of wins to unlock each one is as follows: <details><summary> 10 > 15 > 20 </summary></details> 
 *There are a total of 52 digimons, including the digimon partners.*
 
 - Each partner is obtained when you find them in the "Help" mode that appears seemingly random during walking time.  
