@@ -34,12 +34,13 @@ return a partner (this is due to the original programing, not related to the pat
 the one walking.
 
 - The Game has 7 Areas, below you can see the minimum steps/clicks required to finish each one.<details><summary>
-See all Steps required here:</summary>10 000 > 12 000 > 14 000 > 16 000 > 18 000</details> 
+See all Steps required here:</summary>10 000 > 12 000 > 14 000 > 16 000 > 18 000 > 20 000</details> 
 *There is an incomplete cheat for that in this repo, called Cheat4steps.txt. It was done during the first area, then 
  discarded to focus on actually working on the patch. However, it works in a sense.* 
 
 - Battled digimon are random within a range for each area. However, the final boss of each area is 
-fixated.<details><summary>See all Bosses here:</summary>Kuwagamon >  > Etemon > Metaltyranomon</details> 
+fixated.<details><summary>See all Bosses here:</summary>Kuwagamon >  > Etemon > Metaltyranomon > 
+  MetalSeadramon</details> 
 
 
 ===============================================================================
