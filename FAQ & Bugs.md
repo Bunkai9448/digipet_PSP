@@ -15,7 +15,7 @@ discarded lines that would double the windows prompted. Again, this is from the 
 - Versus battles are all automated, you can only choose your digimon and phase at the begining of each battle.  
 *This battles can be done at any hour of the day, no sleep time is inforced.*
 
-- Cheer your digimon as soon as you choose to attack to win the battle, during the "ready" phase. 
+- Cheer your digimon as soon as you choose to attack to win the battle, during the "ready" phase.  
 The result is decided during that phase.
 
 - If you press X at the starting of a battle (before the menu appears), you will be prompted with the lose 
@@ -33,13 +33,14 @@ return a partner (this is due to the original programing, not related to the pat
 - To change your walking digimon, open the menu and check its parameters, your last digimon used/checked will be 
 the one walking.
 
-- The Game has 7 Areas, below you can see the minimum steps/clicks required to finish each one. <details><summary>See all Steps required here:</summary>10 000 > 12 000 > 14 000 > 16 000 > 18 000</details> 
+- The Game has 7 Areas, below you can see the minimum steps/clicks required to finish each one. 
+<details><summary>See all Steps required here:</summary>10 000 > 12 000 > 14 000 > 16 000 > 18 000</details> 
 *There is an incomplete cheat for that in this repo, called Cheat4steps.txt. It was done during the first area, then 
  discarded to focus on actually working on the patch. However, it works in a sense.*
 
 - Battled digimon are random within a range for each area. However, the final boss of each area is fixated, 
 <details><summary>See all Bosses here:</summary>
- Kuwagamon >  > Etemon > Metaltyranomon</details>
+ Kuwagamon >  > Etemon > Metaltyranomon</details> 
 
 
 ===============================================================================
