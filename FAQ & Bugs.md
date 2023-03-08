@@ -10,10 +10,10 @@
 discarded lines that would double the windows prompted. Again, this is from the original japanese version. 
 
 - O and X buttons are mapped like they were in the japanese version.  
-*Use X to see your total steps and the remaining ones. Use O to display the menu*
+*Use X to see your total steps and the remaining ones. Use O to display the menu.*
 
-- Versus battles are all automated, you can only choose your digimon and phase at the begining of 
-each battle. *This battles can be done at any hour of the day, no sleep time is inforced.*
+- Versus battles are all automated, you can only choose your digimon and phase at the begining of each battle.  
+*This battles can be done at any hour of the day, no sleep time is inforced.*
 
 - Cheer your digimon as soon as you choose to attack to win the battle, during the "ready" phase. 
 The result is decided during that phase.
@@ -26,20 +26,20 @@ animation, and your digimon will be exhausted. That's a game feature, not relate
 digi-evo phases.<details><summary>See the number of wins required to unlock each phase here:</summary>
 10 > 15 > 20 </details> 
 
-- After the first, each partner joins when you find them in the "Help" mode that appears seemingly random during 
+- After the first, each partner joins when you find them in "Help" mode that appears seemingly random during 
 walking time. You need to win the battle for them to join, and there are certain moments when the help doesn't 
 return a partner (this is due to the original programing, not related to the patch).
 
-- To change your walking digimon, open the menu and check its parameters, your last digimon checked will be the one 
-walking.
+- To change your walking digimon, open the menu and check its parameters, your last digimon used/checked will be 
+the one walking.
 
 - The Game has 7 Areas, below you can see the minimum steps/clicks required to finish each one. <details><summary>See all Steps required here:</summary>10 000 > 12 000 > 14 000 > 16 000 > 18 000</details> 
 *There is an incomplete cheat for that in this repo, called Cheat4steps.txt. It was done during the first area, then 
- discarded to focus on actually working on the patch. However, it works in a sense*
+ discarded to focus on actually working on the patch. However, it works in a sense.*
 
 - Battled digimon are random within a range for each area. However, the final boss of each area is fixated, 
-<details><summary>See all Bosses here:<summary>
- Kuwagamon >  > Etemon > Metaltyranomon</summary></details>
+<details><summary>See all Bosses here:</summary>
+ Kuwagamon >  > Etemon > Metaltyranomon</details>
 
 
 ===============================================================================
