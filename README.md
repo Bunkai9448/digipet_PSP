@@ -58,7 +58,7 @@ D:.
 
 - Cheat4steps.txt (Only as Proof of Concept)
 
-- Known Bugs.md (self-explanatory)
+- FAQ & Bugs.md  (self-explanatory)
 
 - LICENSE (self-explanatory)
 
