@@ -23,7 +23,7 @@ and your digimon will be exhausted. That's a game feature, not related to the pa
 *When you lose a battle, a line will appear in the bottom, you need to open the menu with O and do as asked.*
 
 - You can obtain only the original 8 digion partners, and all of them have the same number of digi-evo phases. 
-The number of wins to unlock each one is as follows: <details><summary> 10 > 15 > 20 </summary></details> 
+<details><summary>The number of wins to unlock each one is as follows:</summary>10 > 15 > 20 </details> 
 *There are a total of 52 digimons, including the digimon partners.*
 
 - Each partner is obtained when you find them in the "Help" mode that appears seemingly random during walking time.  
@@ -34,13 +34,12 @@ You need to win the battle for them to join, and there are certain moments when 
 walking.
 
 - The Game has 7 Areas, below you can see the minimum steps/clicks required to finish each one.  
-Steps required:  
-<summary>10 000 > 12 000 > 14 000 > 16 000 > 18 000</summary>
+ 
+<details><summary>Steps required:</summary>10 000 > 12 000 > 14 000 > 16 000 > 18 000</summary></details>
 *There is an incomplete cheat for that in this repo, called Cheat4steps.txt. It was done during the first area, then 
  discarded to focus on actually working on the patch. However, it works in a sense*
 
-- The final boss of each area is fixated, they are as follows:  
-<summary>Kuwagamon >  > Etemon > Metaltyranomon</summary>
+- The final boss of each area is fixated, <details>they are as follows:<summary>Kuwagamon >  > Etemon > Metaltyranomon</summary></details> 
 *However the other battled digimon are random.*
 
 
