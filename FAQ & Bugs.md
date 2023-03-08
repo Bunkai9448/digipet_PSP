@@ -22,11 +22,11 @@ The result is decided during that phase.
 animation, and your digimon will be exhausted. That's a game feature, not related to the patch.  
 *When you lose a battle, a line will appear in the bottom, you need to open the menu with O and do as asked.*
 
-- You can obtain only the original 8 digion partners, and all of them have the same number of 
-digi-evo phases.<details><summary>See the number of wins required for each phase here:</summary>
-10 > 15 > 20 </details> *There are a total of 52 digimons, including the digimon partners.*
+- There is a total of 52 digimons, including the digimon partners. All partners have the same number of 
+digi-evo phases.<details><summary>See the number of wins required to unlock each phase here:</summary>
+10 > 15 > 20 </details> 
 
-- Each partner is obtained when you find them in the "Help" mode that appears seemingly random during 
+- After the first, each partner joins when you find them in the "Help" mode that appears seemingly random during 
 walking time. You need to win the battle for them to join, and there are certain moments when the help doesn't 
 return a partner (this is due to the original programing, not related to the patch).
 
@@ -37,9 +37,9 @@ walking.
 *There is an incomplete cheat for that in this repo, called Cheat4steps.txt. It was done during the first area, then 
  discarded to focus on actually working on the patch. However, it works in a sense*
 
-- The final boss of each area is fixated, <details><summary>See all Bosses here:<summary>
- Kuwagamon >  > Etemon > Metaltyranomon</summary></details> 
-*However the other battled digimon are random.*
+- Battled digimon are random within a range for each area. However, the final boss of each area is fixated, 
+<details><summary>See all Bosses here:<summary>
+ Kuwagamon >  > Etemon > Metaltyranomon</summary></details>
 
 
 ===============================================================================
