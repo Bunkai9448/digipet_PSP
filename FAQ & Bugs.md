@@ -2,7 +2,7 @@
 #                                   GAME INFO (FAQs)
 ===============================================================================
 
-- <details> Press "O+X" simultaneously to display the sound menu.</details> 
+- <details><summary>Press "O+X" simultaneously to display the sound menu.</summary></details> 
 
 - <details>Use Up and Left d-pad/arrows to display the digivice watch.</details> 
 
