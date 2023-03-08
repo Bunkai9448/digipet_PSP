@@ -184,6 +184,14 @@ Data alignment: 2048 ; File Mode: ID ; any other box unmarked.
 
 ![System Messages example](https://imgur.com/7jnmTTi.png)
 
+- Depuracion > desensamblador (ctrl+D), see image a00_openDebug
+
+- Go to the left panel and select Func(tions), see image a01_FuncPanel
+
+- In that panel, find the 3 functions that deal with system messages
+
+sceImposeSetLanguageMode(), sceUtilityDialogInitStart() and sceUtilitySavedataInitStart()
+
 ## Last Steps
 
 *This section is for completionist sake.*
