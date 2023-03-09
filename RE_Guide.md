@@ -184,6 +184,10 @@ Data alignment: 2048 ; File Mode: ID ; any other box unmarked.
 
 ![System Messages example](https://imgur.com/7jnmTTi.png)
 
+Before going into this step, you should know that: 
+*sceImposeSetLanguageMode* is what opens when you press the PSP button, *savedatainitstart* is the save/load module, 
+and *dialoginitstart* is generic messages that open using the system overlay.
+
 - Depuracion > desensamblador (ctrl+D), see image a00_openDebug
 
 - Go to the left panel and select Func(tions), see image a01_FuncPanel
