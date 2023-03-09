@@ -207,10 +207,13 @@ and *dialoginitstart* is generic messages that open using the system overlay.
  Now, we need to see what were the parameters passed to the subroutine (which is the actual code we need to patch). 
  The stack frames are in charge of that task in the code.
 
-- Once it breaks (freezes), go to the stack frames tab at the bottom, see image a03_stackFrames
-[img]https://imgur.com/ocsly9v.png[/img]
+- Once it breaks (freezes), go to the stack frames tab at the bottom, see image:
+![Stack Frames](https://imgur.com/ocsly9v.png)
+
 - In the stack frames, double click in the second row. It will show us the code that leads to 
 sceUtilitySavedataInitStart()
+![Code we wanted](https://imgur.com/sp6A83G.png)
+
 
 - To-Do
 
