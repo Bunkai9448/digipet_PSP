@@ -188,14 +188,17 @@ Before going into this step, you should know that:
 *sceImposeSetLanguageMode* is what opens when you press the PSP button, *savedatainitstart* is the save/load module, 
 and *dialoginitstart* is generic messages that open using the system overlay.
 
-- Depuracion > desensamblador (ctrl+D), see image a00_openDebug
+- Depuracion > desensamblador (ctrl+D), see image:
+![Open Debug](https://imgur.com/fVc6xTi.png)
 
-- Go to the left panel and select Func(tions), see image a01_FuncPanel
+- Go to the left panel and select Func(tions), see image:
+![Select Func(tions)](https://imgur.com/Rwz8s6X.png)
 
 - In that panel, find the 3 functions that deal with system messages:
   sceImposeSetLanguageMode(), sceUtilityDialogInitStart(), and sceUtilitySavedataInitStart().
 
-- Set a break point in the call you want to change, see image a02_toggleBreakpoint
+- Set a break point in the call you want to change, see image:
+![Toggle Breakpoint](https://imgur.com/M1bYqYv.png)
 
 - Minimize the debugger window or move it aside and open a system menu in the emulator 
   (For example, with sceUtilitySavedataInitStart(), click "continue" at the main screen).
@@ -205,11 +208,11 @@ and *dialoginitstart* is generic messages that open using the system overlay.
  The stack frames are in charge of that task in the code.
 
 - Once it breaks (freezes), go to the stack frames tab at the bottom, see image a03_stackFrames
-
+[img]https://imgur.com/ocsly9v.png[/img]
 - In the stack frames, double click in the second row. It will show us the code that leads to 
 sceUtilitySavedataInitStart()
 
-- 
+- To-Do
 
 
 ## Last Steps
