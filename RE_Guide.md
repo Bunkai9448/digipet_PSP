@@ -217,6 +217,11 @@ sceUtilitySavedataInitStart()
 
 - To-Do
 
+- You should always work by decrypting eboot.bin.
+If boot.bin and eboot.bin are both present, they are identical (assuming you have decrypted eboot).
+Although PSP custom firmwares can use boot.bin it to boot, in most retail games is just full of zeroes. 
+The only exception is games where the boot.bin is fully present and contains debug symbols, in those 
+cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.
 
 ## Last Steps
 
