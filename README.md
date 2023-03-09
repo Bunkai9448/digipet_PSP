@@ -126,9 +126,11 @@ D:.
 
 - https://www.romhacking.net/documents/765/ (Font table)
 
-- https://www.romhacking.net/forum/index.php?topic=36412.0 (basics for System Messages. eg "Do you want to quit?")
+- http://psp.jim.sh/pspsdk-doc/psputility__sysparam_8h.html (sceImposeSetLanguageMode)
 
-- http://psp.jim.sh/pspsdk-doc/psputility__savedata_8h.html#a6c22ee23f729bea1e491365ab5a0df67 (About System Messages)
+- http://psp.jim.sh/pspsdk-doc/psputility__msgdialog_8h.html (sceUtilityDialogInitStart)
+
+- http://psp.jim.sh/pspsdk-doc/psputility__savedata_8h.html (sceUtilitySavedataInitStart)
 
 
 ## Author
