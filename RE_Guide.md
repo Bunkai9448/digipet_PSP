@@ -188,9 +188,25 @@ Data alignment: 2048 ; File Mode: ID ; any other box unmarked.
 
 - Go to the left panel and select Func(tions), see image a01_FuncPanel
 
-- In that panel, find the 3 functions that deal with system messages
+- In that panel, find the 3 functions that deal with system messages:
+  sceImposeSetLanguageMode(), sceUtilityDialogInitStart(), and sceUtilitySavedataInitStart().
 
-sceImposeSetLanguageMode(), sceUtilityDialogInitStart() and sceUtilitySavedataInitStart()
+- Set a break point in the call you want to change, see image a02_toggleBreakpoint
+
+- Minimize the debugger window or move it aside and open a system menu in the emulator 
+  (For example, with sceUtilitySavedataInitStart(), click "continue" at the main screen).
+
+- The emulator will freeze in this step. Don't worry, it just means the breakpoint has been reached.  
+ Now, we need to see what were the parameters passed to the subroutine (which is the actual code we need to patch). 
+ The stack frames are in charge of that task in the code.
+
+- Once it breaks (freezes), go to the stack frames tab at the bottom, see image a03_stackFrames
+
+- In the stack frames, double click in the second row. It will show us the code that leads to 
+sceUtilitySavedataInitStart()
+
+- 
+
 
 ## Last Steps
 
