@@ -219,7 +219,7 @@ sceUtilitySavedataInitStart()
 
 - You should always work by decrypting eboot.bin.
 If boot.bin and eboot.bin are both present, they are identical (assuming you have decrypted eboot).
-Although PSP custom firmwares can use boot.bin it to boot, in most retail games is just full of zeroes. 
+Although PSP custom firmwares can use boot.bin to boot, in most retail games is just full of zeroes. 
 The only exception is games where the boot.bin is fully present and contains debug symbols, in those 
 cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.
 
@@ -232,7 +232,7 @@ Enjoy your modified game!
 ## Making the patch
 
 - When you want to share your modification with the world without sharing the full ISO, you better create a patch.
-This is section is to teach you how to do so. *Don't be afraid, this is one of the easiest parts*
+This section is to teach you how to do so. *Don't be afraid, this is one of the easiest parts*
 *The creator of this paper put all the needed files in a folder to make it quick and easy to show, it also avoid any
 mistakes at chosing the wrong file. However you can have them anywhere you want.*  
 
@@ -267,4 +267,5 @@ You have successfully created your patch!
 | ID00033 (cpk) |  starting menus & a few extra prompts txt | [Text File](#Text-File)
 |---|---|---|
 | (EBOOT.bin) | all remainig text, commands, and prompts | [Remaining text in the Eboot](#Remaining-text-in-the-Eboot)
+, [System Messages](#System-Messages)
 
