@@ -19,7 +19,7 @@ ISO: Digivice_Ver_Portable_JPN_PSN_PSP-PLAYASiA.iso
        SHA256: ae16195736eb15ba9b2b93f1af31a55401097bc8dff2edf22f304cf4abc69fbc
 ````
 
--Althought the patch has been tested for the entire game without any problem, it's provided "as is", use it at 
+- Althought the patch has been tested for the entire game without any problem, it's provided "as is", use it at 
 your own responsability.
 
 
