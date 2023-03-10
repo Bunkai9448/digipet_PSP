@@ -19,6 +19,10 @@ ISO: Digivice_Ver_Portable_JPN_PSN_PSP-PLAYASiA.iso
        SHA256: ae16195736eb15ba9b2b93f1af31a55401097bc8dff2edf22f304cf4abc69fbc
 ````
 
+-Althought the patch has been tested for the entire game without any problem, it's provided "as is", use it at 
+your own responsability.
+
+
 ## ISO structure to know where the located info is
 
 ````
@@ -91,6 +95,10 @@ D:.
 
 - http://aluigi.org/bms/parse_exe.bms (to unpack the decrypted EBOOT.BIN and work with the text part better)
 
+- https://github.com/NationalSecurityAgency/ghidra (To find sceUtilityMsgDialogInitStart, and more)
+
+- https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md (PSP's CPU module for ghidra)
+
 - https://www.romhacking.net/utilities/598/ (xdelta and xdeltaUI to create the patch easily)
 
 
@@ -103,8 +111,6 @@ D:.
 - https://gbatemp.net/threads/psp-debugging.452408/
 
 - https://gbatemp.net/threads/psp-asm-hacking-for-variable-width-font.374967/page-3
-
-- https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md (PSP's CPU module for ghidra)
 
 - https://forum.xentax.com/viewtopic.php?t=6313 (About GIM image format for psp files)
 
@@ -128,7 +134,7 @@ D:.
 
 - http://psp.jim.sh/pspsdk-doc/psputility__sysparam_8h.html (sceImposeSetLanguageMode)
 
-- http://psp.jim.sh/pspsdk-doc/psputility__msgdialog_8h.html (sceUtilityDialogInitStart)
+- http://psp.jim.sh/pspsdk-doc/psputility__msgdialog_8h.html (sceUtilityMsgDialogInitStart)
 
 - http://psp.jim.sh/pspsdk-doc/psputility__savedata_8h.html (sceUtilitySavedataInitStart)
 
