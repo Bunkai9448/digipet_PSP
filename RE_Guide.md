@@ -4,6 +4,8 @@ This file is basically a cleaned-up version of:
 https://www.romhacking.net/forum/index.php?topic=35699.msg437896#msg437896  
 *If you want more details about how or why something was done, go there.*
 
+- To make the document cleaner, links to the used tools are listed in the [README.md](README.md)
+
 ## INDEX 
 - [First Steps](#First-Steps)
 - [Working with the CPK file](#Working-with-the-CPK-file)
