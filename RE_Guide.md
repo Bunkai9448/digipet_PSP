@@ -243,6 +243,9 @@ image gh_05 & image gh_06
 initial analysis. Export the .sym file from PPSSPP and in Ghidra run script PpssppImportSymFile with
 language allegrex (use "0" for the base address)
 
+- With all the previous steps in ghidra done, you can see the functions and code like you do in PPSSPP. The moment 
+for finding the addresses has come.
+
 - To Do (explain with pics how below address is found)
 
 ```
