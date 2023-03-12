@@ -216,14 +216,61 @@ and *dialoginitstart* is generic messages that open using the system overlay.
 sceUtilitySavedataInitStart()
 ![Code we wanted](https://imgur.com/sp6A83G.png)
 
+### Ghidra
 
-- To-Do
+- Now open ghidra, if it's the first time you'll get welcome with gh_00
+In Ghidra go to File > New Project (ctrl+n)
 
-- You should always work by decrypting eboot.bin.
+- Select shared or Non shared project. Then click next and choose your working directory (For
+this guide will use a folder called PSP_Ghidra). Don't forget to give a name to your project,
+we'll call it Digivice for this guide. If you did it properly, you'll see something like gh_01
+
+- Go to Usage in allegrex https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md and
+do as told (intructions will be copied here to make everything compact with images): 
+Drag decrypted EBOOT in ELF/PRX format into Ghidra. It should get automatically 
+detected as PSP Executable (ELF) / Allegrex. image gh_02
+
+- Continuing with allegrex steps. Now is your chance to set initial base address 
+by clicking Options... and changing Image Base. Set it to 08804000 to match 
+the usual address where games are loaded. image gh_03
+
+- Click Ok to import the file. Then you'll see the elf info, image gh_04
+
+- After importing and opening the file you should do the auto analysis. Default options are fine.
+image gh_05 & image gh_06
+
+- PPSSPP identifies many functions automatically, it's useful to get those into Ghidra after doing the 
+initial analysis. Export the .sym file from PPSSPP and in Ghidra run script PpssppImportSymFile with
+language allegrex (use "0" for the base address)
+
+- To Do (explain with pics how below address is found)
+
+```
+; psp elfs are always loaded to 8804000
+;so when you write your armips file, you open the elf with that in mind
+
+.psp
+.open "BOOT.BIN", "EBOOT.BIN", 0x0880FAB8 ; as such it excludes header (usually, header = 54 Bytes)
+
+.org 0x0883B148 ; make a define for the function
+    sceImposeSetLanguageMode:
+
+; ----- patch Impose language
+.org 0x08838D1C
+    addiu a0, zero, 0x01
+    jal sceImposeSetLanguageMode
+    addiu a1, zero, 0x00
+	
+.close	
+```
+*You should always work by decrypting eboot.bin.
 If boot.bin and eboot.bin are both present, they are identical (assuming you have decrypted eboot).
 Although PSP custom firmwares can use boot.bin to boot, in most retail games is just full of zeroes. 
 The only exception is games where the boot.bin is fully present and contains debug symbols, in those 
-cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.
+cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.* 
+
+- To-Do
+
 
 ## Last Steps
 
