@@ -55,8 +55,7 @@ If you want to go and find any other guide for dumping and reinserting the text,
 
 - Basically you need to understand how the file and header work using the hex editor, then create a code with 
 armips that replicates the file. Go to the Armips_files folder in this repo to use this guide's scripts. 
-*You'll see 2 options for this: one can create a 1:1 file; the other has edits for the translation, including 
-the use of a new font table*
+*If you want to create a 1:1 file to double-check; edit the script back with the original pointers and japanese text.* 
 
 
 ## More unpackaging inside the CPK
@@ -111,7 +110,7 @@ gimconv "input.GIM" -o "output.GIM" -digi
 
 - Based on the post by akadewboy on Fri Apr 01, 2011 9:11 pm  
 in https://forum.xentax.com/viewtopic.php?t=6313  
-With snipped code to add -digi option in GimConv.cfg file, by "mono21400" also known as "ethanol"
+With snipped code to add -digi option in GimConv.cfg file, by "ethanol"
 
 1. Convert it to PNG using GimConv  
 gimconv "GIM_000000bd.GIM" -o "GIM_000000bd.PNG" -digi  
@@ -147,7 +146,8 @@ In that sense, we don't have to work with the header or any different address bl
 The font must be in the remaining ID00029 file. Time to open it with your text editor and find out.  
 
 - PSP usually puts fonts in 4BPP format, you'll want to try that before scrolling. Once you have found the characters, 
-if they are uncompressed (like in the digivice game) the only thing to do is discovering the actual size of the tiles. 
+if they are uncompressed (like in this digivice game) the only thing to do is discovering the actual size of the
+tiles. 
 
 - This font parameters are:
 ````
@@ -296,8 +296,9 @@ xdelta.exe: The patcher.
 xdeltaUI.exe: A tool to use the patcher with a GUI to make it more user friendly.
 ````
 
-- Open(double-click on) xdeltaUI.exe and go to the Create Patch section. Fill the blankets by clicking in each button
-or writing the file routes. You'll have something like this:
+- Open(double-click on) xdeltaUI.exe and go to the Create Patch section. 
+
+- Fill the blankets by clicking in each button or writing the file routes. You'll have something like this:
 ![Feeding the info into the patcher](https://imgur.com/t76mUXK.png)
 
 
@@ -318,6 +319,5 @@ You have successfully created your patch!
 | ID00029 (cpk) | font_file | [The Font](#The-Font)
 | ID00033 (cpk) |  starting menus & a few extra prompts txt | [Text File](#Text-File)
 |---|---|---|
-| (EBOOT.bin) | all remainig text, commands, and prompts | [Remaining text in the Eboot](#Remaining-text-in-the-Eboot)
-, [System Messages](#System-Messages)
+| (EBOOT.bin) | all remainig text, commands, and prompts | [Remaining text in the Eboot](#Remaining-text-in-the-Eboot), [System Messages](#System-Messages)
 
