@@ -247,8 +247,8 @@ language allegrex (use "0" for the base address)
 for finding the addresses has come.
 
 - The base address is obtained with the formula: 8804000 - header
-from a quick hex view of the EBOOT.BIN you can see where the header ends 
-and the elf (actual executable) starts. see image baseAddress.png
+from a quick hex view of the EBOOT.BIN you can see where the header ends and the elf (actual executable) starts. 
+See image [baseAddress.png](https://imgur.com/zZAqNF4.png)
 Which, for this digivice, means:
 ```
 Base Address = 8804000 - header = 8804000 - C0
