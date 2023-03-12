@@ -246,9 +246,11 @@ language allegrex (use "0" for the base address)
 - With all the previous steps in ghidra done, you can see the functions and code like you do in PPSSPP. The moment 
 for finding the addresses has come.
 
+### Subsequent to ghidra
+
 - The base address is obtained with the formula: 8804000 - header
 from a quick hex view of the EBOOT.BIN you can see where the header ends and the elf (actual executable) starts. 
-See image [baseAddress.png](https://imgur.com/zZAqNF4.png)
+See image ![ELF Header](https://imgur.com/zZAqNF4.png)
 Which, for this digivice, means:
 ```
 Base Address = 8804000 - header = 8804000 - C0
@@ -257,7 +259,7 @@ Base Address = 8803F40
 
 ```
 
-- To Do (explain with pics how below address is found)
+- To Do (explain with pics how below addresses are found)
 
 ```
 ; psp elfs are always loaded to 8804000
@@ -283,7 +285,7 @@ Although PSP custom firmwares can use boot.bin to boot, in most retail games is 
 The only exception is games where the boot.bin is fully present and contains debug symbols, in those 
 cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.* 
 
-- To-Do
+- To finish this section, run your armips code.
 
 
 ## Last Steps
