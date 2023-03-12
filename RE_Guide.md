@@ -248,8 +248,8 @@ for finding the addresses has come.
 
 ### Subsequent to ghidra
 
-- The base address is obtained with the formula: 8804000 - header
-from a quick hex view of the EBOOT.BIN you can see where the header ends and the elf (actual executable) starts. 
+- The base address is obtained with the formula: 8804000 - header  
+From a quick hex view of the EBOOT.BIN you can see where the header ends and the elf (actual executable) starts. 
 See image ![ELF Header](https://imgur.com/zZAqNF4.png)
 Which, for this digivice, means:
 ```
