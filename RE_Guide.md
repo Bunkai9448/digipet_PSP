@@ -187,8 +187,8 @@ Data alignment: 2048 ; File Mode: ID ; any other box unmarked.
 ![System Messages example](https://imgur.com/7jnmTTi.png)
 
 Before going into this step, you should know that: 
-*sceImposeSetLanguageMode* is what opens when you press the PSP button, *savedatainitstart* is the save/load module, 
-and *dialoginitstart* is generic messages that open using the system overlay.
+*sceImposeSetLanguageMode* is what opens when you press the PSP button, *sceUtilitySavedataInitStart* is the save/load
+module, and *sceUtilityMsgDialogInitStart* is generic messages that open using the system overlay.
 
 - Depuracion > desensamblador (ctrl+D), see image:
 ![Open Debug](https://imgur.com/fVc6xTi.png)
@@ -197,7 +197,7 @@ and *dialoginitstart* is generic messages that open using the system overlay.
 ![Select Func(tions)](https://imgur.com/Rwz8s6X.png)
 
 - In that panel, find the 3 functions that deal with system messages:
-  sceImposeSetLanguageMode(), sceUtilityDialogInitStart(), and sceUtilitySavedataInitStart().
+  sceImposeSetLanguageMode(), sceUtilityMsgDialogInitStart(), and sceUtilitySavedataInitStart().
 
 - Set a break point in the call you want to change, see image:
 ![Toggle Breakpoint](https://imgur.com/M1bYqYv.png)
@@ -205,18 +205,22 @@ and *dialoginitstart* is generic messages that open using the system overlay.
 - Minimize the debugger window or move it aside and open a system menu in the emulator 
   (For example, with sceUtilitySavedataInitStart(), click "continue" at the main screen).
 
-- The emulator will freeze in this step. Don't worry, it just means the breakpoint has been reached.  
- Now, we need to see what were the parameters passed to the subroutine (which is the actual code we need to patch). 
- The stack frames are in charge of that task in the code.
+- The emulator will freeze in this step. Don't worry, it just means the breakpoint has been reached. This is the 
+address to copy for the define part in armips. 
+
+- Now, we need to see what were the parameters passed to the subroutine (which is the actual code we need to patch). 
+The stack frames are in charge of that task in the code.
 
 - Once it breaks (freezes), go to the stack frames tab at the bottom, see image:
 ![Stack Frames](https://imgur.com/ocsly9v.png)
 
 - In the stack frames, double click in the second row. It will show us the code that leads to 
-sceUtilitySavedataInitStart()
+sceUtilitySavedataInitStart(). This is the address to copy for the edit part in armips.
 ![Code we wanted](https://imgur.com/sp6A83G.png)
 
 ### Ghidra
+
+*You can use ghidra to find the sceImposeSetLanguageMode, and to double-check any of the previous addresses*
 
 - Now open ghidra, if it's the first time you'll get welcome with gh_00
 In Ghidra go to File > New Project (ctrl+n)
@@ -244,9 +248,12 @@ initial analysis. Export the .sym file from PPSSPP and in Ghidra run script Ppss
 language allegrex (use "0" for the base address)
 
 - With all the previous steps in ghidra done, you can see the functions and code like you do in PPSSPP. The moment 
-for finding the addresses has come.
+for finding the addresses has come. Just click the syscall (sce...) from the list in ghidra and it will take you to
+the address.
 
 ### Subsequent to ghidra
+
+*In addition to the function address, you need the base address for the armips script.* 
 
 - The base address is obtained with the formula: 8804000 - header  
 From a quick hex view of the EBOOT.BIN you can see where the header ends and the elf (actual executable) starts. 
@@ -259,7 +266,14 @@ Base Address = 8803F40
 
 ```
 
-- To Do (explain with pics how below addresses are found)
+- With all the addresses, it's time to do the script to patch the EBOOT.BIN
+*You should always work by decrypting eboot.bin.
+If boot.bin and eboot.bin are both present, they are identical (assuming you have decrypted eboot).
+Although PSP custom firmwares can use boot.bin to boot, in most retail games is just full of zeroes. 
+The only exception is games where the boot.bin is fully present and contains debug symbols, in those 
+cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.* 
+
+Sample with defines & sceImposeSetLanguageMode (go to [Armips_files](https://github.com/Bunkai9448/digipet_PSP/tree/main/Armips_files) if you want to see the complete script)
 
 ```
 ; psp elfs are always loaded to 8804000
@@ -268,22 +282,23 @@ Base Address = 8803F40
 .psp
 .open "EBOOT.BIN", 0x08803F40 ; as such it excludes header
 
-.org 0x08803F40 ; make a define for the sce function
+.org 0x088F96E8 ; Define for the sce function
     sceImposeSetLanguageMode:
+	
+.org 0x088F9728 ; Define for the sce function
+    sceUtilityMsgDialogInitStart:
+	
+.org 0x088F9730 ; Define for the sce function
+    sceUtilitySavedataInitStart:
 
 ; ----- patch Impose language
-.org 0x08838D1C
+.org 0x0883DA60
     addiu a0, zero, 0x03 ; set your language id (0x03 for spanish)
     jal sceImposeSetLanguageMode
     addiu a1, zero, 0x00
   
 .close
 ```
-*You should always work by decrypting eboot.bin.
-If boot.bin and eboot.bin are both present, they are identical (assuming you have decrypted eboot).
-Although PSP custom firmwares can use boot.bin to boot, in most retail games is just full of zeroes. 
-The only exception is games where the boot.bin is fully present and contains debug symbols, in those 
-cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.* 
 
 - To finish this section, run your armips code.
 
