@@ -264,18 +264,18 @@ Base Address = 8803F40
 ;so when you write your armips file, you open the elf with that in mind
 
 .psp
-.open "BOOT.BIN", "EBOOT.BIN", 0x0880FAB8 ; as such it excludes header (usually, header = 54 Bytes)
+.open "EBOOT.BIN", 0x08803F40 ; as such it excludes header
 
-.org 0x0883B148 ; make a define for the function
+.org 0x08803F40 ; make a define for the sce function
     sceImposeSetLanguageMode:
 
 ; ----- patch Impose language
 .org 0x08838D1C
-    addiu a0, zero, 0x01
+    addiu a0, zero, 0x03 ; set your language id (0x03 for spanish)
     jal sceImposeSetLanguageMode
     addiu a1, zero, 0x00
-	
-.close	
+  
+.close
 ```
 *You should always work by decrypting eboot.bin.
 If boot.bin and eboot.bin are both present, they are identical (assuming you have decrypted eboot).
