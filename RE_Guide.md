@@ -293,7 +293,7 @@ sceUtilitySavedataInitStart  equ 0x088F972C - BASE
 .org 0x0883DA60
     addiu a0, zero, 0x03 ; set your language id (0x03 for spanish)
     jal sceImposeSetLanguageMode
-    addiu a1, zero, 0x00
+    addiu a1, zero, 0x00 ; set button to confirm/cancel (O to confirm = 0x0 , O to cancel = 0x1)
 
 ; find all references that call the other two functions and edit each one of them
 
