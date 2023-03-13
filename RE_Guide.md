@@ -284,10 +284,9 @@ cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.*
 
 ; Uncommonly, this elf basically treats everything inside the header as start relative not ram absolute
 ; hence we need to substract the base to each function define address to use the right one.
-BASE                         equ 0x08804000
-sceImposeSetLanguageMode     equ 0x088F96E4 - BASE
-sceUtilityMsgDialogInitStart equ 0x088F9724 - BASE
-sceUtilitySavedataInitStart  equ 0x088F972C - BASE
+sceImposeSetLanguageMode     equ 0x088F96E4 - 0x08804000
+sceUtilityMsgDialogInitStart equ 0x088F9724 - 0x08804000
+sceUtilitySavedataInitStart  equ 0x088F972C - 0x08804000
 
 ; ----- patch Impose language
 .org 0x0883DA60
