@@ -282,15 +282,18 @@ Sample with defines & sceImposeSetLanguageMode (go to [Armips_files](https://git
 .psp
 .open "EBOOT.BIN", 0x08803F40 ; as such it excludes header
 
-sceImposeSetLanguageMode     equ 0x088F96E8
-sceUtilityMsgDialogInitStart equ 0x088F9728
-sceUtilitySavedataInitStart  equ 0x088F9730
+; Uncommonly, this elf basically treats everything inside the header as start relative not ram absolute
+; hence we need to substract the base to each function define address to use the right one.
+BASE                         equ 0x08804000
+sceImposeSetLanguageMode     equ 0x088F96E4 - BASE
+sceUtilityMsgDialogInitStart equ 0x088F9724 - BASE
+sceUtilitySavedataInitStart  equ 0x088F972C - BASE
 
 ; ----- patch Impose language
 .org 0x0883DA60
     addiu a0, zero, 0x03 ; set your language id (0x03 for spanish)
-;    jal sceImposeSetLanguageMode
-;    addiu a1, zero, 0x00
+    jal sceImposeSetLanguageMode
+    addiu a1, zero, 0x00
 
 .close
 ```
