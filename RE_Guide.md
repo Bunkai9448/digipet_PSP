@@ -295,8 +295,12 @@ sceUtilitySavedataInitStart  equ 0x088F972C - BASE
     jal sceImposeSetLanguageMode
     addiu a1, zero, 0x00
 
+; find all references that call the other two functions and edit each one of them
+
 .close
 ```
+
+
 
 - To finish this section, run your armips code.
 
