@@ -273,7 +273,7 @@ Although PSP custom firmwares can use boot.bin to boot, in most retail games is 
 The only exception is games where the boot.bin is fully present and contains debug symbols, in those 
 cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.* 
 
-Sample with defines & sceImposeSetLanguageMode (go to [Armips_files](https://github.com/Bunkai9448/digipet_PSP/tree/main/Armips_files) if you want to see the complete script)
+- Let's tart with defines & sceImposeSetLanguageMode
 
 ```
 ; psp elfs are always loaded to 8804000
@@ -295,12 +295,36 @@ sceUtilitySavedataInitStart  equ 0x088F972C - BASE
     jal sceImposeSetLanguageMode
     addiu a1, zero, 0x00 ; set button to confirm/cancel (O to confirm = 0x0 , O to cancel = 0x1)
 
-; find all references that call the other two functions and edit each one of them
-
 .close
 ```
 
+- Following with sceUtilityMsgDialogInitStart
 
+```
+; This are the references that we need to patch
+;  FUN_0880e384:0880e40c(c), FUN_0880e450:0880e4f8(c), FUN_0880e53c:0880e598(c), 
+;  FUN_08813900:0881396c(c), FUN_08813a64:08813af0(c)  
+
+; But this functions receive a full struct as a parameter so... What do we need to patch?
+
+; Using the first function as example:
+;  FUN_0880e384:0880e40c(c)
+
+; Where's/what's the actual parameter we need to change?
+; If we look carefully, it's the zero from the instruction "sw   reg,Address" & "sb   reg,Address"
+; Everything else seems part of the strings for the printable message
+
+0880e408 3b 02 20 a2     sb         zero,0x23b(s1) =>DAT_08915857
+0880e40c c9 e5 23 0e     jal        zz_sceUtilityMsgDialogInitStart
+
+; As a double-check I watched another function
+;  FUN_0880e384:0880e40c(c)
+
+08813968 34 00 40 ae     sw         zero,0x34(s2) =>DAT_0891bd4c
+0881396c c9 e5 23 0e     jal        zz_sceUtilityMsgDialogInitStart
+```
+
+- Afterwards comes sceUtilitySavedataInitStart
 
 - To finish this section, run your armips code.
 
