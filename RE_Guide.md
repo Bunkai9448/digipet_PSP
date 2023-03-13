@@ -298,7 +298,7 @@ sceUtilitySavedataInitStart  equ 0x088F972C - BASE
 .close
 ```
 
-- Following with sceUtilityMsgDialogInitStart
+- Following with sceUtilityMsgDialogInitStart, image gh_10
 
 ```
 ; This are the references that we need to patch
