@@ -304,8 +304,8 @@ sceUtilitySavedataInitStart  equ 0x088F972C - BASE
 ## Last Steps
 
 *This section is for completionist sake.*
-- As you might guessed, you need to redo your ISO file to play. Use UMDGen and swap your files with the old ones.  
-Enjoy your modified game!
+- As you might guessed, you need to redo your ISO file to play. Use UMDGen and overwrite the old files with 
+the new edited ones. Enjoy your modified game!
 
 ## Making the patch
 
