@@ -300,30 +300,14 @@ sceUtilitySavedataInitStart  equ 0x088F972C - 0x08804000
 - Following with sceUtilityMsgDialogInitStart, image gh_10
 
 ```
-; This are the references that we need to patch
-;  FUN_0880e384:0880e40c(c), FUN_0880e450:0880e4f8(c), FUN_0880e53c:0880e598(c), 
-;  FUN_08813900:0881396c(c), FUN_08813a64:08813af0(c)  
 
-; But this functions receive a full struct as a parameter so... What do we need to patch?
-
-; Using the first function as example:
-;  FUN_0880e384:0880e40c(c)
-
-; Where's/what's the actual parameter we need to change?
-; If we look carefully, it's the zero from the instruction "sw   reg,Address" & "sb   reg,Address"
-; Everything else seems part of the strings for the printable message
-
-0880e408 3b 02 20 a2     sb         zero,0x23b(s1) =>DAT_08915857
-0880e40c c9 e5 23 0e     jal        zz_sceUtilityMsgDialogInitStart
-
-; As a double-check I watched another function
-;  FUN_0880e384:0880e40c(c)
-
-08813968 34 00 40 ae     sw         zero,0x34(s2) =>DAT_0891bd4c
-0881396c c9 e5 23 0e     jal        zz_sceUtilityMsgDialogInitStart
 ```
 
 - Afterwards comes sceUtilitySavedataInitStart
+
+```
+
+```
 
 - To finish this section, run your armips code.
 
