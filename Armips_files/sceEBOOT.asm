@@ -17,7 +17,7 @@ sceUtilitySavedataInitStart  equ 0x088F972C - 0x08804000
     addiu a1, zero, 0x00 ; set button to confirm/cancel (O to confirm = 0x0 , O to cancel = 0x1)
 
 
-; ----- If we need space to put extra code, we have space from betatest building strings
+; ----- If we need space to put extra code, we can use the betatest building strings block
 .org 0x08803F40 + 0x00102370
 
 .close
