@@ -17,21 +17,7 @@ sceUtilitySavedataInitStart  equ 0x088F972C - 0x08804000
     addiu a1, zero, 0x00 ; set button to confirm/cancel (O to confirm = 0x0 , O to cancel = 0x1)
 
 
-; ----- patch Msg Dialog Init
+; ----- If we need space to put extra code, we have space from betatest building strings
+.org 0x08803F40 + 0x00102370
 
-.org 0x0880dddc
-
-.org 0x0880df7c
-
-.org 0x0880e0c8
-
-.org 0x0880e224
-
-.org 0x0880e328
-
-.org 0x0880f788
-
-.org 0x0880fac0
-
-	
 .close
