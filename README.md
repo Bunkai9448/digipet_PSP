@@ -62,7 +62,7 @@ D:.
 
 - Cheat4steps.txt (Only as Proof of Concept)
 
-- FAQ & Bugs.md  (self-explanatory)
+- FAQ & Bugs.md  (Game FAQs & Bugs)
 
 - LICENSE (self-explanatory)
 
