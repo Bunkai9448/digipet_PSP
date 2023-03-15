@@ -66,4 +66,4 @@ fixated.<details><summary>See all Bosses here:</summary>Kuwagamon >  > Etemon > 
 
 - Modificar font > Poner los "¡" un poco más a la derecha
 
-- Revisar sceSystem para mensajes de guardado y salir del juego (editado)
+- Revisar sceSystem para mensajes de guardado y salir del juego
