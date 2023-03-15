@@ -26,9 +26,13 @@ animation, and your digimon will be exhausted. That's a game feature, not relate
 digi-evo phases.<details><summary>See the number of wins required to unlock each phase here:</summary>
 10 > 15 > 20 </details> 
 
+- There is a total of 8 + 1 digimon partners.
+
 - After the first, each partner joins when you find them in "Help" mode that appears seemingly random during 
 walking time. You need to win the battle for them to join, and there are certain moments when the help doesn't 
 return a partner (this is due to the original programing, not related to the patch).
+*The area you're in doesn't matter for the random HELP mode to appear, you can get various before moving to other area 
+if you want.*
 
 - To change your walking digimon, open the menu and check its parameters, your last digimon used/checked will be 
 the one walking.
@@ -40,8 +44,7 @@ See all Steps required here:</summary>10 000 > 12 000 > 14 000 > 16 000 > 18 000
 
 - Battled digimon are random within a range for each area. However, the final boss of each area is 
 fixated.<details><summary>See all Bosses here:</summary>Kuwagamon >  > Etemon > Metaltyranomon > 
-  MetalSeadramon > Megadramon</details> 
-
+  MetalSeadramon > Megadramon > Mugendramon & Apocalymon</details> 
 
 ===============================================================================
 #                    Betatesting && Known Bugs (Updated)
@@ -52,6 +55,8 @@ fixated.<details><summary>See all Bosses here:</summary>Kuwagamon >  > Etemon > 
 - Cambiar frase puntos vida > Comprueba tus P.V.  (Puntos de Vida). Decidirán la victoria.
 
 - Cambiar "repetir" (en botiquin)> Curar.
+
+- cambiar debes andar hasta > debes andar para
 
 - Cambiar frase búsqueda > Busca con la cruceta, y pulsa O cuando salga '¡ACEPTA!'
 
