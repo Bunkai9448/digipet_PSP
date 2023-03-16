@@ -50,15 +50,19 @@ D:.
 
 ## Files & folders in the repo.
 
-- ASM scripts for armips, for editing text parts of the game
+- Armips_files: ASM scripts for armips, use them to edit the text parts of the game
 
-- Font_Esp, patch and table for the spanish font (can be used standalone)
+- Font_Esp: patch and table for the spanish font (can be used standalone)
 
-- BAT scripts to automate GIM to PNG image conversions, Sample + PSD to test if the program works 
+- Gim2png_bat: BAT scripts to automate GIM to PNG image conversions, Sample + PSD to test if the program works 
 
-- BMS scripts for quickBMS, tu unpack and repack files. Commented with explanations
+- SCRIPTS_bms: BMS scripts for quickBMS, use them to unpack and repack files. Scripts are commented with explanations
 
-- python_scripts, to automate gim2png and png2gim (Only as Proof of Concept)
+- SCRIPTS_python: to automate gim2png and png2gim (Only as Proof of Concept)
+
+- SaveData: You can use this save if you don't want to complete the game yourself.
+
+- Syscalls: Use this plugin if you want to avoid dealing with hacking the sce functions for texts in your game.
 
 - Cheat4steps.txt (Only as Proof of Concept)
 
@@ -138,6 +142,9 @@ D:.
 
 - http://psp.jim.sh/pspsdk-doc/psputility__savedata_8h.html (sceUtilitySavedataInitStart)
 
+- https://wololo.net/talk/viewtopic.php?f=28&t=42910&p=389277 (plugin to avoid dealing with syscalls, sce functions)
+
+- https://github.com/kokibits/LangSwapper (source code for the plugin to avoid dealing with syscalls, sce functions)
 
 ## Author
 
