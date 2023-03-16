@@ -1,3 +1,5 @@
+https://imgur.com/ASJZPU5.png
+
 ## Explanations
 
 For System Messages like https://imgur.com/7jnmTTi.png  
@@ -36,9 +38,5 @@ sceImposeSetLanguageMode(), sceUtilityDialogInitStart() and sceUtilitySavedataIn
 
 ## The easy way
 
-Download the zip from this folder, unzip it and put it in the root of your PSP (or psemu/ if you are using adrenaline).
-
-
-## Proof for skeptical ones
-
-https://imgur.com/ASJZPU5.png
+Download the zip from this folder, unzip it and put it in the root of your PSP (or psemu/ if you are using 
+adrenaline).
