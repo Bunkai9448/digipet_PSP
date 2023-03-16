@@ -99,10 +99,6 @@ D:.
 
 - http://aluigi.org/bms/parse_exe.bms (to unpack the decrypted EBOOT.BIN and work with the text part better)
 
-- https://github.com/NationalSecurityAgency/ghidra (To find sceUtilityMsgDialogInitStart, and more)
-
-- https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md (PSP's CPU module for ghidra)
-
 - https://www.romhacking.net/utilities/598/ (xdelta and xdeltaUI to create the patch easily)
 
 
@@ -141,6 +137,10 @@ D:.
 - http://psp.jim.sh/pspsdk-doc/psputility__msgdialog_8h.html (sceUtilityMsgDialogInitStart)
 
 - http://psp.jim.sh/pspsdk-doc/psputility__savedata_8h.html (sceUtilitySavedataInitStart)
+
+- https://github.com/NationalSecurityAgency/ghidra (To find sceUtilityMsgDialogInitStart, and more)
+
+- https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md (PSP's CPU module for ghidra)
 
 - https://wololo.net/talk/viewtopic.php?f=28&t=42910&p=389277 (plugin to avoid dealing with syscalls, sce functions)
 
