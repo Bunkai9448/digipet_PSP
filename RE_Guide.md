@@ -186,9 +186,15 @@ Data alignment: 2048 ; File Mode: ID ; any other box unmarked.
 
 ![System Messages example](https://imgur.com/7jnmTTi.png)
 
+### This whole section is a Proof Of Concept, the use was deprecated in favour of  
+https://github.com/Bunkai9448/digipet_PSP/blob/main/Syscalls/README.md
+
+
 Before going into this step, you should know that: 
 *sceImposeSetLanguageMode* is what opens when you press the PSP button, *sceUtilitySavedataInitStart* is the save/load
 module, and *sceUtilityMsgDialogInitStart* is generic messages that open using the system overlay.
+
+### PPSSPP debugger
 
 - Depuracion > desensamblador (ctrl+D), see image:
 ![Open Debug](https://imgur.com/fVc6xTi.png)
@@ -297,17 +303,9 @@ sceUtilitySavedataInitStart  equ 0x088F972C - 0x08804000
 .close
 ```
 
-- Following with sceUtilityMsgDialogInitStart, image gh_10
-
-```
-
-```
+- Following with sceUtilityMsgDialogInitStart.
 
 - Afterwards comes sceUtilitySavedataInitStart
-
-```
-
-```
 
 - To finish this section, run your armips code.
 
