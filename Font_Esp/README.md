@@ -15,7 +15,8 @@ After that, you'll need to load "Font_Esp.tbl" in your armips script.
 
 
 # What if I want a completely new font?
-Follow the RE_Guide and make your own edits to the font and the original table https://www.romhacking.net/documents/765/
+Follow the RE_Guide and make your own edits to the font and the original table from 
+https://www.romhacking.net/documents/765/  
 **Again, save both files (armips and table) with utf8 encoding**
 
 
