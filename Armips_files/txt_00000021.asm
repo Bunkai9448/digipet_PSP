@@ -1,9 +1,11 @@
+; Author: Bunkai
+
 .psp
 .create "ID00033" , 0x0
 
 ; header
 
-    .ascii "TXTD"    ; signature
+    .ascii "TXTD" ; signature
     .word 0x01    ; version
     .word 0x1D    ; string count
     .word 0x00    ; unknown, PADDING?
