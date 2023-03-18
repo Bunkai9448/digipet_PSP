@@ -40,7 +40,7 @@ ux0:/pspemu/seplugins/
  LangSwapper.prx
 ```
 If you need visual aid, check the image below:
-![Visual Aid Image](https://imgur.com/qghE3ip.png)
+![Visual Aid Image](https://imgur.com/pxDgjyB.png)
 
 - Don't forget to write this in your "game.txt", you can copy paste.
 ```
