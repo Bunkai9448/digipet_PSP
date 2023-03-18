@@ -1,12 +1,16 @@
 # Folder summary 
 
-Digimon_Dex.psd & Drop_Items.psd : Preformated samples to know the image parameters if you have problems finding them.
-GIM_RE.bat : Script guide to do the reversing to the image parameters step by step
-Sample.bat : Sample for sanity-check (to see if your parameters create a 1:1 GIM file)
-gim2png.bat & png2gim.bat : Scripts (by Mugi) To convert all files from one format to another in one batch.
+- Digimon_Dex.psd & Drop_Items.psd : Preformated samples to know the image parameters if you have problems finding 
+them.
 
-*The png2gim.bat only gives reinsertable GIMs when your PNG has the proper parameters. If your GIM is bigger or doesn't 
-show in-game check those parameters (using the GIM_RE.bat)*
+- GIM_RE.bat : Script guide to do the reversing to the image parameters step by step
+
+- Sample.bat : Sample for sanity-check (to see if your parameters create a 1:1 GIM file)
+
+- gim2png.bat & png2gim.bat : Scripts (by Mugi) To convert all files from one format to another in one batch.
+
+*The png2gim.bat only gives reinsertable GIMs when your PNG has the proper parameters. If your GIM is bigger or
+doesn't show in-game check those parameters (using the GIM_RE.bat)*
 
 ## Don't Forget
 
