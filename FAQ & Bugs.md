@@ -23,7 +23,7 @@ animation, and your digimon will be exhausted. That's a game feature, not relate
 *When you lose a battle, a line will appear in the bottom, you need to open the menu with O and do as asked.*
 
 - There is a total of 52 digimons, including the digimon partners. All partners have the same number of 
-digi-evo phases.<details><summary>See the number of wins required to unlock each phase here:</summary>
+digi-evo phases.<details><summary>See the number of wins required to unlock all the digi-evo here:</summary>
 10 > 15 > 20 </details> 
 
 - There is a total of 8 + 1 digimon partners.
@@ -50,20 +50,5 @@ fixated.<details><summary>See all Bosses here:</summary>Kuwagamon >  > Etemon > 
 #                    Betatesting && Known Bugs (Updated)
 ===============================================================================
 
-- Desinvertir ajustes wifi on-off
+- Currently none
 
-- Cambiar frase puntos vida > Comprueba tus P.V.  (Puntos de Vida). Decidirán la victoria.
-
-- Cambiar "repetir" (en botiquin)> Curar.
-
-- cambiar debes andar hasta > debes andar para
-
-- Cambiar frase búsqueda > Busca con la cruceta, y pulsa O cuando salga '¡ACEPTA!'
-
-- Cambiar frase curar > Debes curar a los digimon.
-
-- Falta tilde > Tu posición está en el área que parpadea.
-
-- Modificar font > Poner los "¡" un poco más a la derecha
-
-- Revisar sceSystem para mensajes de guardado y salir del juego
