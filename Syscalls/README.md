@@ -52,6 +52,6 @@ sceImposeSetLanguageMode(), sceUtilityDialogInitStart() and sceUtilitySavedataIn
 
 ## The easy way, for end users
 
-Download the Plugin.zip from this folder, unzip it and put it in the root of your PSP (or psemu/ if you are using 
-adrenaline). Enjoy:
+Download the [Plugin.zip](Plugin.zip) from this folder, unzip it and put it in the root of your PSP (or psemu/ if you 
+are using adrenaline). Enjoy:
 ![Proof](https://imgur.com/ASJZPU5.png)
