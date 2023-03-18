@@ -20,16 +20,18 @@ https://wololo.net/talk/viewtopic.php?f=28&t=42910&p=389277
 https://github.com/kokibits/LangSwapper
 
 - For those who haven't used a plugin for PSP before, here's how you make it work:  
-https://gbatemp.net/threads/adrenaline-how-to-used-plugins.449509/#post-6855326
+https://gbatemp.net/threads/adrenaline-how-to-used-plugins.449509/#post-6855326  
 *Explanations are for PS Vita's Adrenaline, but for a normal PSP just do the same in your PSP root folder (ms0:)*
 
-- The text will now be copied and pasted here for quick use:
+- The text will now be copied and pasted here for quick use:  
+
 
 ```
 Put the plugin in 'ux0:/pspemu/seplugins/'
-Create a 'game.txt' file and write in it
-'ms0:/seplugins/plugin_name.prx 1' (Without ')
-And put the game.txt inside the 'ux0:/pspemu/seplugins/' folder
+
+Create a 'game.txt' file and write in it 'ms0:/seplugins/plugin_name.prx 1'
+
+And put the game.txt inside the 'ux0:/pspemu/seplugins/' folder.
 ```
 In our case, the folder would end like this:
 ```
@@ -38,9 +40,9 @@ ux0:/pspemu/seplugins/
  LangSwapper.prx
 ```
 If you need visual aid, check the image below:
-[img]https://imgur.com/qghE3ip.png[/img]
+[Visual Aid Image]https://imgur.com/qghE3ip.png[/img]
 
-- Don't forget to write this in your "game.txt". You can copy paste.
+- Don't forget to write this in your "game.txt", you can copy paste.
 ```
 ms0:/seplugins/LangSwapper.prx 1
 ```
