@@ -16,7 +16,7 @@
 	.org 0x024C ; goes to next offset
 
     block002_str1:
-    .string "Caminados" ; 歩数表示
+    .string "Caminado" ; 歩数表示 // Num. pasos
     .align 4
 
 	.org 0x0258 ; goes to next offset
@@ -52,7 +52,7 @@
 	.org 0x0288 ; goes to next offset
 	
     block008_str1:
-    .string "Repetir" ; なおす
+    .string "Curar" ; なおす
     .align 4
 	
 	.org 0x0290 ; goes to next offset
@@ -94,7 +94,7 @@
 	.org 0x02D0 ; goes to next offset
 	
     block015_str1:
-    .string "Debes andar hasta investigar todo el area." ; 歩くことでエリアを探索することができます 
+    .string "Debes andar para investigar todo el área." ; 歩くことでエリアを探索することができます 
     .align 4	
 
 	.org 0x02FC ; goes to next offset
@@ -172,7 +172,7 @@
 	.org 0x04C4 ; goes to next offset
 	
     block028_str1:
-    .string "La victoria se decidirá por los puntos de vida." ; デジモンの生命力でバトルの勝敗を決める要素になります
+    .string " Decidirán la victoria.    " ; デジモンの生命力でバトルの勝敗を決める要素になります
     .align 4
 
 	.org 0x04FC ; goes to next offset
@@ -190,13 +190,13 @@
 	.org 0x054C ; goes to next offset
 	
     block031_str1:
-    .string "Comprueba el area de búsqueda actual." ; 探索中のエリアを確認することができます
+    .string "Comprueba el área de búsqueda actual." ; 探索中のエリアを確認することができます
     .align 4	
 	
 	.org 0x0574 ; goes to next offset
 	
     block032_str1:
-    .string "Tu posición está en el area que parpadea." ; 点滅しているエリアが現在攻略中のエリアです
+    .string "Tu posición está en el área que parpadea." ; 点滅しているエリアが現在攻略中のエリアです
     .align 4	
 
 	.org 0x5A0 ; goes to next offset
@@ -298,7 +298,7 @@
 	.org 0x78C ; goes to next offset
 	
     block049_str1:
-    .string "Ganaste." ; 勝利！
+    .string "Ganas." ; 勝利！
     .align 4
 
 	.org 0x794 ; goes to next offset
@@ -328,7 +328,7 @@
 	.org 0x820 ; goes to next offset
 	
     block054_str1:
-    .string "Úsalo para tratar a digimon heridos." ; 「チリョウ」でケガを治すことができます
+    .string "Debes curar a los digimon heridos.  " ; 「チリョウ」でケガを治すことができます
     .align 4
 
 	.org 0x848 ; goes to next offset
@@ -340,7 +340,7 @@
 	.org 0x890 ; goes to next offset
 	
     block056_str1:
-    .string "Usa la cruceta para buscar, y pulsa ○ cuando veas '¡ACEPTA!'   " ; 方向キーで電波が強くなる場所を探してＣＡＴCH！が出たら○を押そう！
+    .string "Busca con la cruceta, y pulsa ○ cuando salga '¡ACEPTA!'       " ; 方向キーで電波が強くなる場所を探してＣＡＴCH！が出たら○を押そう！
     .align 4
 
 	.org 0x8D4 ; goes to next offset
@@ -400,49 +400,49 @@
 	.org 0x9B8 ; goes to next offset
 	
     block066_str1:
-    .string "Ataque doble exitoso, Agumon. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！アグモンのＨＰとＡＴＴＣＫ＋１
+    .string "Batalla de Agumons existosa. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！アグモンのＨＰとＡＴＴＣＫ＋１
     .align 4
 
 	.org 0x9F4 ; goes to next offset
 	
     block067_str1:
-    .string "Ataque doble exitoso, Piyomon. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！ピヨモンのＨＰとＡＴＴＣＫ＋１
+    .string "Batalla de Piyomons existosa. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！ピヨモンのＨＰとＡＴＴＣＫ＋１
     .align 4
 
 	.org 0xA30 ; goes to next offset
 	
     block068_str1:
-    .string "Ataque doble exitoso, Gabumon. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！ガブモンのＨＰとＡＴＴＣＫ＋１
+    .string "Batalla de Gabumons existosa. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！ガブモンのＨＰとＡＴＴＣＫ＋１
     .align 4
 
 	.org 0xA6C ; goes to next offset
 	
     block069_str1:
-    .string "Ataque doble exitoso, Tentomon. P.V. y ataque suben +1.  " ; ドッペルゲンガ―撃破成功！テントモンのＨＰとＡＴＴＣＫ＋１
+    .string "Batalla de Tentomons existosa. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！テントモンのＨＰとＡＴＴＣＫ＋１
     .align 4
 
 	.org 0xAA8 ; goes to next offset
 	
     block070_str1:
-    .string "Ataque doble exitoso, Gomamon. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！ゴマモンのＨＰとＡＴＴＣＫ＋１
+    .string "Batalla de Gomamons existosa. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！ゴマモンのＨＰとＡＴＴＣＫ＋１
     .align 4
 
 	.org 0xAE4 ; goes to next offset
 	
     block071_str1:
-    .string "Ataque doble exitoso, Palmon. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！パルモンのＨＰとＡＴＴＣＫ＋１  
+    .string "Batalla de Palmons existosa. P.V. y ataque suben +1. " ; ドッペルゲンガ―撃破成功！パルモンのＨＰとＡＴＴＣＫ＋１  
     .align 4
 
 	.org 0xB20 ; goes to next offset
 	
     block072_str1:
-    .string "Ataque doble exitoso, Patamon. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！パタモンのＨＰとＡＴＴＣＫ＋１
+    .string "Batalla de Patamons existosa. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！パタモンのＨＰとＡＴＴＣＫ＋１
     .align 4
 
 	.org 0xB5C ; goes to next offset
 	
     block073_str1:
-    .string "Ataque doble exitoso, Protmon. P.V. y ataque suben +1.    " ; ドッペルゲンガ―撃破成功！プロットモンのＨＰとＡＴＴＣＫ＋１
+    .string "Batalla de Protmons existosa. P.V. y ataque suben +1." ; ドッペルゲンガ―撃破成功！プロットモンのＨＰとＡＴＴＣＫ＋１
     .align 4
 
 	.org 0xB9C ; goes to next offset
@@ -454,7 +454,7 @@
 	.org 0xBB4 ; goes to next offset
 	
     block075_str1:
-    .string "Area completa." ; エリアクリア！
+    .string "Área completa." ; エリアクリア！
     .align 4
 
 	.org 0xBC4 ; goes to next offset
@@ -1087,49 +1087,49 @@
 	.org 0x18E4 ; goes to next offset
 	
     block180_str1:
-    .string "Agumon (Tag)     " ; アグモン（ドッペル）
+    .string "Agumon (Espejo)   " ; アグモン（ドッペル）
     .align 4
 
 	.org 0x18FC ; goes to next offset
 	
     block181_str1:
-    .string "Piyomon (Tag)     " ; ピヨモン（ドッペル）
+    .string "Piyomon (Espejo)   " ; ピヨモン（ドッペル）
     .align 4
 
 	.org 0x1914 ; goes to next offset
 	
     block182_str1:
-    .string "Gabumon (Tag)     " ; ガブモン（ドッペル）
+    .string "Gabumon (Espejo)   " ; ガブモン（ドッペル）
     .align 4
 
 	.org 0x192C ; goes to next offset
 	
     block183_str1:
-    .string "Tentomon (Tag)       " ; テントモン（ドッペル）
+    .string "Tentomon (Espejo)   " ; テントモン（ドッペル）
     .align 4
 
 	.org 0x1944 ; goes to next offset
 	
     block184_str1:
-    .string "Gomamon (Tag)     " ; ゴマモン（ドッペル）
+    .string "Gomamon (Espejo)   " ; ゴマモン（ドッペル）
     .align 4
 
 	.org 0x195C ; goes to next offset
 	
     block185_str1:
-    .string "Palmon (Tag)     " ; パルモン（ドッペル）
+    .string "Palmon (Espejo)   " ; パルモン（ドッペル）
     .align 4
 
 	.org 0x1974 ; goes to next offset
 	
     block186_str1:
-    .string "Patamon (Tag)     " ; パタモン（ドッペル）
+    .string "Patamon (Espejo)   " ; パタモン（ドッペル）
     .align 4
 
 	.org 0x198C ; goes to next offset
 	
     block187_str1:
-    .string "Plotmon (Tag)        " ; プロットモン（ドッペル）
+    .string "Plotmon (Espejo)        " ; プロットモン（ドッペル）
     .align 4
 
 	; In a different text block, more Commands
