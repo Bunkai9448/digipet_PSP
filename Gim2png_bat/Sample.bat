@@ -1,6 +1,8 @@
+:: Author: Bunkai
+
 :: Based on the post by akadewboy on Fri Apr 01, 2011 9:11 pm
 :: in https://forum.xentax.com/viewtopic.php?t=6313
-:: With snipped code to add -digi option in GimConv.cfg file, by "mono21400" also known as "ethanol"
+:: With snipped code to add -digi option in GimConv.cfg file, by "ethanol"
 
 :: "input.GIM" == "output.GIM" sanity check:
 :: gimconv "input.GIM" -o "output.GIM" -digi 
