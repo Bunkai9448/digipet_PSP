@@ -170,7 +170,7 @@
 	.org 0x0361 ; goes to next offset
 	
     block022_str1:
-    .string "Wifi:  ON" ; 通信バトル設定：有効
+    .string "Wifi:  OFF" ; 通信バトル設定：有効
     .align 4
 
 	.byte 0x0A ; Control code for separating different strings
@@ -211,7 +211,7 @@
 	.org 0x03CE ; goes to next offset
 
     block024_str3:
-    .string "¿Desactivar batalla vs PNJ?" ; ＮＰＣ対戦設定：無効
+    .string "¿Activar batalla vs PNJ?" ; ＮＰＣ対戦設定：無効
     .align 4
 
 	.byte 0x0A ; Control code for separating different strings
@@ -225,7 +225,7 @@
 	.org 0x0405 ; goes to next offset	
 	
     block024_str5:
-    .string "Wifi: OFF" ; 通信バトル設定：無効 
+    .string "Wifi: ON" ; 通信バトル設定：無効 
     .align 2	
 
 	.byte 0x0A ; Control code for separating different strings
@@ -233,7 +233,7 @@
 	.org 0x041B ; goes to next offset
 
     block024_str6:
-    .string "¿Activar batalla vs PNJ?" ; ＮＰＣ対戦設定：有効
+    .string "¿Desactivar batalla vs PNJ?" ; ＮＰＣ対戦設定：有効
     .align 4
 
 	.byte 0x0A ; Control code for separating different strings
