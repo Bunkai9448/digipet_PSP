@@ -166,13 +166,13 @@
 	.org 0x04A0 ; goes to next offset
 	
     block027_str1:
-    .string "Comprueba los P.V. (Puntos de Vida)." ; HP（体力）を確認することができます
+    .string "Mira sus P.V. (Puntos de Vida)." ; HP（体力）を確認することができます
     .align 4
 
 	.org 0x04C4 ; goes to next offset
 	
     block028_str1:
-    .string " Decidirán la victoria.    " ; デジモンの生命力でバトルの勝敗を決める要素になります
+    .string " Los P.V. deciden la victoria.   " ; デジモンの生命力でバトルの勝敗を決める要素になります	
     .align 4
 
 	.org 0x04FC ; goes to next offset
