@@ -1,3 +1,5 @@
+:: Author: Bunkai
+
 :: Script to get a 1:1 size from a full process 
 :: of image conversion GIM to PNG to GIM
 :: (It will use the GIS format as a bridge).
