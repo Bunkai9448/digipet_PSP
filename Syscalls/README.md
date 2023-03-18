@@ -7,17 +7,17 @@ The original and only author of this plugin is kokibits ( https://github.com/kok
 of requirement or license, I hope this is OK with you. However if you want me to take your files out of this repo, 
 please submit a github issue and I will gladly abide by your decission. Thanks.
 
-## How To Use
-
-For System Messages like this ![System Message Picture](https://imgur.com/7jnmTTi.png )
-
-- You usually are expected to track down the sce functions in your game and edit them, but there is way to work with
-them in a simpler and more generic manner, thanks to the use of a PSP plugin.
-
 - This method/plugin was buried and almost forgotten, It's time to make it spread, because it solves many headaches 
 for this and future translation projects and it deserves the attention. You can learn more about the plugin in:  
 https://wololo.net/talk/viewtopic.php?f=28&t=42910&p=389277  
 https://github.com/kokibits/LangSwapper
+
+## How To Use
+
+For System Messages like this ![System Message Picture](https://imgur.com/7jnmTTi.png )
+
+- You are usually expected to track down the sce functions in your game and edit them, but there is way to work with
+them in a simpler and more generic manner, thanks to the use of a PSP plugin.
 
 - For those who haven't used a plugin for PSP before, here's how you make it work:  
 https://gbatemp.net/threads/adrenaline-how-to-used-plugins.449509/#post-6855326  
