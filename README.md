@@ -158,6 +158,8 @@ D:.
 
 - Ethanol (guidance about Font, GIM, Gimconv config snippet and help fixing extract/insert mistakes)
 
+- kokibits (this project uses their PSP plugin for the syscalls)
+
 - ToDo
 
 (Betatesting)
