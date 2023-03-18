@@ -40,7 +40,7 @@ ux0:/pspemu/seplugins/
  LangSwapper.prx
 ```
 If you need visual aid, check the image below:
-[Visual Aid Image]https://imgur.com/qghE3ip.png[/img]
+![Visual Aid Image](https://imgur.com/qghE3ip.png)
 
 - Don't forget to write this in your "game.txt", you can copy paste.
 ```
@@ -52,6 +52,6 @@ sceImposeSetLanguageMode(), sceUtilityDialogInitStart() and sceUtilitySavedataIn
 
 ## The easy way, for end users
 
-Download the zip from this folder, unzip it and put it in the root of your PSP (or psemu/ if you are using 
+Download the Plugin.zip from this folder, unzip it and put it in the root of your PSP (or psemu/ if you are using 
 adrenaline). Enjoy:
 ![Proof](https://imgur.com/ASJZPU5.png)
