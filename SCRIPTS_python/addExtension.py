@@ -1,3 +1,6 @@
+# Author: Bunkai 
+# This method was eventually deprecated for the project but it serves as Proof of Concept and learning material
+
 # Python script to convert GIM files to PNG
 
 import os
