@@ -1,3 +1,5 @@
+; Author: Bunkai (guided by Mugi)
+
 ; psp elfs are always loaded to 8804000
 ;so when you write your armips file, you open the elf with that in mind
 
