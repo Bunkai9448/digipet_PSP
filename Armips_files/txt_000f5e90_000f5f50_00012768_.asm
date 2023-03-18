@@ -1,3 +1,5 @@
+; Author: Bunkai
+
 .psp
 .open "000f5e90_000f5f50_00012768_.dat" , 0x0
 
