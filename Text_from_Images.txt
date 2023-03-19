@@ -1,36 +1,36 @@
-TEXT FROM GRAPHICS
--------------------
+TEXT FROM GRAPHICS (Transcribed and translated by Bunkai)
+---------------------------------------------------------
 
 /// FILE 0.bin inside FILEDATA.CPK | LCD part of the digivice ///
 
 コウゲキ Atacar > luchar (to avoid repetition with "attack")
 シンカ Digievolución > Digi-Evo (reduced size to fit)
-ナカマ Aliado / Compañero (partner for show consistency)
+ナカマ Aliado > Compañero (partne to be consistent with the tv-show)
 ニゲル Huir
 パラメーター Parámetros
 マップ Mapa
 チリョウ Botiquín
 ツウシン Conectar/link > Versus (The others are too long or sound very odd)
 バトルスタート Iniciando batalla/Start batlle
-ニク Carne  ; 肉を手に入れた！DP＋２
-プロテイン Proteína  ; プロテインを手に入れた！HP＋１
-PW-B   Píldora DP+
-P-ドラッグ Victoria segura ; Ｐ－ドラッグを手に入れた！次のバトルで敵を確実に倒せます
-エリアクリアー　Area completada o Area terminada/Cleared
+ニク Carne  ; later used for 肉を手に入れた！DP＋２
+プロテイン Proteína  ; later used for プロテインを手に入れた！HP＋１
+PW-B   Píldora DP+ 
+P-ドラッグ VictoriaSegura ; later used for Ｐ－ドラッグを手に入れた！次のバトルで敵を確実に倒せます
+エリアクリアー　Area completa / Area Cleared
 エリアクリア A completar
-ノウホスウ ( 総歩数 = Total steps)　Total andado / Podómetro
-サウンド Sound
-オン On
-オフ Off
-HELP
-BATTLE
+ノウホスウ ( 総歩数 = Total steps)　Total andado > Podómetro
+サウンド Sonido
+オン ON
+オフ OFF
+HELP > AYUDA
+BATTLE > 
 ERROR
-HP
-DP
-ATTACK
-WIN
-CATCH!
-READY
+HP (Health Points) > P.V. (Puntos de Vida)
+DP  (Actually, Digimon Points) > P.F. (Puntos de Fuerza) (to avoid any mislead and make it obvious)
+ATTACK Ataque
+WIN Victoria
+CATCH! > ¡Acepta! (In the actual game you are letting the digimon join, not catching them)
+READY ¡Prepárate!
 
 アグモン Agumon
 ガブモン Gabumon
@@ -87,7 +87,7 @@ READY
 
 /// FILE 16.bin inside FILEDATA.CPK | title_screen ///
 
-デジヴァイス
+デジヴァイス Digivice
 
 ©本郷あきよし•東映アニメーション•テレビ朝日•電通© 2013 NBG > ©Hongo Akiyoshi • Toei Ani. • Asahi TV • Dentsu ©2013 NBHI
 
