@@ -2,7 +2,7 @@
 
 As a bonus for this project, I wanted to create a Quality of Life improvement for this game.
 
-- We will cheat at the steps parameter of this game.
+- This will cheat at the steps parameter of this game.
 
 ## Game ID: 
 
