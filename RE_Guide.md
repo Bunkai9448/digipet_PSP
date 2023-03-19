@@ -183,8 +183,7 @@ Data alignment: 2048 ; File Mode: ID ; any other box unmarked.
 
 
 ## System Messages 
-
-![System Messages example](https://imgur.com/7jnmTTi.png)
+![System Messages example](https://imgur.com/3fzRibF.png)
 
 ### This whole section is a Proof Of Concept, the use was deprecated in favour of  
 https://github.com/Bunkai9448/digipet_PSP/blob/main/Syscalls/README.md
