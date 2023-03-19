@@ -43,11 +43,11 @@ See all Steps required here:</summary>10 000 > 12 000 > 14 000 > 16 000 > 18 000
  discarded to focus on actually working on the patch. However, it works in a sense.* 
 
 - Battled digimon are random within a range for each area. However, the final boss of each area is 
-fixated.<details><summary>See all Bosses here:</summary>Kuwagamon >  > Etemon > Metaltyranomon > 
+fixated.<details><summary>See all Bosses here:</summary>Kuwagamon > Devimon > Etemon > Metaltyranomon > 
   MetalSeadramon > Megadramon > Mugendramon & Apocalymon</details> 
 
 ===============================================================================
-#                    Betatesting && Known Bugs (Updated)
+#                    Betatesting & Known Bugs (Updated)
 ===============================================================================
 
 - Currently none
