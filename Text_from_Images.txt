@@ -1,7 +1,9 @@
 TEXT FROM GRAPHICS (Transcribed and translated by Bunkai)
 ---------------------------------------------------------
 
-/// FILE 0.bin inside FILEDATA.CPK | LCD part of the digivice ///
+///////////////////////////////////////////////////////////////////
+/// FILE ID00000 inside FILEDATA.CPK | LCD part of the digivice ///
+///////////////////////////////////////////////////////////////////
 
 コウゲキ Atacar > luchar (to avoid repetition with "attack")
 シンカ Digievolución > Digi-Evo (reduced size to fit)
@@ -85,13 +87,17 @@ READY ¡Prepárate!
 ゲコモン Gekomon
 エアドラモン Airdramon
 
-/// FILE 16.bin inside FILEDATA.CPK | title_screen ///
+///////////////////////////////////////////////////////
+/// FILE ID00015 inside FILEDATA.CPK | title_screen ///
+///////////////////////////////////////////////////////
 
 デジヴァイス Digivice
 
 ©本郷あきよし•東映アニメーション•テレビ朝日•電通© 2013 NBG > ©Hongo Akiyoshi • Toei Ani. • Asahi TV • Dentsu ©2013 NBHI
 
-/// FILE 18.bin inside FILEDATA.CPK | game_intro "animation" ///
+/////////////////////////////////////////////////////////////////
+/// FILE ID00018 inside FILEDATA.CPK | game_intro "animation" ///
+/////////////////////////////////////////////////////////////////
 
 ご注意
 ゲームソフトを権利者の許諾なく、
