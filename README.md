@@ -50,31 +50,31 @@ D:.
 
 ## Files & folders in the repo.
 
-- Armips_files: ASM scripts for armips, use them to edit the text parts of the game
+- Armips_files: ASM scripts for armips, use them to edit the text parts of the game.
 
-- Font_Esp: patch and table for the spanish font (can be used standalone)
+- Font_Esp: Patch and table for the Spanish font. (Can be used standalone).
 
-- Gim2png_bat: BAT scripts to automate GIM to PNG image conversions, Sample + PSD to test if the program works 
+- Gim2png_bat: BAT scripts to automate GIM to PNG image conversions, Samples + PSD to test if the tool works properly.
 
-- SCRIPTS_bms: BMS scripts for quickBMS, use them to unpack and repack files. Scripts are commented with explanations
+- SCRIPTS_bms: BMS scripts for quickBMS, use them to unpack and repack files. Scripts are commented with explanations.
 
-- SCRIPTS_python: to automate gim2png and png2gim (Only as Proof of Concept)
+- SCRIPTS_python: To automate gim2png and png2gim (Only as Proof of Concept).
 
-- SaveData: You can use this save if you don't want to complete the game yourself.
+- SaveData: Use this save if you don't want to complete the game yourself.
 
-- Syscalls: Use this plugin if you want to avoid dealing with hacking the sce functions for texts in your game.
+- Syscalls: The use of this plugin avoids dealing with the sce functions and force the console system set language.
 
-- Cheat4steps.txt (Only as Proof of Concept)
+- Cheat4steps.txt (only as Proof of Concept).
 
-- FAQ & Bugs.md  (Game FAQs & Bugs)
+- FAQ & Bugs.md: (game FAQs & Bugs).
 
-- LICENSE (self-explanatory)
+- LICENSE (self-explanatory).
 
-- README.md (self-explanatory)
+- README.md (self-explanatory).
 
-- RE_Guide.md (self-explanatory)
+- RE_Guide.md (self-explanatory).
 
-- Text_from_Images, contains the transcribed text from graphics
+- Text_from_Images (contains the transcribed text from graphics).
 
 
 ## Extra Tools required
@@ -89,8 +89,6 @@ D:.
 
 - http://aluigi.altervista.org/quickbms.htm (quickBMS program)
 
-- http://aluigi.altervista.org/bms/cpk.bms (PSP's CPK script for quickBMS)
-
 - https://github.com/Kingcom/armips (armips program)
 
 - GimConv (You have to find this tool on your own)
@@ -104,47 +102,47 @@ D:.
 
 ## List of References and Documentation (in no particular order)
 
-- https://haroohie.club/blog/2022-11-02-chokuretsu-archives/
+- https://haroohie.club/blog/2022-11-02-chokuretsu-archives/ (a RE guide for nds, helps with a few concepts).
 
-- https://datacrystal.romhacking.net/wiki/Blaze_Union:Tutorials (mini tuto about the PPSSPP debugger)
+- https://datacrystal.romhacking.net/wiki/Blaze_Union:Tutorials (mini tuto about the PPSSPP debugger).
 
-- https://gbatemp.net/threads/psp-debugging.452408/
+- https://gbatemp.net/threads/psp-debugging.452408/ (more about PPSSPP debugger).
 
 - https://gbatemp.net/threads/psp-asm-hacking-for-variable-width-font.374967/page-3
 
-- https://forum.xentax.com/viewtopic.php?t=6313 (About GIM image format for psp files)
+- https://forum.xentax.com/viewtopic.php?t=6313 (about GIM image format for psp files).
 
-- http://personal.denison.edu/~bressoud/cs281-s10/ (MIPS, PSP uses those with some custom instructions/encodings)
+- http://personal.denison.edu/~bressoud/cs281-s10/ (MIPS, PSP uses those with some custom instructions/encodings).
 
-- https://github.com/uofw/upspd (PSP unofficial documentation repo)
+- https://github.com/uofw/upspd (PSP unofficial documentation repo).
 
-- https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM) (wiki about GIM)
+- https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM) (wiki entry about GIM files)
 
-- https://www.psdevwiki.com/ps3/GimConv (wiki about GIMconv)
+- https://www.psdevwiki.com/ps3/GimConv (wiki entry about GIMconv).
 
-- https://www.vg-resource.com/thread-28180.html (tuto for making BMS scripts)
+- https://www.vg-resource.com/thread-28180.html (tuto for making BMS scripts).
 
-- http://gitaroopals.shoutwiki.com/wiki/PSP:Patching_the_executable_(BOOT.BIN)
+- http://gitaroopals.shoutwiki.com/wiki/PSP:Patching_the_executable_(BOOT.BIN) (info about BOOT.bin & EBOOT.bin).
 
-- https://wiki.vg-resource.com/GMO (GMO files, 3d models)
+- https://wiki.vg-resource.com/GMO (info about GMO files, 3d models).
 
-- https://winmerge.org/downloads/ (Helped comparing files to get proper gim format in reinsertion)
+- https://winmerge.org/downloads/ (Helps comparing files to get proper gim format in reinsertion).
 
-- https://www.romhacking.net/documents/765/ (Font table)
+- https://www.romhacking.net/documents/765/ (font table).
 
-- http://psp.jim.sh/pspsdk-doc/psputility__sysparam_8h.html (sceImposeSetLanguageMode)
+- http://psp.jim.sh/pspsdk-doc/psputility__sysparam_8h.html (sceImposeSetLanguageMode).
 
-- http://psp.jim.sh/pspsdk-doc/psputility__msgdialog_8h.html (sceUtilityMsgDialogInitStart)
+- http://psp.jim.sh/pspsdk-doc/psputility__msgdialog_8h.html (sceUtilityMsgDialogInitStart).
 
-- http://psp.jim.sh/pspsdk-doc/psputility__savedata_8h.html (sceUtilitySavedataInitStart)
+- http://psp.jim.sh/pspsdk-doc/psputility__savedata_8h.html (sceUtilitySavedataInitStart).
 
-- https://github.com/NationalSecurityAgency/ghidra (To find sceUtilityMsgDialogInitStart, and more)
+- https://github.com/NationalSecurityAgency/ghidra (To find sceUtilityMsgDialogInitStart, and more).
 
-- https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md (PSP's CPU module for ghidra)
+- https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md (PSP's CPU module for ghidra).
 
-- https://wololo.net/talk/viewtopic.php?f=28&t=42910&p=389277 (plugin to avoid dealing with syscalls, sce functions)
+- https://wololo.net/talk/viewtopic.php?f=28&t=42910&p=389277 (plugin to avoid dealing with syscalls, sce functions).
 
-- https://github.com/kokibits/LangSwapper (source code for the plugin to avoid dealing with syscalls, sce functions)
+- https://github.com/kokibits/LangSwapper (source code for the plugin to avoid dealing with syscalls, sce functions).
 
 ## Author
 
