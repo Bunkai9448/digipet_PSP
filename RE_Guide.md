@@ -303,16 +303,14 @@ sceUtilitySavedataInitStart  equ 0x088F972C - 0x08804000
 .close
 ```
 
-- Following with sceUtilityMsgDialogInitStart.
+- Do the same for sceUtilityMsgDialogInitStart, and sceUtilitySavedataInitStart.
 
-- Afterwards comes sceUtilitySavedataInitStart
-
-- To finish this section, run your armips code.
+- Once you've done all the changes to the code run your armips script.
 
 
 ## Last Steps
 
-*This section is for completionist sake.*
+*This section is just for completionist sake.*
 - As you might guessed, you need to redo your ISO file to play. Use UMDGen and overwrite the old files with 
 the new edited ones. Enjoy your modified game!
 
