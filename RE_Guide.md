@@ -318,17 +318,17 @@ sceUtilitySavedataInitStart  equ 0x088F972C - 0x08804000
 ## Last Steps
 
 *This section is just for completionist sake.*
-- As you might guessed, you need to redo your ISO file to play. Use UMDGen and overwrite the old files with 
-the new edited ones. Enjoy your modified game!
+- As you might guessed, you need to rebuild your ISO file to play. Use UMDGen to overwrite the old files with 
+the new, edited, ones. Enjoy your modified game!
 
 ## Making the patch
 
-- When you want to share your modification with the world without sharing the full ISO, you better create a patch.
-This section is to teach you how to do so. *Don't be afraid, this is one of the easiest parts*
-*The creator of this paper put all the needed files in a folder to make it quick and easy to show, it also avoid any
+- To share your modification with the world without sharing the full ISO, you better create a patch. 
+This section is to teach you how to do so.
+*For this explanation, all the needed files are in the same folder to make it quick and easy to show, it also avoid any
 mistakes at chosing the wrong file. However you can have them anywhere you want.*  
 
-- There are many patch creators out there, this guide uses xdeltaUI. Now gather the following files:
+- There are many patch creator tools out there, this guide uses xdeltaUI. Now gather the following files:
 ````
 Digidemo.iso: Your modified ISO game.
 Digivice_Ver_Portable_JPN_PSN_PSP-PLAYASiA.iso: The original ISO game.
@@ -338,11 +338,10 @@ xdeltaUI.exe: A tool to use the patcher with a GUI to make it more user friendly
 
 - Open(double-click on) xdeltaUI.exe and go to the Create Patch section. 
 
-- Fill the blankets by clicking in each button or writing the file routes. You'll have something like this:
+- Fill the blankets by writing the file's route or clicking the buttons at their right. You'll have something like this:
 ![Feeding the info into the patcher](https://imgur.com/t76mUXK.png)
 
-
-- Click on the "patch" button, wait a few seconds and a window will appear to tell you everything went well. 
+- Click on the "patch" button and wait a few seconds. A window will appear to tell you everything went well. 
 You have successfully created your patch!
 
 ## Data Location Summary
