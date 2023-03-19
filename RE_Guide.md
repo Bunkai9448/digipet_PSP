@@ -324,7 +324,8 @@ the new, edited, ones. Enjoy your modified game!
 ## Making the patch
 
 - To share your modification with the world without sharing the full ISO, you better create a patch. 
-This section is to teach you how to do so.
+This section is to teach you how to do so.  
+
 *For this explanation, all the needed files are in the same folder to make it quick and easy to show, it also avoid any
 mistakes at chosing the wrong file. However you can have them anywhere you want.*  
 
