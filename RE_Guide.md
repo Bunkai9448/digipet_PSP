@@ -228,30 +228,39 @@ sceUtilitySavedataInitStart(). This is the address to copy for the edit part in 
 
 *You can use ghidra to find the sceImposeSetLanguageMode, and to double-check any of the previous addresses*
 
-- Now open ghidra, if it's the first time you'll get welcome with gh_00
-In Ghidra go to File > New Project (ctrl+n)
+- Now open ghidra, if it's the first time you'll get welcome with  
+![Opening Ghidra](https://imgur.com/fqo4nTK.png)
+Go to File > New Project (ctrl+n)
 
 - Select shared or Non shared project. Then click next and choose your working directory (For
 this guide will use a folder called PSP_Ghidra). Don't forget to give a name to your project,
-we'll call it Digivice for this guide. If you did it properly, you'll see something like gh_01
+we'll call it Digivice for this guide. If you did it properly, you'll see something like this:  
+![New project](https://imgur.com/pBbcztG.png)
 
 - Go to Usage in allegrex https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md and
 do as told (intructions will be copied here to make everything compact with images): 
 Drag decrypted EBOOT in ELF/PRX format into Ghidra. It should get automatically 
-detected as PSP Executable (ELF) / Allegrex. image gh_02
+detected as PSP Executable (ELF) / Allegrex.  
+![Format autodetected](https://imgur.com/TmQyfW4.png)
 
-- Continuing with allegrex steps. Now is your chance to set initial base address 
-by clicking Options... and changing Image Base. Set it to 08804000 to match 
-the usual address where games are loaded. image gh_03
+- Now is your chance to set the file initial base address. Do it clicking Options and changing the value at Image
+Base. Set it to 08804000 to match the usual base address where games are loaded (it could be different in others).  
+![Base Address](https://imgur.com/Qovddse.png)
 
-- Click Ok to import the file. Then you'll see the elf info, image gh_04
+- Click Ok to import the file. Then you'll see "Import Results Info" in a prompt, click OK.
 
 - After importing and opening the file you should do the auto analysis. Default options are fine.
-image gh_05 & image gh_06
 
-- PPSSPP identifies many functions automatically, it's useful to get those into Ghidra after doing the 
-initial analysis. Export the .sym file from PPSSPP and in Ghidra run script PpssppImportSymFile with
-language allegrex (use "0" for the base address)
+- PPSSPP identifies many functions automatically, it's useful to get those into Ghidra after doing the initial 
+analysis. Export the .sym file from PPSSPP.  
+![Save Sym File](https://imgur.com/9xblB8p.png) 
+
+- To use that Sym File in Ghidra, go to the "Display Script Manager" button and double-click on it.  
+![Display Script Manager](https://imgur.com/IMRGn0i.png) 
+
+- Now you can import your Sym File with the script PpssppImportSymFile with language allegrex (use "0" for the base
+ address).  
+ ![PpssppImportSymFile Script](https://imgur.com/3EQZM0C.png) 
 
 - With all the previous steps in ghidra done, you can see the functions and code like you do in PPSSPP. The moment 
 for finding the addresses has come. Just click the syscall (sce...) from the list in ghidra and it will take you to
