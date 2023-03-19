@@ -135,8 +135,8 @@ want to decrypt it to see its content, luckyly DecEboot can deal with that part.
 the EBOOT can be reimported unencrypted. 
 
 - Now you can go back to [Text File](#Text-File) and do the same thing for the remaining part of the section.  
-*In this guide we only worked with the text block, leaving most of the file untouched to avoid dealing with any possible crash.
-In that sense, we don't have to work with the header or any different address block here.*
+*To avoid dealing with random crashes, this repo didn't change any EBOOT text pointers.
+In that sense, you don't have to worry about the header or any different address block here.*
 
 
 ## The Font
