@@ -1,7 +1,7 @@
 # Creating a cheatcode for our game
 
-As a bonus for the project, I wanted to create a Quality of Life improvement:  
-We will cheat at the steps required to clean the area. 
+As a bonus for this project, I wanted to create a Quality of Life improvement:  We will cheat at the steps required to
+clean the area. 
 
 ## Game ID: 
 
