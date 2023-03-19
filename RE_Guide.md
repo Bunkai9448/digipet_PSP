@@ -142,7 +142,7 @@ In that sense, you don't have to worry about the header or any different address
 ## The Font
 
 - You eventually have most files analysed, leaving GMO files (PSP 3d model format) and code aside. 
-The font must be in the remaining ID00029 file. Time to open it with your text editor and find out.  
+The font must be in the remaining ID00029 file. Time to open it with your hex editor and find out.  
 
 - PSP usually puts fonts in 4BPP format, you'll want to try that before scrolling. Once you have found the characters, 
 if they are uncompressed (like in this digivice game) the only thing to do is discovering the actual size of the
@@ -160,19 +160,19 @@ BGA 4bpp "tiled" with 16x16 tiles
 ![Font Changes](https://imgur.com/IxWZh74.png)
 
 - To end this task, do not forget to modify your table file accordingly.  
-*You won't be able of use the new characters properly otherwise*  
+*You won't be able to use the new characters properly otherwise.*  
 ![Table Changes](https://imgur.com/CjXA0uX.png)
 
 
 ## Repackaging the CPK
 
-- Remember the first step of this guide? You used CriPackedFileMaker to get the files inside your CPK. 
-Well, this is the following up step. Same tool, different task. Time to rebuild the FILEDATA.CPK
+- Remember the first step of this guide? You used CriPackedFileMaker to get the files from inside your CPK. 
+This is the opposite task, with the same tool.
 
-- Before rebuilding, it's required to get the CPK original info. *To create one with the same parameters later.*
+- Before rebuilding/repackaging, you want to get the CPK original info. *To create one with the same parameters later.*
 ![Get file info](https://imgur.com/g3bJOqD.png)
 
-- Then, you can do a repackaging without edits as a sanity check. 
+- You can do a repackage without edits as a sanity check. For this game:
 ````
 Data alignment: 2048 ; File Mode: ID ; any other box unmarked. 
 ````
