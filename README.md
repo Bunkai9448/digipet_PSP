@@ -5,7 +5,7 @@ This repository contains files to reverse engineering (RE from now on) the files
 If you only want the patch go to: releases
 Otherwise go on with the readme. In addition, you have a step by step in [RE_Guide.md](RE_Guide.md)
 
-**Warning**: Some files and/or methods of this project might be only as a proof of concept (POC from now on), hence they lead nowhere further on. If you don't know why something is there, it's probably that.
+**Warning**: Some files and/or methods of this project might be only as a proof of concept, hence they lead nowhere further on. If you don't know why something is there, it's probably that.
 
 ## Considerations
 
@@ -48,7 +48,7 @@ D:.
             FILEDATA.CPK
 ````
 
-## Files & folders in the repo.
+## Files & folders in this repo.
 
 - Armips_files: ASM scripts for armips, use them to edit the text parts of the game.
 
@@ -64,9 +64,9 @@ D:.
 
 - Syscalls: The use of this plugin avoids dealing with the sce functions and force the console system set language.
 
-- Cheat4steps.txt (only as Proof of Concept).
+- Cheat4steps.txt  (guide with Proof Of Concept to make cheats for this or any other game).
 
-- FAQ & Bugs.md: (game FAQs & Bugs).
+- FAQ & Bugs.md (game FAQs & Bugs).
 
 - LICENSE (self-explanatory).
 
@@ -79,25 +79,25 @@ D:.
 
 ## Extra Tools required
 
-- https://www.ppsspp.org/index.html (PPSSPP emulator & debugger)
+- https://www.ppsspp.org/index.html (PPSSPP emulator & debugger).
 
-- https://www.romhacking.net/utilities/1218/ (UMDgen)
+- https://www.romhacking.net/utilities/1218/ (UMDgen).
 
-- https://www.romhacking.net/utilities/818/ (Crystal Tile 2)
+- https://www.romhacking.net/utilities/818/ (Crystal Tile 2).
 
-- CriPackTools & Cripack maker / crifilesystem (some versions don't work and not all can be shared)
+- CriPackTools & Cripack maker / crifilesystem (some versions don't work and not all can be shared).
 
-- http://aluigi.altervista.org/quickbms.htm (quickBMS program)
+- http://aluigi.altervista.org/quickbms.htm (quickBMS program).
 
-- https://github.com/Kingcom/armips (armips program)
+- https://github.com/Kingcom/armips (armips program).
 
-- GimConv (You have to find this tool on your own)
+- GimConv (you have to find this tool on your own).
 
-- https://www.romhacking.net/utilities/1225/ (DecEboot to decrypt EBOOT.BIN)
+- https://www.romhacking.net/utilities/1225/ (DecEboot to decrypt EBOOT.BIN).
 
-- http://aluigi.org/bms/parse_exe.bms (to unpack the decrypted EBOOT.BIN and work with the text part better)
+- http://aluigi.org/bms/parse_exe.bms (to unpack the decrypted EBOOT.BIN and work with the text part better).
 
-- https://www.romhacking.net/utilities/598/ (xdelta and xdeltaUI to create the patch easily)
+- https://www.romhacking.net/utilities/598/ (xdelta and xdeltaUI to create the patch easily).
 
 
 ## List of References and Documentation (in no particular order)
@@ -110,13 +110,13 @@ D:.
 
 - https://gbatemp.net/threads/psp-asm-hacking-for-variable-width-font.374967/page-3
 
-- https://forum.xentax.com/viewtopic.php?t=6313 (about GIM image format for psp files).
+- https://forum.xentax.com/viewtopic.php?t=6313 (about GIM format, for PSP images).
 
 - http://personal.denison.edu/~bressoud/cs281-s10/ (MIPS, PSP uses those with some custom instructions/encodings).
 
 - https://github.com/uofw/upspd (PSP unofficial documentation repo).
 
-- https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM) (wiki entry about GIM files)
+- https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM) (wiki entry about GIM files).
 
 - https://www.psdevwiki.com/ps3/GimConv (wiki entry about GIMconv).
 
@@ -126,7 +126,7 @@ D:.
 
 - https://wiki.vg-resource.com/GMO (info about GMO files, 3d models).
 
-- https://winmerge.org/downloads/ (Helps comparing files to get proper gim format in reinsertion).
+- https://winmerge.org/downloads/ (helps comparing files, to get proper gim format in reinsertion).
 
 - https://www.romhacking.net/documents/765/ (font table).
 
