@@ -14,7 +14,7 @@ https://github.com/kokibits/LangSwapper
 
 ## How To Use
 
-For System Messages like this ![System Message Picture](https://imgur.com/7jnmTTi.png )
+For System Messages like this ![System Message Picture](https://imgur.com/3fzRibF.png)
 
 - You are usually expected to track down the sce functions in your game and edit them, but there is way to work with
 them in a simpler and more generic manner, thanks to the use of a PSP plugin.
@@ -54,4 +54,4 @@ sceImposeSetLanguageMode(), sceUtilityDialogInitStart() and sceUtilitySavedataIn
 
 Download the [Plugin.zip](Plugin.zip) from this folder, unzip it and put it in the root of your PSP (or psemu/ if you 
 are using adrenaline). Enjoy:
-![Proof](https://imgur.com/ASJZPU5.png)
+![Proof](https://imgur.com/IwtMS1g.png)
