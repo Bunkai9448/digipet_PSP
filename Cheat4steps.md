@@ -1,7 +1,7 @@
 # Creating a cheatcode for our game
 
 As a bonus for the project, I wanted to create a Quality of Life improvement:  
-- Edit the steps required to clean the area. 
+Edit the steps required to clean the area. 
 
 ## Game ID: 
 
@@ -36,7 +36,7 @@ https://www.artmoney.ru/e_download_se.htm you can study how the parameters for s
 
 - It's time to look for that number in the tool (ArtMoney or Cheatengine). Don't worry when you encounter many
 candidates for the digits you typed, your next step will be reduce it. Use the 'Search' button, and write the digits
-you want to find.
+you want to find.  
 ![Search for the value](https://imgur.com/gdIAaki.png)
 
 
@@ -61,7 +61,7 @@ it. Don't worry, you won't get a sanity-check but, you can keep going with the p
 
 ## How to use it
 
-As a way to test it, a cheat code for PPSSPP was created following the guide from:
+As a way to test it, a cheat code for PPSSPP was created following the guide from:  
 https://www.almarsguides.com/retro/walkthroughs/PSP/HowToUsePSPCodes/
 
 Here's the text you need to put in your ~\ppsspp\memstick\PSP\Cheatscheat.db file:
