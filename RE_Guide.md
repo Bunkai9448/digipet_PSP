@@ -166,7 +166,7 @@ BGA 4bpp "tiled" with 16x16 tiles
 
 ## Repackaging the CPK
 
-- Remember the first step of this guide? You used CriPackedFileMaker to get the files from inside your CPK. 
+- Remember the second step of this guide? You used CriPackedFileMaker to get the files from inside your CPK. 
 This is the opposite task, with the same tool.
 
 - Before rebuilding/repackaging, you want to get the CPK original info. *To create one with the same parameters later.*
@@ -184,26 +184,30 @@ Data alignment: 2048 ; File Mode: ID ; any other box unmarked.
 ## System Messages 
 ![System Messages example](https://imgur.com/3fzRibF.png)
 
+Before going into this step, you should know: 
+*sceImposeSetLanguageMode* is what opens when you press the PSP button.  
+*sceUtilitySavedataInitStart* is the save/load module.  
+*sceUtilityMsgDialogInitStart* is generic messages that open using the system overlay.
+
+
 ### This whole section is a Proof Of Concept, the use was deprecated in favour of  
 https://github.com/Bunkai9448/digipet_PSP/blob/main/Syscalls/README.md
 
 
-Before going into this step, you should know that: 
-*sceImposeSetLanguageMode* is what opens when you press the PSP button, *sceUtilitySavedataInitStart* is the save/load
-module, and *sceUtilityMsgDialogInitStart* is generic messages that open using the system overlay.
+To following subsections show how to find them should you want to patch them in the game binaries.
 
 ### PPSSPP debugger
 
-- Depuracion > desensamblador (ctrl+D), see image:
+- Go to Debugger > Disassembly (ctrl+D), see image:
 ![Open Debug](https://imgur.com/fVc6xTi.png)
 
-- Go to the left panel and select Func(tions), see image:
+- In the opened window, go to the left panel and select Func(tions), see image:
 ![Select Func(tions)](https://imgur.com/Rwz8s6X.png)
 
-- In that panel, find the 3 functions that deal with system messages:
+- Now, find the 3 functions that deal with system messages:
   sceImposeSetLanguageMode(), sceUtilityMsgDialogInitStart(), and sceUtilitySavedataInitStart().
 
-- Set a break point in the call you want to change, see image:
+- Set a breakpoint in the call you want to change, to find the code that makes use of it, see image:
 ![Toggle Breakpoint](https://imgur.com/M1bYqYv.png)
 
 - Minimize the debugger window or move it aside and open a system menu in the emulator 
@@ -215,81 +219,84 @@ address to copy for the define part in armips.
 - Now, we need to see what were the parameters passed to the subroutine (which is the actual code we need to patch). 
 The stack frames are in charge of that task in the code.
 
-- Once it breaks (freezes), go to the stack frames tab at the bottom, see image:
+- To do that, go to the stack frames tab at the bottom of the window where you put the breakpoint, see image:
 ![Stack Frames](https://imgur.com/ocsly9v.png)
 
-- In the stack frames, double click in the second row. It will show us the code that leads to 
-sceUtilitySavedataInitStart(). This is the address to copy for the edit part in armips.
+- In the stack frames, you'll see now the sce call instruction and the following instructions, double click in the second row. It will show us the code where the actual
+sceUtilitySavedataInitStart() is. There you have the address to copy for the edit part in armips.
 ![Code we wanted](https://imgur.com/sp6A83G.png)
 
 ### Ghidra
 
-*You can use ghidra to find the sceImposeSetLanguageMode, and to double-check any of the previous addresses*
+*This will explain how to use ghidra to find any of the previous addresses*
+*You might want to have this near: https://ghidra-sre.org/CheatSheet.html*
 
 - Now open ghidra, if it's the first time you'll get welcome with  
 ![Opening Ghidra](https://imgur.com/fqo4nTK.png)
-Go to File > New Project (ctrl+n)
+Go to File > New Project (ctrl+n).
 
-- Select shared or Non shared project. Then click next and choose your working directory (For
-this guide will use a folder called PSP_Ghidra). Don't forget to give a name to your project,
-we'll call it Digivice for this guide. If you did it properly, you'll see something like this:  
+- Select shared or Non shared project. Then click next and choose your working directory (this 
+guide will use a folder called PSP_Ghidra). Don't forget to give a name to your project,
+Digivice for this guide. If you did it properly, you'll see something like this:  
 ![New project](https://imgur.com/pBbcztG.png)
 
 - Go to Usage in allegrex https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md and
 do as told (intructions will be copied here to make everything compact with images): 
-Drag decrypted EBOOT in ELF/PRX format into Ghidra. It should get automatically 
+Drag the decrypted EBOOT in ELF/PRX/BIN format into Ghidra. It should get automatically 
 detected as PSP Executable (ELF) / Allegrex.  
 ![Format autodetected](https://imgur.com/TmQyfW4.png)
 
-- Now is your chance to set the file initial base address. Do it clicking Options and changing the value at Image
-Base. Set it to 08804000 to match the usual base address where games are loaded (it could be different in others).  
+- Now is your chance to set the file initial base address (this is the BIN address in execution time). 
+Do it clicking Options and changing the value at ImageBase. Set it to 08804000 to match the usual base address where games are loaded 
+(it could be different in others, you'll see that looking at the defines in PPSSPP debugger or after reading some calls in the code).  
 ![Base Address](https://imgur.com/Qovddse.png)
 
 - Click Ok to import the file. Then you'll see "Import Results Info" in a prompt, click OK.
 
 - After importing and opening the file you should do the auto analysis. Default options are fine.
 
-- PPSSPP identifies many functions automatically, it's useful to get those into Ghidra after doing the initial 
-analysis. Export the .sym file from PPSSPP.  
+- Besides, PPSSPP identifies many functions automatically, it's useful to get those into Ghidra after doing the initial 
+analysis. Export the .sym file from PPSSPP (click on debugger > export .sym).  
 ![Save Sym File](https://imgur.com/9xblB8p.png) 
 
 - To use that Sym File in Ghidra, go to the "Display Script Manager" button and double-click on it.  
 ![Display Script Manager](https://imgur.com/IMRGn0i.png) 
 
 - Now you can import your Sym File with the script PpssppImportSymFile with language allegrex (use "0" for the base
- address).  
+ address if you defined the BIN baseAddress, otherwise, you'll have to use that here).  
  ![PpssppImportSymFile Script](https://imgur.com/3EQZM0C.png) 
 
 - With all the previous steps in ghidra done, you can see the functions and code like you do in PPSSPP. The moment 
 for finding the addresses has come. Just click the syscall (sce...) from the list in ghidra and it will take you to
-the address.
+the address. For those who need the tip, finding functions and code is similar to the PPSSPP subsection, but with a 
+static (without running the game) approach.
 
-### Subsequent to ghidra
+### Subsequent to ghidra/PPSSPP
 
 *In addition to the function address, you need the base address for the armips script.* 
 
-- The base address is obtained with the formula: 8804000 - header  
+- The base address is obtained with the formula: original BIN baseAddress (0x8804000) - header size.
 From a quick hex view of the EBOOT.BIN you can see where the header ends and the elf (actual executable) starts. 
 See image ![ELF Header](https://imgur.com/zZAqNF4.png)
-Which, for this digivice, means:
+Which, you can use to get the arguments for the above formula, for this digivice, means:
 ```
-Base Address = 8804000 - header = 8804000 - C0
+Base Address = 0x8804000 - header = 0x8804000 - 0xC0
 
-Base Address = 8803F40
+Base Address = 0x8803F40
 
 ```
 
 - With all the addresses, it's time to do the script to patch the EBOOT.BIN
-*You should always work by decrypting eboot.bin.
-If boot.bin and eboot.bin are both present, they are identical (assuming you have decrypted eboot).
+*You should always work with the decrypted eboot.bin.
+If boot.bin and eboot.bin are both present, they are identical (assuming you have a decrypted eboot).
 Although PSP custom firmwares can use boot.bin to boot, in most retail games is just full of zeroes. 
 The only exception is games where the boot.bin is fully present and contains debug symbols, in those 
 cases you delete eboot.bin and rename boot.bin to eboot.bin to work with it.* 
 
-- Let's tart with defines & sceImposeSetLanguageMode
+- Let's tart with defines & sceImposeSetLanguageMode (the easiest of them)
 
 ```
-; psp elfs are always loaded to 8804000
+; psp elfs are almost always loaded to 8804000
 ;so when you write your armips file, you open the elf with that in mind
 
 .psp
