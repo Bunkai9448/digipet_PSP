@@ -160,8 +160,6 @@ D:.
 
 - 前田太尊 (maeda taison) (betatester)
 
-(Betatesting)
-
 - All the authors of the tools and documents used in this project.
 
 ## License
