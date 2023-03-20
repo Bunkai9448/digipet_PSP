@@ -241,8 +241,9 @@ Digivice for this guide. If you did it properly, you'll see something like this:
 ![New project](https://imgur.com/pBbcztG.png)
 
 - Go to Usage in allegrex https://github.com/kotcrab/ghidra-allegrex/blob/master/README.md and
-do as told (intructions will be copied here to make everything compact with images): 
-Drag the decrypted EBOOT in ELF/PRX/BIN format into Ghidra. It should get automatically 
+do as told (intructions will be copied here to make everything compact with images). 
+
+- Drag the decrypted EBOOT in ELF/PRX/BIN format into Ghidra. It should get automatically 
 detected as PSP Executable (ELF) / Allegrex.  
 ![Format autodetected](https://imgur.com/TmQyfW4.png)
 
