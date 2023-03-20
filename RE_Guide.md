@@ -260,7 +260,7 @@ go to [Last Steps](#Last-Steps).*
 ![Toggle Breakpoint](https://imgur.com/M1bYqYv.png)
 
 - Minimize the debugger window or move it aside and open a system menu in the emulator 
-  (For example, with sceUtilitySavedataInitStart(), click "continue" at the main screen).
+  (For example, with sceUtilitySavedataInitStart(), click "continue" at the in-game main screen).
 
 - The emulator will freeze in this step. Don't worry, it just means the breakpoint has been reached. This is the 
 address to copy for the define part in armips. 
