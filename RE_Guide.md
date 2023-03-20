@@ -189,12 +189,19 @@ Before going into this step, you should know:
 *sceUtilitySavedataInitStart* is the save/load module.  
 *sceUtilityMsgDialogInitStart* is generic messages that open using the system overlay.
 
+- There are two ways of dealing with the system calls (used to print messages with system code): 
+Using a PSP plugin, or modifying the ELF/BIN file.  
+*In this project will be using the PSP pluging to make our work easier, but the basics of the other deprecated method is explain below to those interested in learning about it.*  
+  
+If you want the quick easy method, use only the [PSP plugin](##PSP-plugin) subsection. 
 
-### This whole section is a Proof Of Concept, the use was deprecated in favour of  
+### PSP plugin
+
+More details at: 
 https://github.com/Bunkai9448/digipet_PSP/blob/main/Syscalls/README.md
 
-
-To following subsections show how to find them should you want to patch them in the game binaries.
+*The following subsections show how to find them should you want to patch 
+them in the game binaries instead.*
 
 ### PPSSPP debugger
 
