@@ -2,8 +2,8 @@
 
 This repository contains files to reverse engineering (RE from now on) the files from the "digivice ver. portable psp" ("The game" from now on), and use that to create a patch for translating the game.
 
-If you only want the patch go to: https://github.com/Bunkai9448/digipet_PSP/releases. Otherwise, go on with 
-the readme. In addition, you have a step by step of the RE in [RE_Guide.md](RE_Guide.md).
+If you only want the patch go to: [Releases]([RE_Guide.md](https://github.com/Bunkai9448/digipet_PSP/releases)). 
+Otherwise, go on with the readme. In addition, you have a step by step of the RE in [RE_Guide.md](RE_Guide.md).
 
 **Warning**: Some files and/or methods of this project might be only as a proof of concept, hence they lead nowhere further on. If you don't know why something is there, it's probably that.
 
