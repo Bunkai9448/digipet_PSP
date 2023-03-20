@@ -7,8 +7,8 @@ The original and only author of this plugin is kokibits ( https://github.com/kok
 of requirement or license, I hope this is OK with you. However if you want me to take your files out of this repo, 
 please submit a github issue and I will gladly abide by your decission. Thanks.
 
-- This method/plugin was buried and almost forgotten, It's time to make it spread, because it solves many headaches 
-for this and future translation projects and it deserves the attention. You can learn more about the plugin in:  
+- This method/plugin was buried and almost forgotten. It's time to make it spread, because it solves many headaches 
+for this and future translation projects, and it deserves the attention. You can learn more about the plugin in:  
 https://wololo.net/talk/viewtopic.php?f=28&t=42910&p=389277  
 https://github.com/kokibits/LangSwapper
 
