@@ -191,7 +191,9 @@ Before going into this step, you should know:
 
 - There are two ways of dealing with the system calls (used to print messages with system code): 
 Using a PSP plugin, or modifying the ELF/BIN file.  
-*In this project will be using the PSP pluging to make our work easier, but the basics of the other deprecated method is explain below to those interested in learning about it.*  
+
+- In this project will be using the PSP pluging to make our work easier, but the basics of the 
+other deprecated method is explain below, to those interested in learning about it.*  
   
 If you want the quick easy method, use only the [PSP plugin](##PSP-plugin) subsection. 
 
