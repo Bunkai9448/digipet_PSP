@@ -138,7 +138,7 @@
 	.org 0x03D8 ; goes to next offset
 	
     block022_str1:
-    .string "Selecciona el digimon" ; デジモンを選んでください
+    .string "Selecciona el digimon." ; デジモンを選んでください
     .align 4	
 	
 	.org 0x03F4 ; goes to next offset
@@ -186,7 +186,7 @@
 	.org 0x0528 ; goes to next offset
 	
     block30_str1:
-    .string "Son los puntos en ataque efectivo" ; 攻撃成功時に与えられるポイントです 
+    .string "Son los puntos en ataque efectivo." ; 攻撃成功時に与えられるポイントです 
     .align 4
 
 	.org 0x054C ; goes to next offset
@@ -198,7 +198,7 @@
 	.org 0x0574 ; goes to next offset
 	
     block032_str1:
-    .string "Tu posición está en el área que parpadea." ; 点滅しているエリアが現在攻略中のエリアです
+    .string "Tu posición está en el área parpadeante." ; 点滅しているエリアが現在攻略中のエリアです
     .align 4	
 
 	.org 0x5A0 ; goes to next offset
